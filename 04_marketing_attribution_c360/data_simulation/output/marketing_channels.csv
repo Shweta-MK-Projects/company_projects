@@ -1,0 +1,8 @@
+channel_id,channel_name,medium,cost_per_click
+1,Google Ads,Paid Search,1.25
+2,Facebook Ads,Paid Social,0.85
+3,Newsletter,Email,0.05
+4,Direct Traffic,Direct,0.0
+5,Organic Search,SEO,0.0
+6,LinkedIn Ads,Paid Social,3.5
+7,Affiliate Network,Referral,0.5

@@ -1,0 +1,924 @@
+employee_key,employee_id,first_name,last_name,email,department,role_family,job_level,manager_employee_id,location,compensation_band_percentile,engagement_score,valid_from,valid_to,is_current,change_reason
+1,EMP_0001,Manjunath,Kumbari,manjunath.kumbari@company.com,Finance,Finance Controller,L1,EMP_0035,Bengaluru Office,57.11,2,2025-04-14,2026-05-26,False,Hire
+2,EMP_0001,Manjunath,Kumbari,manjunath.kumbari@company.com,Finance,Finance Controller,L2,EMP_0035,Bengaluru Office,69.7,3,2026-05-27,2027-07-19,False,Promotion
+3,EMP_0001,Manjunath,Kumbari,manjunath.kumbari@company.com,Finance,Finance Controller,L3,EMP_0035,Bengaluru Office,79.06,4,2027-07-20,,True,Promotion
+4,EMP_0002,Sandeep,Desai,sandeep.desai@company.com,Engineering,Tech Lead,L1,EMP_0023,Hubballi Office,18.14,2,2023-10-06,,True,Hire
+5,EMP_0003,Karthik,Patil,karthik.patil@company.com,HR,Talent Acquisition Specialist,L1,EMP_0024,Mumbai Office,19.42,4,2023-09-03,2024-07-04,False,Hire
+6,EMP_0003,Karthik,Patil,karthik.patil@company.com,HR,Talent Acquisition Specialist,L2,EMP_0024,Mumbai Office,34.29,3,2024-07-05,,True,Promotion
+7,EMP_0004,Deepika,Desai,deepika.desai@company.com,Marketing,Marketing Manager,L1,EMP_0028,Remote - India,19.16,4,2022-02-26,2023-05-04,False,Hire
+8,EMP_0004,Deepika,Desai,deepika.desai@company.com,Marketing,Marketing Manager,L2,EMP_0028,Remote - India,28.03,3,2023-05-05,,True,Promotion
+9,EMP_0005,Manjunath,Rao,manjunath.rao@company.com,Engineering,Senior Developer,L1,EMP_0033,Hubballi Office,30.22,5,2025-01-20,,True,Hire
+10,EMP_0006,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Senior Developer,L1,EMP_0044,Mumbai Office,18.98,5,2024-04-27,2025-07-11,False,Hire
+11,EMP_0006,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Senior Developer,L2,EMP_0044,Mumbai Office,33.85,4,2025-07-12,2026-08-10,False,Promotion
+12,EMP_0006,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Senior Developer,L3,EMP_0044,Mumbai Office,43.01,3,2026-08-11,,True,Promotion
+13,EMP_0007,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L1,EMP_0042,Bengaluru Office,19.88,4,2024-05-04,2025-09-30,False,Hire
+14,EMP_0007,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L2,EMP_0042,Bengaluru Office,32.62,5,2025-10-01,2027-01-09,False,Promotion
+15,EMP_0007,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L3,EMP_0042,Bengaluru Office,44.69,5,2027-01-10,,True,Promotion
+16,EMP_0008,Vijay,Nayaka,vijay.nayaka@company.com,Customer Success,CS Specialist,L1,EMP_0012,Bengaluru Office,66.62,2,2024-11-23,2025-12-16,False,Hire
+17,EMP_0008,Vijay,Nayaka,vijay.nayaka@company.com,Customer Success,CS Specialist,L2,EMP_0012,Bengaluru Office,76.09,3,2025-12-17,2027-01-23,False,Promotion
+18,EMP_0008,Vijay,Nayaka,vijay.nayaka@company.com,Customer Success,CS Specialist,L3,EMP_0012,Bengaluru Office,87.99,2,2027-01-24,,True,Promotion
+19,EMP_0009,Kavitha,Kulkarni,kavitha.kulkarni@company.com,Finance,Finance Controller,L1,EMP_0043,Remote - India,66.06,5,2024-06-17,2025-06-10,False,Hire
+20,EMP_0009,Kavitha,Kulkarni,kavitha.kulkarni@company.com,Finance,Finance Controller,L2,EMP_0043,Remote - India,80.55,4,2025-06-11,,True,Promotion
+21,EMP_0010,Roopa,Bhat,roopa.bhat@company.com,Finance,Finance Controller,L1,EMP_0016,Hubballi Office,33.69,5,2022-11-24,,True,Hire
+22,EMP_0011,Sandeep,Desai,sandeep.desai@company.com,Sales,Sales Manager,L1,EMP_0025,Mumbai Office,65.62,4,2023-05-28,2024-11-12,False,Hire
+23,EMP_0011,Sandeep,Desai,sandeep.desai@company.com,Sales,Sales Manager,L2,EMP_0025,Mumbai Office,71.63,5,2024-11-13,,True,Promotion
+24,EMP_0012,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L1,EMP_0044,Hubballi Office,93.25,4,2024-11-25,2026-06-07,False,Hire
+25,EMP_0012,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L2,EMP_0044,Hubballi Office,99.0,5,2026-06-08,,True,Promotion
+26,EMP_0013,Deepika,Patil,deepika.patil@company.com,Sales,Account Executive,L1,EMP_0040,Mumbai Office,94.92,3,2024-02-22,2025-08-18,False,Hire
+27,EMP_0014,Roopa,Joshi,roopa.joshi@company.com,Sales,Business Development Rep,L1,EMP_0034,Bengaluru Office,68.25,3,2024-01-06,2025-07-15,False,Hire
+28,EMP_0014,Roopa,Joshi,roopa.joshi@company.com,Sales,Business Development Rep,L2,EMP_0034,Bengaluru Office,76.88,4,2025-07-16,,True,Promotion
+29,EMP_0015,Roopa,Patil,roopa.patil@company.com,Sales,Business Development Rep,L1,EMP_0006,Remote - India,37.97,3,2024-04-02,,True,Hire
+30,EMP_0016,Anil,Kumbari,anil.kumbari@company.com,Customer Success,CS Manager,L1,EMP_0034,Hubballi Office,46.65,3,2023-02-23,2023-07-03,False,Hire
+31,EMP_0017,Kavitha,Bhat,kavitha.bhat@company.com,HR,HR Associate,L1,EMP_0038,Remote - India,78.62,5,2023-08-15,2024-07-24,False,Hire
+32,EMP_0017,Kavitha,Bhat,kavitha.bhat@company.com,HR,HR Associate,L2,EMP_0038,Remote - India,84.54,5,2024-07-25,,True,Promotion
+33,EMP_0018,Kavitha,Shetty,kavitha.shetty@company.com,Marketing,Content Specialist,L1,EMP_0010,Hubballi Office,17.04,3,2022-07-26,2023-09-09,False,Hire
+34,EMP_0018,Kavitha,Shetty,kavitha.shetty@company.com,Marketing,Content Specialist,L2,EMP_0010,Hubballi Office,30.77,2,2023-09-10,,True,Promotion
+35,EMP_0019,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0021,Hubballi Office,67.02,3,2024-03-05,2024-07-05,False,Hire
+36,EMP_0020,Roopa,Kulkarni,roopa.kulkarni@company.com,Sales,Account Executive,L1,EMP_0024,Mumbai Office,81.06,3,2024-06-29,,True,Hire
+37,EMP_0021,Vijay,Joshi,vijay.joshi@company.com,Customer Success,Support Engineer,L1,EMP_0034,Mumbai Office,44.13,5,2022-09-21,2024-02-15,False,Hire
+38,EMP_0021,Vijay,Joshi,vijay.joshi@company.com,Customer Success,Support Engineer,L2,EMP_0034,Mumbai Office,52.97,4,2024-02-16,,True,Promotion
+39,EMP_0022,Priyanka,Shetty,priyanka.shetty@company.com,Finance,Finance Controller,L1,EMP_0014,Bengaluru Office,55.51,2,2022-09-07,2023-09-13,False,Hire
+40,EMP_0022,Priyanka,Shetty,priyanka.shetty@company.com,Finance,Finance Controller,L2,EMP_0014,Bengaluru Office,64.14,2,2023-09-14,,True,Promotion
+41,EMP_0023,Vijay,Gowda,vijay.gowda@company.com,Engineering,QA Analyst,L1,EMP_0050,Remote - India,32.22,3,2022-01-20,2022-12-17,False,Hire
+42,EMP_0023,Vijay,Gowda,vijay.gowda@company.com,Engineering,QA Analyst,L2,EMP_0050,Remote - India,41.77,3,2022-12-18,,True,Promotion
+43,EMP_0024,Roopa,Bhat,roopa.bhat@company.com,Finance,Financial Analyst,L1,EMP_0023,Hubballi Office,46.96,4,2022-06-16,2023-06-13,False,Hire
+44,EMP_0024,Roopa,Bhat,roopa.bhat@company.com,Finance,Financial Analyst,L2,EMP_0023,Hubballi Office,52.07,4,2023-06-14,,True,Promotion
+45,EMP_0025,Vijay,Kulkarni,vijay.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0050,Hubballi Office,66.37,3,2024-10-31,2025-08-27,False,Hire
+46,EMP_0025,Vijay,Kulkarni,vijay.kulkarni@company.com,Marketing,Content Specialist,L2,EMP_0050,Hubballi Office,73.45,3,2025-08-28,2026-07-31,False,Promotion
+47,EMP_0025,Vijay,Kulkarni,vijay.kulkarni@company.com,Marketing,Content Specialist,L3,EMP_0050,Hubballi Office,85.99,3,2026-08-01,,True,Promotion
+48,EMP_0026,Anil,Bhat,anil.bhat@company.com,Marketing,Content Specialist,L1,EMP_0034,Bengaluru Office,29.47,5,2022-08-30,2024-03-06,False,Hire
+49,EMP_0026,Anil,Bhat,anil.bhat@company.com,Marketing,Content Specialist,L2,EMP_0034,Bengaluru Office,37.71,5,2024-03-07,2025-02-02,False,Promotion
+50,EMP_0026,Anil,Bhat,anil.bhat@company.com,Marketing,Content Specialist,L3,EMP_0034,Bengaluru Office,43.13,4,2025-02-03,,True,Promotion
+51,EMP_0027,Anil,Desai,anil.desai@company.com,Engineering,Software Engineer,L1,EMP_0016,Hubballi Office,50.38,4,2024-01-27,2024-10-20,False,Hire
+52,EMP_0028,Anil,Patil,anil.patil@company.com,HR,HR Business Partner,L1,EMP_0025,Bengaluru Office,66.45,5,2024-02-17,2025-03-19,False,Hire
+53,EMP_0028,Anil,Patil,anil.patil@company.com,HR,HR Business Partner,L2,EMP_0025,Bengaluru Office,75.83,4,2025-03-20,2026-05-03,False,Promotion
+54,EMP_0028,Anil,Patil,anil.patil@company.com,HR,HR Business Partner,L3,EMP_0025,Bengaluru Office,89.71,3,2026-05-04,,True,Promotion
+55,EMP_0029,Priyanka,Joshi,priyanka.joshi@company.com,HR,HR Associate,L1,EMP_0021,Remote - India,76.67,4,2021-08-04,2022-10-16,False,Hire
+56,EMP_0029,Priyanka,Joshi,priyanka.joshi@company.com,HR,HR Associate,L2,EMP_0021,Remote - India,85.54,3,2022-10-17,2023-09-22,False,Promotion
+57,EMP_0029,Priyanka,Joshi,priyanka.joshi@company.com,HR,HR Associate,L3,EMP_0021,Remote - India,98.38,3,2023-09-23,,True,Promotion
+58,EMP_0030,Deepika,Shetty,deepika.shetty@company.com,HR,HR Associate,L1,EMP_0039,Bengaluru Office,79.28,2,2024-11-12,2025-10-21,False,Hire
+59,EMP_0030,Deepika,Shetty,deepika.shetty@company.com,HR,HR Associate,L2,EMP_0039,Bengaluru Office,93.38,3,2025-10-22,2027-04-03,False,Promotion
+60,EMP_0030,Deepika,Shetty,deepika.shetty@company.com,HR,HR Associate,L3,EMP_0039,Bengaluru Office,99.0,4,2027-04-04,,True,Promotion
+61,EMP_0031,Manjunath,Bhat,manjunath.bhat@company.com,Sales,Sales Manager,L1,EMP_0015,Hubballi Office,19.61,5,2025-03-12,2026-07-04,False,Hire
+62,EMP_0031,Manjunath,Bhat,manjunath.bhat@company.com,Sales,Sales Manager,L2,EMP_0015,Hubballi Office,28.72,5,2026-07-05,,True,Promotion
+63,EMP_0032,Vijay,Patil,vijay.patil@company.com,HR,HR Business Partner,L1,EMP_0030,Bengaluru Office,41.59,5,2021-06-29,2022-12-14,False,Hire
+64,EMP_0032,Vijay,Patil,vijay.patil@company.com,HR,HR Business Partner,L2,EMP_0030,Bengaluru Office,52.04,5,2022-12-15,,True,Promotion
+65,EMP_0033,Priyanka,Kumbari,priyanka.kumbari@company.com,Marketing,Content Specialist,L1,EMP_0037,Hubballi Office,17.62,5,2024-03-22,,True,Hire
+66,EMP_0034,Shweta,Nayaka,shweta.nayaka@company.com,HR,HR Business Partner,L1,EMP_0013,Bengaluru Office,41.3,5,2022-02-28,2022-08-18,False,Hire
+67,EMP_0035,Kavitha,Bhat,kavitha.bhat@company.com,Engineering,QA Analyst,L1,EMP_0019,Bengaluru Office,80.03,2,2021-11-17,,True,Hire
+68,EMP_0036,Vijay,Rao,vijay.rao@company.com,Marketing,Marketing Manager,L1,EMP_0007,Hubballi Office,86.39,5,2023-02-15,,True,Hire
+69,EMP_0037,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Engineering,Tech Lead,L1,EMP_0043,Mumbai Office,31.3,5,2024-02-21,2024-12-24,False,Hire
+70,EMP_0037,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Engineering,Tech Lead,L2,EMP_0043,Mumbai Office,43.01,5,2024-12-25,,True,Promotion
+71,EMP_0038,Priyanka,Shetty,priyanka.shetty@company.com,HR,HR Associate,L1,EMP_0015,Bengaluru Office,32.17,3,2023-08-21,,True,Hire
+72,EMP_0039,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Customer Success,CS Manager,L1,EMP_0016,Remote - India,41.39,3,2022-11-07,2023-11-06,False,Hire
+73,EMP_0039,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Customer Success,CS Manager,L2,EMP_0016,Remote - India,53.12,3,2023-11-07,,True,Promotion
+74,EMP_0040,Kavitha,Bhat,kavitha.bhat@company.com,Customer Success,CS Manager,L1,EMP_0034,Mumbai Office,79.11,4,2023-03-24,2025-02-26,False,Hire
+75,EMP_0041,Deepika,Rao,deepika.rao@company.com,Marketing,Marketing Manager,L1,EMP_0013,Mumbai Office,65.86,3,2024-01-12,2025-06-28,False,Hire
+76,EMP_0041,Deepika,Rao,deepika.rao@company.com,Marketing,Marketing Manager,L2,EMP_0013,Mumbai Office,71.02,3,2025-06-29,2026-06-17,False,Promotion
+77,EMP_0041,Deepika,Rao,deepika.rao@company.com,Marketing,Marketing Manager,L3,EMP_0013,Mumbai Office,83.43,4,2026-06-18,,True,Promotion
+78,EMP_0042,Manjunath,Shetty,manjunath.shetty@company.com,Customer Success,CS Manager,L1,EMP_0043,Mumbai Office,86.65,3,2025-06-05,2027-01-12,False,Hire
+79,EMP_0042,Manjunath,Shetty,manjunath.shetty@company.com,Customer Success,CS Manager,L2,EMP_0043,Mumbai Office,99.0,4,2027-01-13,,True,Promotion
+80,EMP_0043,Anil,Patil,anil.patil@company.com,HR,Talent Acquisition Specialist,L1,EMP_0023,Bengaluru Office,63.18,2,2023-03-21,,True,Hire
+81,EMP_0044,Vijay,Desai,vijay.desai@company.com,Finance,Accountant,L1,EMP_0039,Hubballi Office,27.36,5,2025-02-20,2026-07-17,False,Hire
+82,EMP_0044,Vijay,Desai,vijay.desai@company.com,Finance,Accountant,L2,EMP_0039,Hubballi Office,32.4,5,2026-07-18,2027-07-08,False,Promotion
+83,EMP_0044,Vijay,Desai,vijay.desai@company.com,Finance,Accountant,L3,EMP_0039,Hubballi Office,41.01,5,2027-07-09,,True,Promotion
+84,EMP_0045,Anil,Rao,anil.rao@company.com,Marketing,SEO Executive,L1,EMP_0036,Mumbai Office,18.79,5,2023-03-12,2024-01-25,False,Hire
+85,EMP_0045,Anil,Rao,anil.rao@company.com,Marketing,SEO Executive,L2,EMP_0036,Mumbai Office,32.24,4,2024-01-26,2025-09-12,False,Promotion
+86,EMP_0045,Anil,Rao,anil.rao@company.com,Marketing,SEO Executive,L3,EMP_0036,Mumbai Office,44.43,5,2025-09-13,,True,Promotion
+87,EMP_0046,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,Tech Lead,L1,EMP_0033,Remote - India,94.82,4,2024-04-05,2024-10-11,False,Hire
+88,EMP_0047,Karthik,Rao,karthik.rao@company.com,HR,Talent Acquisition Specialist,L1,EMP_0050,Remote - India,68.27,4,2022-06-21,2023-10-16,False,Hire
+89,EMP_0047,Karthik,Rao,karthik.rao@company.com,HR,Talent Acquisition Specialist,L2,EMP_0050,Remote - India,81.29,3,2023-10-17,2025-01-03,False,Promotion
+90,EMP_0047,Karthik,Rao,karthik.rao@company.com,HR,Talent Acquisition Specialist,L3,EMP_0050,Remote - India,86.54,4,2025-01-04,,True,Promotion
+91,EMP_0048,Vijay,Joshi,vijay.joshi@company.com,Marketing,SEO Executive,L1,EMP_0006,Bengaluru Office,16.02,2,2021-06-09,2022-06-18,False,Hire
+92,EMP_0049,Deepika,Kulkarni,deepika.kulkarni@company.com,Finance,Financial Analyst,L1,EMP_0004,Remote - India,15.98,4,2021-08-15,,True,Hire
+93,EMP_0050,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,Senior Developer,L1,EMP_0037,Hubballi Office,50.73,4,2021-11-18,2022-05-21,False,Hire
+94,EMP_0051,Kavitha,Gowda,kavitha.gowda@company.com,Customer Success,Support Engineer,L1,EMP_0040,Mumbai Office,31.89,5,2025-01-03,,True,Hire
+95,EMP_0052,Kavitha,Kumbari,kavitha.kumbari@company.com,Engineering,Software Engineer,L1,EMP_0035,Mumbai Office,82.26,3,2022-09-06,2024-04-02,False,Hire
+96,EMP_0052,Kavitha,Kumbari,kavitha.kumbari@company.com,Engineering,Software Engineer,L2,EMP_0035,Mumbai Office,89.9,3,2024-04-03,2025-05-04,False,Promotion
+97,EMP_0052,Kavitha,Kumbari,kavitha.kumbari@company.com,Engineering,Software Engineer,L3,EMP_0035,Mumbai Office,99.0,4,2025-05-05,,True,Promotion
+98,EMP_0053,Sandeep,Joshi,sandeep.joshi@company.com,HR,Talent Acquisition Specialist,L1,EMP_0001,Remote - India,76.21,2,2025-03-22,2026-02-28,False,Hire
+99,EMP_0054,Anil,Shetty,anil.shetty@company.com,Engineering,Senior Developer,L1,EMP_0037,Mumbai Office,45.18,2,2022-01-04,2022-11-02,False,Hire
+100,EMP_0054,Anil,Shetty,anil.shetty@company.com,Engineering,Senior Developer,L2,EMP_0037,Mumbai Office,56.54,3,2022-11-03,2023-10-11,False,Promotion
+101,EMP_0054,Anil,Shetty,anil.shetty@company.com,Engineering,Senior Developer,L3,EMP_0037,Mumbai Office,66.15,2,2023-10-12,,True,Promotion
+102,EMP_0055,Vijay,Kulkarni,vijay.kulkarni@company.com,Customer Success,CS Specialist,L1,EMP_0015,Remote - India,21.84,5,2023-10-11,2025-03-29,False,Hire
+103,EMP_0055,Vijay,Kulkarni,vijay.kulkarni@company.com,Customer Success,CS Specialist,L2,EMP_0015,Remote - India,31.88,5,2025-03-30,,True,Promotion
+104,EMP_0056,Sandeep,Kulkarni,sandeep.kulkarni@company.com,HR,HR Associate,L1,EMP_0030,Remote - India,15.96,3,2023-12-25,,True,Hire
+105,EMP_0057,Priyanka,Joshi,priyanka.joshi@company.com,Engineering,Tech Lead,L1,EMP_0035,Hubballi Office,54.02,2,2023-09-09,2024-10-29,False,Hire
+106,EMP_0057,Priyanka,Joshi,priyanka.joshi@company.com,Engineering,Tech Lead,L2,EMP_0035,Hubballi Office,67.31,2,2024-10-30,,True,Promotion
+107,EMP_0058,Sandeep,Kumbari,sandeep.kumbari@company.com,Sales,Sales Manager,L1,EMP_0036,Remote - India,53.7,3,2022-12-17,2023-10-20,False,Hire
+108,EMP_0058,Sandeep,Kumbari,sandeep.kumbari@company.com,Sales,Sales Manager,L2,EMP_0036,Remote - India,61.69,4,2023-10-21,,True,Promotion
+109,EMP_0059,Karthik,Bhat,karthik.bhat@company.com,Finance,Accountant,L1,EMP_0043,Mumbai Office,93.31,5,2025-05-31,,True,Hire
+110,EMP_0060,Priyanka,Gowda,priyanka.gowda@company.com,HR,Talent Acquisition Specialist,L1,EMP_0007,Mumbai Office,83.89,3,2023-06-27,,True,Hire
+111,EMP_0061,Priyanka,Desai,priyanka.desai@company.com,Sales,Sales Manager,L1,EMP_0033,Hubballi Office,59.05,3,2023-06-12,2024-08-15,False,Hire
+112,EMP_0061,Priyanka,Desai,priyanka.desai@company.com,Sales,Sales Manager,L2,EMP_0033,Hubballi Office,70.74,2,2024-08-16,2025-07-30,False,Promotion
+113,EMP_0061,Priyanka,Desai,priyanka.desai@company.com,Sales,Sales Manager,L3,EMP_0033,Hubballi Office,78.56,2,2025-07-31,,True,Promotion
+114,EMP_0062,Karthik,Shetty,karthik.shetty@company.com,HR,HR Associate,L1,EMP_0019,Hubballi Office,44.98,3,2024-12-24,2026-01-14,False,Hire
+115,EMP_0062,Karthik,Shetty,karthik.shetty@company.com,HR,HR Associate,L2,EMP_0019,Hubballi Office,57.22,3,2026-01-15,,True,Promotion
+116,EMP_0063,Sandeep,Gowda,sandeep.gowda@company.com,Sales,Business Development Rep,L1,EMP_0038,Remote - India,52.29,3,2022-04-16,2022-08-18,False,Hire
+117,EMP_0064,Karthik,Rao,karthik.rao@company.com,HR,Talent Acquisition Specialist,L1,EMP_0020,Remote - India,71.15,3,2021-12-04,2023-06-07,False,Hire
+118,EMP_0065,Karthik,Desai,karthik.desai@company.com,Marketing,SEO Executive,L1,EMP_0046,Bengaluru Office,51.68,2,2023-02-17,2024-06-13,False,Hire
+119,EMP_0065,Karthik,Desai,karthik.desai@company.com,Marketing,SEO Executive,L2,EMP_0046,Bengaluru Office,65.15,3,2024-06-14,2025-08-12,False,Promotion
+120,EMP_0065,Karthik,Desai,karthik.desai@company.com,Marketing,SEO Executive,L3,EMP_0046,Bengaluru Office,70.9,3,2025-08-13,,True,Promotion
+121,EMP_0066,Deepika,Nayaka,deepika.nayaka@company.com,Customer Success,Support Engineer,L1,EMP_0008,Hubballi Office,69.89,5,2024-10-28,,True,Hire
+122,EMP_0067,Shweta,Rao,shweta.rao@company.com,Engineering,Software Engineer,L1,EMP_0023,Bengaluru Office,92.07,2,2024-04-23,2025-04-27,False,Hire
+123,EMP_0067,Shweta,Rao,shweta.rao@company.com,Engineering,Software Engineer,L2,EMP_0023,Bengaluru Office,99.0,1,2025-04-28,,True,Promotion
+124,EMP_0068,Karthik,Kulkarni,karthik.kulkarni@company.com,Finance,Finance Controller,L1,EMP_0016,Bengaluru Office,26.11,3,2023-09-16,2024-11-15,False,Hire
+125,EMP_0069,Shweta,Kulkarni,shweta.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0034,Bengaluru Office,82.95,5,2022-03-31,2024-03-15,False,Hire
+126,EMP_0070,Karthik,Joshi,karthik.joshi@company.com,Customer Success,CS Manager,L1,EMP_0027,Remote - India,27.06,4,2023-03-31,2024-06-28,False,Hire
+127,EMP_0070,Karthik,Joshi,karthik.joshi@company.com,Customer Success,CS Manager,L2,EMP_0027,Remote - India,42.01,4,2024-06-29,2025-11-08,False,Promotion
+128,EMP_0070,Karthik,Joshi,karthik.joshi@company.com,Customer Success,CS Manager,L3,EMP_0027,Remote - India,56.93,3,2025-11-09,,True,Promotion
+129,EMP_0071,Karthik,Kulkarni,karthik.kulkarni@company.com,Engineering,Senior Developer,L1,EMP_0020,Mumbai Office,48.12,5,2021-07-03,2022-11-20,False,Hire
+130,EMP_0072,Karthik,Bhat,karthik.bhat@company.com,Sales,Business Development Rep,L1,EMP_0020,Mumbai Office,26.08,4,2023-06-08,,True,Hire
+131,EMP_0073,Kavitha,Desai,kavitha.desai@company.com,Marketing,SEO Executive,L1,EMP_0008,Mumbai Office,23.08,3,2025-01-09,2026-01-11,False,Hire
+132,EMP_0073,Kavitha,Desai,kavitha.desai@company.com,Marketing,SEO Executive,L2,EMP_0008,Mumbai Office,36.94,4,2026-01-12,2027-07-10,False,Promotion
+133,EMP_0073,Kavitha,Desai,kavitha.desai@company.com,Marketing,SEO Executive,L3,EMP_0008,Mumbai Office,44.05,5,2027-07-11,,True,Promotion
+134,EMP_0074,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0044,Bengaluru Office,15.28,4,2025-04-14,2026-04-17,False,Hire
+135,EMP_0075,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L1,EMP_0017,Mumbai Office,23.34,5,2022-09-29,2024-05-11,False,Hire
+136,EMP_0076,Roopa,Rao,roopa.rao@company.com,HR,HR Associate,L1,EMP_0031,Hubballi Office,57.12,4,2021-08-09,2022-06-12,False,Hire
+137,EMP_0077,Priyanka,Rao,priyanka.rao@company.com,Finance,Financial Analyst,L1,EMP_0034,Mumbai Office,73.75,2,2024-06-09,,True,Hire
+138,EMP_0078,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Account Executive,L1,EMP_0029,Remote - India,32.84,2,2024-10-15,2025-09-13,False,Hire
+139,EMP_0078,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Account Executive,L2,EMP_0029,Remote - India,45.58,2,2025-09-14,,True,Promotion
+140,EMP_0079,Kavitha,Bhat,kavitha.bhat@company.com,Finance,Finance Controller,L1,EMP_0019,Hubballi Office,68.3,3,2022-06-07,2023-08-17,False,Hire
+141,EMP_0080,Kavitha,Gowda,kavitha.gowda@company.com,Marketing,Content Specialist,L1,EMP_0024,Remote - India,81.14,3,2023-08-20,,True,Hire
+142,EMP_0081,Vijay,Bhat,vijay.bhat@company.com,Finance,Finance Controller,L1,EMP_0041,Remote - India,93.13,2,2022-02-18,2023-10-31,False,Hire
+143,EMP_0082,Shweta,Kulkarni,shweta.kulkarni@company.com,Customer Success,Support Engineer,L1,EMP_0001,Hubballi Office,23.28,3,2022-04-16,2024-06-17,False,Hire
+144,EMP_0083,Karthik,Kulkarni,karthik.kulkarni@company.com,Sales,Sales Manager,L1,EMP_0036,Remote - India,69.29,5,2021-08-29,2023-01-09,False,Hire
+145,EMP_0083,Karthik,Kulkarni,karthik.kulkarni@company.com,Sales,Sales Manager,L2,EMP_0036,Remote - India,81.71,5,2023-01-10,2024-07-15,False,Promotion
+146,EMP_0083,Karthik,Kulkarni,karthik.kulkarni@company.com,Sales,Sales Manager,L3,EMP_0036,Remote - India,92.5,5,2024-07-16,,True,Promotion
+147,EMP_0084,Karthik,Joshi,karthik.joshi@company.com,Customer Success,CS Specialist,L1,EMP_0005,Mumbai Office,30.4,5,2024-08-13,2025-06-24,False,Hire
+148,EMP_0084,Karthik,Joshi,karthik.joshi@company.com,Customer Success,CS Specialist,L2,EMP_0005,Mumbai Office,41.0,4,2025-06-25,,True,Promotion
+149,EMP_0085,Anil,Gowda,anil.gowda@company.com,HR,HR Business Partner,L1,EMP_0019,Bengaluru Office,33.67,4,2025-04-13,2026-07-14,False,Hire
+150,EMP_0085,Anil,Gowda,anil.gowda@company.com,HR,HR Business Partner,L2,EMP_0019,Bengaluru Office,44.74,3,2026-07-15,2027-08-31,False,Promotion
+151,EMP_0085,Anil,Gowda,anil.gowda@company.com,HR,HR Business Partner,L3,EMP_0019,Bengaluru Office,56.95,3,2027-09-01,,True,Promotion
+152,EMP_0086,Anil,Rao,anil.rao@company.com,Customer Success,Support Engineer,L1,EMP_0014,Bengaluru Office,92.97,3,2025-01-25,2026-07-21,False,Hire
+153,EMP_0086,Anil,Rao,anil.rao@company.com,Customer Success,Support Engineer,L2,EMP_0014,Bengaluru Office,99.0,4,2026-07-22,,True,Promotion
+154,EMP_0087,Sandeep,Kumbari,sandeep.kumbari@company.com,Customer Success,Support Engineer,L1,EMP_0028,Remote - India,36.59,5,2025-05-09,2025-12-20,False,Hire
+155,EMP_0088,Deepika,Joshi,deepika.joshi@company.com,Marketing,SEO Executive,L1,EMP_0041,Remote - India,43.7,5,2024-11-30,2026-03-05,False,Hire
+156,EMP_0089,Anil,Shetty,anil.shetty@company.com,Sales,Sales Manager,L1,EMP_0031,Remote - India,82.94,5,2023-12-26,,True,Hire
+157,EMP_0090,Vijay,Bhat,vijay.bhat@company.com,Marketing,Content Specialist,L1,EMP_0005,Hubballi Office,49.3,3,2022-07-02,,True,Hire
+158,EMP_0091,Anil,Kumbari,anil.kumbari@company.com,Sales,Business Development Rep,L1,EMP_0039,Remote - India,44.91,2,2025-06-30,,True,Hire
+159,EMP_0092,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0026,Bengaluru Office,69.58,3,2023-10-19,2024-05-23,False,Hire
+160,EMP_0093,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0035,Remote - India,46.14,4,2025-05-12,2026-12-29,False,Hire
+161,EMP_0093,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L2,EMP_0035,Remote - India,51.97,4,2026-12-30,,True,Promotion
+162,EMP_0094,Vijay,Shetty,vijay.shetty@company.com,Finance,Financial Analyst,L1,EMP_0019,Remote - India,88.73,2,2022-05-22,2023-12-18,False,Hire
+163,EMP_0094,Vijay,Shetty,vijay.shetty@company.com,Finance,Financial Analyst,L2,EMP_0019,Remote - India,95.29,3,2023-12-19,2025-07-28,False,Promotion
+164,EMP_0094,Vijay,Shetty,vijay.shetty@company.com,Finance,Financial Analyst,L3,EMP_0019,Remote - India,99.0,4,2025-07-29,,True,Promotion
+165,EMP_0095,Shweta,Shetty,shweta.shetty@company.com,Engineering,Tech Lead,L1,EMP_0002,Remote - India,34.86,3,2024-12-24,2026-03-11,False,Hire
+166,EMP_0095,Shweta,Shetty,shweta.shetty@company.com,Engineering,Tech Lead,L2,EMP_0002,Remote - India,45.2,4,2026-03-12,2027-02-24,False,Promotion
+167,EMP_0095,Shweta,Shetty,shweta.shetty@company.com,Engineering,Tech Lead,L3,EMP_0002,Remote - India,52.5,4,2027-02-25,,True,Promotion
+168,EMP_0096,Shweta,Gowda,shweta.gowda@company.com,Engineering,Senior Developer,L1,EMP_0002,Remote - India,58.48,2,2023-04-04,2024-01-30,False,Hire
+169,EMP_0097,Anil,Bhat,anil.bhat@company.com,Sales,Account Executive,L1,EMP_0021,Bengaluru Office,77.18,3,2025-06-18,2026-12-13,False,Hire
+170,EMP_0097,Anil,Bhat,anil.bhat@company.com,Sales,Account Executive,L2,EMP_0021,Bengaluru Office,89.54,3,2026-12-14,,True,Promotion
+171,EMP_0098,Vijay,Shetty,vijay.shetty@company.com,Sales,Business Development Rep,L1,EMP_0002,Bengaluru Office,27.14,3,2023-06-12,2024-04-29,False,Hire
+172,EMP_0098,Vijay,Shetty,vijay.shetty@company.com,Sales,Business Development Rep,L2,EMP_0002,Bengaluru Office,39.13,4,2024-04-30,,True,Promotion
+173,EMP_0099,Roopa,Desai,roopa.desai@company.com,Sales,Account Executive,L1,EMP_0003,Hubballi Office,83.1,3,2023-10-08,2024-10-27,False,Hire
+174,EMP_0099,Roopa,Desai,roopa.desai@company.com,Sales,Account Executive,L2,EMP_0003,Hubballi Office,90.91,3,2024-10-28,,True,Promotion
+175,EMP_0100,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0004,Hubballi Office,61.25,4,2023-12-16,,True,Hire
+176,EMP_0101,Anil,Rao,anil.rao@company.com,Engineering,Tech Lead,L1,EMP_0005,Hubballi Office,48.32,4,2024-02-28,2025-03-19,False,Hire
+177,EMP_0101,Anil,Rao,anil.rao@company.com,Engineering,Tech Lead,L2,EMP_0005,Hubballi Office,62.85,5,2025-03-20,,True,Promotion
+178,EMP_0102,Manjunath,Gowda,manjunath.gowda@company.com,Finance,Accountant,L1,EMP_0009,Mumbai Office,73.22,4,2024-02-07,2025-01-13,False,Hire
+179,EMP_0102,Manjunath,Gowda,manjunath.gowda@company.com,Finance,Accountant,L2,EMP_0009,Mumbai Office,85.67,4,2025-01-14,,True,Promotion
+180,EMP_0103,Sandeep,Gowda,sandeep.gowda@company.com,HR,HR Business Partner,L1,EMP_0013,Hubballi Office,92.63,5,2023-05-26,2024-12-10,False,Hire
+181,EMP_0103,Sandeep,Gowda,sandeep.gowda@company.com,HR,HR Business Partner,L2,EMP_0013,Hubballi Office,99.0,4,2024-12-11,,True,Promotion
+182,EMP_0104,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0049,Mumbai Office,57.88,2,2024-08-23,2026-03-30,False,Hire
+183,EMP_0104,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Marketing Manager,L2,EMP_0049,Mumbai Office,70.2,1,2026-03-31,2027-04-22,False,Promotion
+184,EMP_0104,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Marketing Manager,L3,EMP_0049,Mumbai Office,76.23,2,2027-04-23,,True,Promotion
+185,EMP_0105,Priyanka,Patil,priyanka.patil@company.com,Engineering,Senior Developer,L1,EMP_0017,Bengaluru Office,51.74,2,2023-09-06,2024-08-22,False,Hire
+186,EMP_0105,Priyanka,Patil,priyanka.patil@company.com,Engineering,Senior Developer,L2,EMP_0017,Bengaluru Office,58.36,1,2024-08-23,,True,Promotion
+187,EMP_0106,Priyanka,Desai,priyanka.desai@company.com,Marketing,SEO Executive,L1,EMP_0050,Remote - India,75.87,3,2025-06-21,,True,Hire
+188,EMP_0107,Priyanka,Gowda,priyanka.gowda@company.com,Finance,Accountant,L1,EMP_0023,Hubballi Office,80.39,2,2024-05-10,2025-05-10,False,Hire
+189,EMP_0108,Deepika,Kulkarni,deepika.kulkarni@company.com,Customer Success,CS Specialist,L1,EMP_0021,Hubballi Office,20.7,5,2023-10-16,,True,Hire
+190,EMP_0109,Deepika,Kulkarni,deepika.kulkarni@company.com,Customer Success,Support Engineer,L1,EMP_0020,Remote - India,47.58,4,2021-07-21,2023-02-08,False,Hire
+191,EMP_0109,Deepika,Kulkarni,deepika.kulkarni@company.com,Customer Success,Support Engineer,L2,EMP_0020,Remote - India,55.77,3,2023-02-09,,True,Promotion
+192,EMP_0110,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L1,EMP_0039,Bengaluru Office,40.91,2,2021-12-09,2023-04-20,False,Hire
+193,EMP_0110,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L2,EMP_0039,Bengaluru Office,51.88,3,2023-04-21,2024-11-25,False,Promotion
+194,EMP_0110,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L3,EMP_0039,Bengaluru Office,58.72,3,2024-11-26,,True,Promotion
+195,EMP_0111,Vijay,Nayaka,vijay.nayaka@company.com,Finance,Finance Controller,L1,EMP_0020,Bengaluru Office,56.3,2,2024-09-02,2025-10-17,False,Hire
+196,EMP_0111,Vijay,Nayaka,vijay.nayaka@company.com,Finance,Finance Controller,L2,EMP_0020,Bengaluru Office,69.31,2,2025-10-18,,True,Promotion
+197,EMP_0112,Kavitha,Desai,kavitha.desai@company.com,Finance,Financial Analyst,L1,EMP_0030,Bengaluru Office,49.92,5,2024-12-13,2026-01-07,False,Hire
+198,EMP_0112,Kavitha,Desai,kavitha.desai@company.com,Finance,Financial Analyst,L2,EMP_0030,Bengaluru Office,55.64,5,2026-01-08,,True,Promotion
+199,EMP_0113,Deepika,Shetty,deepika.shetty@company.com,Marketing,SEO Executive,L1,EMP_0042,Bengaluru Office,24.07,2,2023-02-12,2023-09-13,False,Hire
+200,EMP_0114,Roopa,Gowda,roopa.gowda@company.com,Sales,Account Executive,L1,EMP_0020,Mumbai Office,21.41,3,2025-03-14,2026-05-25,False,Hire
+201,EMP_0114,Roopa,Gowda,roopa.gowda@company.com,Sales,Account Executive,L2,EMP_0020,Mumbai Office,27.98,3,2026-05-26,2027-09-23,False,Promotion
+202,EMP_0114,Roopa,Gowda,roopa.gowda@company.com,Sales,Account Executive,L3,EMP_0020,Mumbai Office,34.52,4,2027-09-24,,True,Promotion
+203,EMP_0115,Deepika,Joshi,deepika.joshi@company.com,HR,HR Business Partner,L1,EMP_0033,Bengaluru Office,20.97,4,2024-08-03,2025-11-02,False,Hire
+204,EMP_0115,Deepika,Joshi,deepika.joshi@company.com,HR,HR Business Partner,L2,EMP_0033,Bengaluru Office,28.58,3,2025-11-03,,True,Promotion
+205,EMP_0116,Roopa,Kumbari,roopa.kumbari@company.com,Marketing,Marketing Manager,L1,EMP_0020,Bengaluru Office,21.08,2,2023-10-17,2025-04-14,False,Hire
+206,EMP_0116,Roopa,Kumbari,roopa.kumbari@company.com,Marketing,Marketing Manager,L2,EMP_0020,Bengaluru Office,35.63,3,2025-04-15,,True,Promotion
+207,EMP_0117,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L1,EMP_0036,Mumbai Office,62.4,5,2022-05-30,2023-08-21,False,Hire
+208,EMP_0117,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L2,EMP_0036,Mumbai Office,75.28,5,2023-08-22,2024-12-07,False,Promotion
+209,EMP_0117,Shweta,Nayaka,shweta.nayaka@company.com,Finance,Financial Analyst,L3,EMP_0036,Mumbai Office,86.12,5,2024-12-08,,True,Promotion
+210,EMP_0118,Anil,Desai,anil.desai@company.com,HR,HR Associate,L1,EMP_0017,Mumbai Office,60.1,5,2025-02-09,,True,Hire
+211,EMP_0119,Priyanka,Desai,priyanka.desai@company.com,Sales,Business Development Rep,L1,EMP_0027,Mumbai Office,60.11,4,2022-10-14,2023-09-16,False,Hire
+212,EMP_0119,Priyanka,Desai,priyanka.desai@company.com,Sales,Business Development Rep,L2,EMP_0027,Mumbai Office,70.04,3,2023-09-17,2025-03-25,False,Promotion
+213,EMP_0119,Priyanka,Desai,priyanka.desai@company.com,Sales,Business Development Rep,L3,EMP_0027,Mumbai Office,84.22,3,2025-03-26,,True,Promotion
+214,EMP_0120,Sandeep,Rao,sandeep.rao@company.com,Sales,Account Executive,L1,EMP_0028,Hubballi Office,64.19,2,2024-07-26,2025-10-05,False,Hire
+215,EMP_0120,Sandeep,Rao,sandeep.rao@company.com,Sales,Account Executive,L2,EMP_0028,Hubballi Office,71.69,2,2025-10-06,,True,Promotion
+216,EMP_0121,Vijay,Gowda,vijay.gowda@company.com,Customer Success,CS Specialist,L1,EMP_0041,Hubballi Office,55.11,5,2022-01-22,2023-05-27,False,Hire
+217,EMP_0121,Vijay,Gowda,vijay.gowda@company.com,Customer Success,CS Specialist,L2,EMP_0041,Hubballi Office,67.89,5,2023-05-28,2024-12-14,False,Promotion
+218,EMP_0121,Vijay,Gowda,vijay.gowda@company.com,Customer Success,CS Specialist,L3,EMP_0041,Hubballi Office,82.12,4,2024-12-15,,True,Promotion
+219,EMP_0122,Deepika,Rao,deepika.rao@company.com,Finance,Finance Controller,L1,EMP_0034,Bengaluru Office,58.73,3,2025-03-03,,True,Hire
+220,EMP_0123,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L1,EMP_0048,Bengaluru Office,35.36,3,2022-03-01,2023-02-13,False,Hire
+221,EMP_0123,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L2,EMP_0048,Bengaluru Office,48.52,3,2023-02-14,,True,Promotion
+222,EMP_0124,Kavitha,Joshi,kavitha.joshi@company.com,Marketing,SEO Executive,L1,EMP_0022,Remote - India,35.65,2,2025-04-04,,True,Hire
+223,EMP_0125,Shweta,Patil,shweta.patil@company.com,Marketing,Marketing Manager,L1,EMP_0015,Hubballi Office,51.85,5,2024-02-01,,True,Hire
+224,EMP_0126,Deepika,Desai,deepika.desai@company.com,Finance,Finance Controller,L1,EMP_0003,Mumbai Office,46.14,4,2021-11-28,2022-09-29,False,Hire
+225,EMP_0126,Deepika,Desai,deepika.desai@company.com,Finance,Finance Controller,L2,EMP_0003,Mumbai Office,52.87,3,2022-09-30,,True,Promotion
+226,EMP_0127,Kavitha,Gowda,kavitha.gowda@company.com,HR,Talent Acquisition Specialist,L1,EMP_0037,Bengaluru Office,60.45,4,2022-04-10,2023-07-21,False,Hire
+227,EMP_0127,Kavitha,Gowda,kavitha.gowda@company.com,HR,Talent Acquisition Specialist,L2,EMP_0037,Bengaluru Office,67.85,3,2023-07-22,,True,Promotion
+228,EMP_0128,Shweta,Shetty,shweta.shetty@company.com,Engineering,QA Analyst,L1,EMP_0045,Bengaluru Office,79.54,5,2023-11-23,,True,Hire
+229,EMP_0129,Deepika,Patil,deepika.patil@company.com,Sales,Business Development Rep,L1,EMP_0006,Mumbai Office,86.62,5,2023-08-12,2025-01-06,False,Hire
+230,EMP_0130,Anil,Kulkarni,anil.kulkarni@company.com,Customer Success,CS Specialist,L1,EMP_0024,Mumbai Office,56.88,3,2021-11-04,2023-02-17,False,Hire
+231,EMP_0130,Anil,Kulkarni,anil.kulkarni@company.com,Customer Success,CS Specialist,L2,EMP_0024,Mumbai Office,65.66,2,2023-02-18,2024-05-16,False,Promotion
+232,EMP_0130,Anil,Kulkarni,anil.kulkarni@company.com,Customer Success,CS Specialist,L3,EMP_0024,Mumbai Office,80.62,1,2024-05-17,,True,Promotion
+233,EMP_0131,Roopa,Kumbari,roopa.kumbari@company.com,Marketing,Content Specialist,L1,EMP_0007,Remote - India,49.72,5,2023-12-06,2024-10-30,False,Hire
+234,EMP_0132,Kavitha,Gowda,kavitha.gowda@company.com,Engineering,Software Engineer,L1,EMP_0004,Remote - India,34.15,4,2023-05-13,2024-05-01,False,Hire
+235,EMP_0132,Kavitha,Gowda,kavitha.gowda@company.com,Engineering,Software Engineer,L2,EMP_0004,Remote - India,46.38,4,2024-05-02,,True,Promotion
+236,EMP_0133,Vijay,Joshi,vijay.joshi@company.com,Engineering,Tech Lead,L1,EMP_0038,Bengaluru Office,86.5,2,2023-10-28,,True,Hire
+237,EMP_0134,Kavitha,Shetty,kavitha.shetty@company.com,Engineering,QA Analyst,L1,EMP_0014,Bengaluru Office,78.08,2,2021-11-19,2023-03-10,False,Hire
+238,EMP_0134,Kavitha,Shetty,kavitha.shetty@company.com,Engineering,QA Analyst,L2,EMP_0014,Bengaluru Office,91.77,3,2023-03-11,2024-03-05,False,Promotion
+239,EMP_0134,Kavitha,Shetty,kavitha.shetty@company.com,Engineering,QA Analyst,L3,EMP_0014,Bengaluru Office,99.0,2,2024-03-06,,True,Promotion
+240,EMP_0135,Kavitha,Patil,kavitha.patil@company.com,Finance,Finance Controller,L1,EMP_0018,Bengaluru Office,34.03,4,2025-05-01,,True,Hire
+241,EMP_0136,Sandeep,Gowda,sandeep.gowda@company.com,HR,Talent Acquisition Specialist,L1,EMP_0043,Bengaluru Office,70.8,4,2022-05-07,2023-07-27,False,Hire
+242,EMP_0137,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Software Engineer,L1,EMP_0046,Bengaluru Office,93.79,4,2023-05-01,,True,Hire
+243,EMP_0138,Manjunath,Joshi,manjunath.joshi@company.com,Engineering,Tech Lead,L1,EMP_0023,Bengaluru Office,51.45,5,2025-02-15,2026-03-07,False,Hire
+244,EMP_0138,Manjunath,Joshi,manjunath.joshi@company.com,Engineering,Tech Lead,L2,EMP_0023,Bengaluru Office,59.4,4,2026-03-08,2027-02-01,False,Promotion
+245,EMP_0138,Manjunath,Joshi,manjunath.joshi@company.com,Engineering,Tech Lead,L3,EMP_0023,Bengaluru Office,70.25,4,2027-02-02,,True,Promotion
+246,EMP_0139,Shweta,Bhat,shweta.bhat@company.com,Customer Success,CS Specialist,L1,EMP_0025,Mumbai Office,43.13,4,2023-06-03,2024-01-18,False,Hire
+247,EMP_0140,Shweta,Joshi,shweta.joshi@company.com,HR,HR Business Partner,L1,EMP_0045,Mumbai Office,56.39,2,2023-09-29,2025-01-18,False,Hire
+248,EMP_0140,Shweta,Joshi,shweta.joshi@company.com,HR,HR Business Partner,L2,EMP_0045,Mumbai Office,63.16,3,2025-01-19,2026-07-19,False,Promotion
+249,EMP_0140,Shweta,Joshi,shweta.joshi@company.com,HR,HR Business Partner,L3,EMP_0045,Mumbai Office,70.63,2,2026-07-20,,True,Promotion
+250,EMP_0141,Karthik,Patil,karthik.patil@company.com,Sales,Account Executive,L1,EMP_0038,Hubballi Office,58.84,4,2021-12-24,2023-07-08,False,Hire
+251,EMP_0141,Karthik,Patil,karthik.patil@company.com,Sales,Account Executive,L2,EMP_0038,Hubballi Office,68.2,3,2023-07-09,2024-10-29,False,Promotion
+252,EMP_0141,Karthik,Patil,karthik.patil@company.com,Sales,Account Executive,L3,EMP_0038,Hubballi Office,76.75,3,2024-10-30,,True,Promotion
+253,EMP_0142,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Account Executive,L1,EMP_0037,Bengaluru Office,31.81,5,2023-12-13,2025-06-28,False,Hire
+254,EMP_0142,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Account Executive,L2,EMP_0037,Bengaluru Office,37.29,5,2025-06-29,2026-09-06,False,Promotion
+255,EMP_0142,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Account Executive,L3,EMP_0037,Bengaluru Office,46.61,5,2026-09-07,,True,Promotion
+256,EMP_0143,Roopa,Shetty,roopa.shetty@company.com,Marketing,Marketing Manager,L1,EMP_0004,Remote - India,38.34,3,2022-01-28,2023-07-21,False,Hire
+257,EMP_0143,Roopa,Shetty,roopa.shetty@company.com,Marketing,Marketing Manager,L2,EMP_0004,Remote - India,45.93,4,2023-07-22,2024-10-24,False,Promotion
+258,EMP_0143,Roopa,Shetty,roopa.shetty@company.com,Marketing,Marketing Manager,L3,EMP_0004,Remote - India,58.33,3,2024-10-25,,True,Promotion
+259,EMP_0144,Vijay,Rao,vijay.rao@company.com,Engineering,Tech Lead,L1,EMP_0002,Hubballi Office,39.55,5,2024-05-09,,True,Hire
+260,EMP_0145,Roopa,Kulkarni,roopa.kulkarni@company.com,HR,HR Associate,L1,EMP_0025,Hubballi Office,48.12,2,2021-11-20,,True,Hire
+261,EMP_0146,Manjunath,Shetty,manjunath.shetty@company.com,Finance,Finance Controller,L1,EMP_0037,Remote - India,36.8,3,2022-03-30,2023-03-04,False,Hire
+262,EMP_0146,Manjunath,Shetty,manjunath.shetty@company.com,Finance,Finance Controller,L2,EMP_0037,Remote - India,45.71,4,2023-03-05,2024-05-07,False,Promotion
+263,EMP_0146,Manjunath,Shetty,manjunath.shetty@company.com,Finance,Finance Controller,L3,EMP_0037,Remote - India,54.94,5,2024-05-08,,True,Promotion
+264,EMP_0147,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,Support Engineer,L1,EMP_0050,Hubballi Office,29.01,4,2021-10-11,2022-10-16,False,Hire
+265,EMP_0147,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,Support Engineer,L2,EMP_0050,Hubballi Office,42.2,3,2022-10-17,2024-03-05,False,Promotion
+266,EMP_0147,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,Support Engineer,L3,EMP_0050,Hubballi Office,48.27,4,2024-03-06,,True,Promotion
+267,EMP_0148,Karthik,Kumbari,karthik.kumbari@company.com,Finance,Accountant,L1,EMP_0042,Remote - India,16.59,3,2023-04-23,2024-11-07,False,Hire
+268,EMP_0148,Karthik,Kumbari,karthik.kumbari@company.com,Finance,Accountant,L2,EMP_0042,Remote - India,23.87,4,2024-11-08,,True,Promotion
+269,EMP_0149,Shweta,Shetty,shweta.shetty@company.com,Sales,Sales Manager,L1,EMP_0048,Remote - India,78.94,4,2023-09-01,2025-04-20,False,Hire
+270,EMP_0149,Shweta,Shetty,shweta.shetty@company.com,Sales,Sales Manager,L2,EMP_0048,Remote - India,88.2,3,2025-04-21,2026-03-25,False,Promotion
+271,EMP_0149,Shweta,Shetty,shweta.shetty@company.com,Sales,Sales Manager,L3,EMP_0048,Remote - India,94.92,4,2026-03-26,,True,Promotion
+272,EMP_0150,Manjunath,Rao,manjunath.rao@company.com,Engineering,QA Analyst,L1,EMP_0038,Bengaluru Office,57.3,2,2025-05-21,2026-04-26,False,Hire
+273,EMP_0150,Manjunath,Rao,manjunath.rao@company.com,Engineering,QA Analyst,L2,EMP_0038,Bengaluru Office,71.91,1,2026-04-27,,True,Promotion
+274,EMP_0151,Vijay,Kumbari,vijay.kumbari@company.com,HR,Talent Acquisition Specialist,L1,EMP_0009,Remote - India,59.56,3,2021-09-27,,True,Hire
+275,EMP_0152,Priyanka,Shetty,priyanka.shetty@company.com,Engineering,Tech Lead,L1,EMP_0009,Bengaluru Office,69.43,3,2022-11-26,,True,Hire
+276,EMP_0153,Deepika,Kumbari,deepika.kumbari@company.com,Customer Success,Support Engineer,L1,EMP_0018,Mumbai Office,70.49,5,2024-04-11,2025-02-26,False,Hire
+277,EMP_0153,Deepika,Kumbari,deepika.kumbari@company.com,Customer Success,Support Engineer,L2,EMP_0018,Mumbai Office,80.36,5,2025-02-27,2026-09-13,False,Promotion
+278,EMP_0153,Deepika,Kumbari,deepika.kumbari@company.com,Customer Success,Support Engineer,L3,EMP_0018,Mumbai Office,92.58,5,2026-09-14,,True,Promotion
+279,EMP_0154,Anil,Desai,anil.desai@company.com,Finance,Financial Analyst,L1,EMP_0045,Hubballi Office,34.9,2,2021-08-21,,True,Hire
+280,EMP_0155,Priyanka,Desai,priyanka.desai@company.com,Engineering,QA Analyst,L1,EMP_0026,Hubballi Office,50.93,2,2021-12-23,2022-11-09,False,Hire
+281,EMP_0155,Priyanka,Desai,priyanka.desai@company.com,Engineering,QA Analyst,L2,EMP_0026,Hubballi Office,64.08,2,2022-11-10,,True,Promotion
+282,EMP_0156,Shweta,Kulkarni,shweta.kulkarni@company.com,Customer Success,Support Engineer,L1,EMP_0043,Bengaluru Office,66.61,4,2021-05-27,2022-10-08,False,Hire
+283,EMP_0156,Shweta,Kulkarni,shweta.kulkarni@company.com,Customer Success,Support Engineer,L2,EMP_0043,Bengaluru Office,78.68,5,2022-10-09,,True,Promotion
+284,EMP_0157,Deepika,Shetty,deepika.shetty@company.com,Engineering,Tech Lead,L1,EMP_0022,Hubballi Office,24.24,4,2023-05-19,2024-06-02,False,Hire
+285,EMP_0157,Deepika,Shetty,deepika.shetty@company.com,Engineering,Tech Lead,L2,EMP_0022,Hubballi Office,34.03,4,2024-06-03,,True,Promotion
+286,EMP_0158,Deepika,Rao,deepika.rao@company.com,Customer Success,Support Engineer,L1,EMP_0049,Hubballi Office,19.73,3,2021-06-11,2022-09-04,False,Hire
+287,EMP_0158,Deepika,Rao,deepika.rao@company.com,Customer Success,Support Engineer,L2,EMP_0049,Hubballi Office,33.45,2,2022-09-05,2023-10-20,False,Promotion
+288,EMP_0158,Deepika,Rao,deepika.rao@company.com,Customer Success,Support Engineer,L3,EMP_0049,Hubballi Office,42.36,1,2023-10-21,,True,Promotion
+289,EMP_0159,Priyanka,Bhat,priyanka.bhat@company.com,Customer Success,CS Manager,L1,EMP_0001,Remote - India,56.67,2,2023-01-09,,True,Hire
+290,EMP_0160,Shweta,Shetty,shweta.shetty@company.com,Customer Success,CS Manager,L1,EMP_0021,Hubballi Office,61.45,2,2023-02-24,2024-02-17,False,Hire
+291,EMP_0160,Shweta,Shetty,shweta.shetty@company.com,Customer Success,CS Manager,L2,EMP_0021,Hubballi Office,75.75,3,2024-02-18,,True,Promotion
+292,EMP_0161,Deepika,Bhat,deepika.bhat@company.com,HR,HR Associate,L1,EMP_0012,Mumbai Office,76.76,3,2023-06-24,,True,Hire
+293,EMP_0162,Priyanka,Kumbari,priyanka.kumbari@company.com,HR,HR Business Partner,L1,EMP_0027,Hubballi Office,86.17,3,2022-03-22,2023-11-08,False,Hire
+294,EMP_0162,Priyanka,Kumbari,priyanka.kumbari@company.com,HR,HR Business Partner,L2,EMP_0027,Hubballi Office,93.07,2,2023-11-09,2024-09-30,False,Promotion
+295,EMP_0162,Priyanka,Kumbari,priyanka.kumbari@company.com,HR,HR Business Partner,L3,EMP_0027,Hubballi Office,99.0,2,2024-10-01,,True,Promotion
+296,EMP_0163,Manjunath,Rao,manjunath.rao@company.com,Finance,Financial Analyst,L1,EMP_0040,Mumbai Office,57.75,5,2023-11-14,2025-06-08,False,Hire
+297,EMP_0164,Shweta,Kulkarni,shweta.kulkarni@company.com,HR,Talent Acquisition Specialist,L1,EMP_0041,Bengaluru Office,18.22,4,2025-03-04,,True,Hire
+298,EMP_0165,Manjunath,Desai,manjunath.desai@company.com,Customer Success,CS Manager,L1,EMP_0043,Mumbai Office,22.86,3,2022-08-03,2023-10-31,False,Hire
+299,EMP_0165,Manjunath,Desai,manjunath.desai@company.com,Customer Success,CS Manager,L2,EMP_0043,Mumbai Office,35.61,2,2023-11-01,2024-09-08,False,Promotion
+300,EMP_0165,Manjunath,Desai,manjunath.desai@company.com,Customer Success,CS Manager,L3,EMP_0043,Mumbai Office,49.22,3,2024-09-09,,True,Promotion
+301,EMP_0166,Karthik,Kumbari,karthik.kumbari@company.com,HR,HR Associate,L1,EMP_0028,Hubballi Office,21.82,5,2024-06-28,2026-01-27,False,Hire
+302,EMP_0166,Karthik,Kumbari,karthik.kumbari@company.com,HR,HR Associate,L2,EMP_0028,Hubballi Office,32.92,5,2026-01-28,2027-03-21,False,Promotion
+303,EMP_0166,Karthik,Kumbari,karthik.kumbari@company.com,HR,HR Associate,L3,EMP_0028,Hubballi Office,42.61,4,2027-03-22,,True,Promotion
+304,EMP_0167,Kavitha,Nayaka,kavitha.nayaka@company.com,HR,HR Business Partner,L1,EMP_0002,Hubballi Office,27.67,4,2025-02-18,2025-12-31,False,Hire
+305,EMP_0167,Kavitha,Nayaka,kavitha.nayaka@company.com,HR,HR Business Partner,L2,EMP_0002,Hubballi Office,38.45,5,2026-01-01,,True,Promotion
+306,EMP_0168,Priyanka,Shetty,priyanka.shetty@company.com,Engineering,Software Engineer,L1,EMP_0043,Hubballi Office,74.76,2,2023-01-12,2024-03-19,False,Hire
+307,EMP_0168,Priyanka,Shetty,priyanka.shetty@company.com,Engineering,Software Engineer,L2,EMP_0043,Hubballi Office,86.0,1,2024-03-20,,True,Promotion
+308,EMP_0169,Deepika,Gowda,deepika.gowda@company.com,Finance,Financial Analyst,L1,EMP_0011,Remote - India,93.03,4,2025-03-09,2026-05-12,False,Hire
+309,EMP_0169,Deepika,Gowda,deepika.gowda@company.com,Finance,Financial Analyst,L2,EMP_0011,Remote - India,99.0,5,2026-05-13,2027-03-25,False,Promotion
+310,EMP_0169,Deepika,Gowda,deepika.gowda@company.com,Finance,Financial Analyst,L3,EMP_0011,Remote - India,99.0,4,2027-03-26,,True,Promotion
+311,EMP_0170,Vijay,Rao,vijay.rao@company.com,Finance,Finance Controller,L1,EMP_0049,Bengaluru Office,88.48,5,2022-12-11,2024-07-07,False,Hire
+312,EMP_0170,Vijay,Rao,vijay.rao@company.com,Finance,Finance Controller,L2,EMP_0049,Bengaluru Office,99.0,5,2024-07-08,2025-07-19,False,Promotion
+313,EMP_0170,Vijay,Rao,vijay.rao@company.com,Finance,Finance Controller,L3,EMP_0049,Bengaluru Office,99.0,5,2025-07-20,,True,Promotion
+314,EMP_0171,Vijay,Rao,vijay.rao@company.com,Customer Success,CS Manager,L1,EMP_0026,Remote - India,92.1,3,2025-02-04,2026-06-07,False,Hire
+315,EMP_0171,Vijay,Rao,vijay.rao@company.com,Customer Success,CS Manager,L2,EMP_0026,Remote - India,97.5,2,2026-06-08,2027-09-24,False,Promotion
+316,EMP_0171,Vijay,Rao,vijay.rao@company.com,Customer Success,CS Manager,L3,EMP_0026,Remote - India,99.0,2,2027-09-25,,True,Promotion
+317,EMP_0172,Priyanka,Rao,priyanka.rao@company.com,Marketing,SEO Executive,L1,EMP_0029,Hubballi Office,17.49,5,2023-02-05,2024-04-03,False,Hire
+318,EMP_0172,Priyanka,Rao,priyanka.rao@company.com,Marketing,SEO Executive,L2,EMP_0029,Hubballi Office,31.34,4,2024-04-04,,True,Promotion
+319,EMP_0173,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,SEO Executive,L1,EMP_0031,Hubballi Office,52.49,3,2023-07-29,2024-11-24,False,Hire
+320,EMP_0174,Kavitha,Kulkarni,kavitha.kulkarni@company.com,Customer Success,CS Manager,L1,EMP_0039,Hubballi Office,34.83,4,2024-10-06,2026-04-29,False,Hire
+321,EMP_0174,Kavitha,Kulkarni,kavitha.kulkarni@company.com,Customer Success,CS Manager,L2,EMP_0039,Hubballi Office,46.57,5,2026-04-30,2027-06-13,False,Promotion
+322,EMP_0174,Kavitha,Kulkarni,kavitha.kulkarni@company.com,Customer Success,CS Manager,L3,EMP_0039,Hubballi Office,61.55,5,2027-06-14,,True,Promotion
+323,EMP_0175,Karthik,Shetty,karthik.shetty@company.com,Customer Success,Support Engineer,L1,EMP_0023,Bengaluru Office,71.46,2,2021-11-06,2023-03-18,False,Hire
+324,EMP_0175,Karthik,Shetty,karthik.shetty@company.com,Customer Success,Support Engineer,L2,EMP_0023,Bengaluru Office,78.97,3,2023-03-19,,True,Promotion
+325,EMP_0176,Karthik,Bhat,karthik.bhat@company.com,Engineering,Tech Lead,L1,EMP_0042,Hubballi Office,92.05,5,2023-07-19,2024-09-04,False,Hire
+326,EMP_0177,Karthik,Kulkarni,karthik.kulkarni@company.com,HR,HR Associate,L1,EMP_0034,Mumbai Office,35.82,4,2024-03-27,,True,Hire
+327,EMP_0178,Shweta,Kumbari,shweta.kumbari@company.com,Sales,Sales Manager,L1,EMP_0016,Bengaluru Office,50.98,2,2025-04-18,,True,Hire
+328,EMP_0179,Roopa,Patil,roopa.patil@company.com,Customer Success,CS Specialist,L1,EMP_0027,Bengaluru Office,40.86,5,2024-04-16,2025-05-14,False,Hire
+329,EMP_0179,Roopa,Patil,roopa.patil@company.com,Customer Success,CS Specialist,L2,EMP_0027,Bengaluru Office,47.77,5,2025-05-15,2026-12-01,False,Promotion
+330,EMP_0179,Roopa,Patil,roopa.patil@company.com,Customer Success,CS Specialist,L3,EMP_0027,Bengaluru Office,61.14,4,2026-12-02,,True,Promotion
+331,EMP_0180,Anil,Patil,anil.patil@company.com,Engineering,QA Analyst,L1,EMP_0008,Remote - India,46.26,5,2024-11-30,2025-04-15,False,Hire
+332,EMP_0181,Shweta,Bhat,shweta.bhat@company.com,Engineering,Software Engineer,L1,EMP_0002,Mumbai Office,93.8,4,2024-01-10,,True,Hire
+333,EMP_0182,Shweta,Rao,shweta.rao@company.com,Sales,Business Development Rep,L1,EMP_0042,Remote - India,47.32,4,2025-06-21,2026-09-02,False,Hire
+334,EMP_0182,Shweta,Rao,shweta.rao@company.com,Sales,Business Development Rep,L2,EMP_0042,Remote - India,60.97,5,2026-09-03,2028-01-02,False,Promotion
+335,EMP_0182,Shweta,Rao,shweta.rao@company.com,Sales,Business Development Rep,L3,EMP_0042,Remote - India,66.45,5,2028-01-03,,True,Promotion
+336,EMP_0183,Anil,Joshi,anil.joshi@company.com,HR,HR Associate,L1,EMP_0031,Bengaluru Office,30.23,4,2022-11-10,2025-01-14,False,Hire
+337,EMP_0184,Shweta,Shetty,shweta.shetty@company.com,HR,HR Associate,L1,EMP_0034,Mumbai Office,67.07,5,2023-02-08,2024-01-30,False,Hire
+338,EMP_0184,Shweta,Shetty,shweta.shetty@company.com,HR,HR Associate,L2,EMP_0034,Mumbai Office,79.88,4,2024-01-31,,True,Promotion
+339,EMP_0185,Manjunath,Rao,manjunath.rao@company.com,Customer Success,CS Manager,L1,EMP_0012,Remote - India,54.16,3,2023-11-07,2024-12-05,False,Hire
+340,EMP_0185,Manjunath,Rao,manjunath.rao@company.com,Customer Success,CS Manager,L2,EMP_0012,Remote - India,64.65,2,2024-12-06,,True,Promotion
+341,EMP_0186,Shweta,Kumbari,shweta.kumbari@company.com,Marketing,SEO Executive,L1,EMP_0041,Hubballi Office,74.13,5,2021-09-13,2023-04-28,False,Hire
+342,EMP_0187,Vijay,Nayaka,vijay.nayaka@company.com,Marketing,Content Specialist,L1,EMP_0004,Remote - India,36.15,2,2023-06-16,,True,Hire
+343,EMP_0188,Karthik,Desai,karthik.desai@company.com,Customer Success,CS Specialist,L1,EMP_0021,Hubballi Office,22.88,5,2023-02-22,2024-04-28,False,Hire
+344,EMP_0188,Karthik,Desai,karthik.desai@company.com,Customer Success,CS Specialist,L2,EMP_0021,Hubballi Office,32.64,4,2024-04-29,,True,Promotion
+345,EMP_0189,Shweta,Gowda,shweta.gowda@company.com,Marketing,Content Specialist,L1,EMP_0027,Bengaluru Office,47.08,3,2022-01-07,2023-05-07,False,Hire
+346,EMP_0189,Shweta,Gowda,shweta.gowda@company.com,Marketing,Content Specialist,L2,EMP_0027,Bengaluru Office,52.46,4,2023-05-08,,True,Promotion
+347,EMP_0190,Deepika,Gowda,deepika.gowda@company.com,Marketing,Marketing Manager,L1,EMP_0014,Bengaluru Office,43.07,4,2023-10-09,2024-09-09,False,Hire
+348,EMP_0190,Deepika,Gowda,deepika.gowda@company.com,Marketing,Marketing Manager,L2,EMP_0014,Bengaluru Office,48.55,5,2024-09-10,2026-04-24,False,Promotion
+349,EMP_0190,Deepika,Gowda,deepika.gowda@company.com,Marketing,Marketing Manager,L3,EMP_0014,Bengaluru Office,60.74,5,2026-04-25,,True,Promotion
+350,EMP_0191,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Manager,L1,EMP_0010,Remote - India,22.44,5,2022-03-15,,True,Hire
+351,EMP_0192,Priyanka,Rao,priyanka.rao@company.com,HR,HR Business Partner,L1,EMP_0004,Hubballi Office,51.99,4,2022-12-07,2025-02-10,False,Hire
+352,EMP_0193,Vijay,Joshi,vijay.joshi@company.com,Marketing,SEO Executive,L1,EMP_0043,Mumbai Office,76.42,2,2022-08-09,2023-10-15,False,Hire
+353,EMP_0193,Vijay,Joshi,vijay.joshi@company.com,Marketing,SEO Executive,L2,EMP_0043,Mumbai Office,84.7,1,2023-10-16,,True,Promotion
+354,EMP_0194,Shweta,Desai,shweta.desai@company.com,HR,Talent Acquisition Specialist,L1,EMP_0050,Remote - India,55.91,4,2023-12-16,2024-10-19,False,Hire
+355,EMP_0194,Shweta,Desai,shweta.desai@company.com,HR,Talent Acquisition Specialist,L2,EMP_0050,Remote - India,70.38,5,2024-10-20,2026-04-25,False,Promotion
+356,EMP_0194,Shweta,Desai,shweta.desai@company.com,HR,Talent Acquisition Specialist,L3,EMP_0050,Remote - India,84.6,4,2026-04-26,,True,Promotion
+357,EMP_0195,Sandeep,Nayaka,sandeep.nayaka@company.com,Marketing,SEO Executive,L1,EMP_0002,Hubballi Office,36.63,5,2024-10-06,2026-05-01,False,Hire
+358,EMP_0195,Sandeep,Nayaka,sandeep.nayaka@company.com,Marketing,SEO Executive,L2,EMP_0002,Hubballi Office,43.56,5,2026-05-02,,True,Promotion
+359,EMP_0196,Manjunath,Bhat,manjunath.bhat@company.com,Marketing,Content Specialist,L1,EMP_0005,Hubballi Office,65.86,3,2022-09-26,2024-03-05,False,Hire
+360,EMP_0196,Manjunath,Bhat,manjunath.bhat@company.com,Marketing,Content Specialist,L2,EMP_0005,Hubballi Office,71.13,2,2024-03-06,,True,Promotion
+361,EMP_0197,Anil,Nayaka,anil.nayaka@company.com,Marketing,Content Specialist,L1,EMP_0040,Hubballi Office,66.68,2,2024-08-26,2026-01-15,False,Hire
+362,EMP_0197,Anil,Nayaka,anil.nayaka@company.com,Marketing,Content Specialist,L2,EMP_0040,Hubballi Office,81.3,3,2026-01-16,,True,Promotion
+363,EMP_0198,Roopa,Joshi,roopa.joshi@company.com,Marketing,SEO Executive,L1,EMP_0045,Mumbai Office,45.86,2,2024-12-10,,True,Hire
+364,EMP_0199,Kavitha,Kumbari,kavitha.kumbari@company.com,Sales,Sales Manager,L1,EMP_0007,Remote - India,29.08,2,2022-02-10,,True,Hire
+365,EMP_0200,Kavitha,Patil,kavitha.patil@company.com,Sales,Sales Manager,L1,EMP_0027,Bengaluru Office,80.84,4,2024-11-03,2026-03-07,False,Hire
+366,EMP_0201,Karthik,Desai,karthik.desai@company.com,Engineering,Senior Developer,L1,EMP_0030,Mumbai Office,41.44,5,2023-03-15,2024-06-24,False,Hire
+367,EMP_0202,Kavitha,Rao,kavitha.rao@company.com,Engineering,Tech Lead,L1,EMP_0006,Hubballi Office,19.48,4,2022-11-10,2023-10-28,False,Hire
+368,EMP_0202,Kavitha,Rao,kavitha.rao@company.com,Engineering,Tech Lead,L2,EMP_0006,Hubballi Office,28.61,5,2023-10-29,,True,Promotion
+369,EMP_0203,Manjunath,Desai,manjunath.desai@company.com,Finance,Finance Controller,L1,EMP_0030,Mumbai Office,35.85,5,2021-12-14,2022-09-25,False,Hire
+370,EMP_0204,Priyanka,Patil,priyanka.patil@company.com,Finance,Accountant,L1,EMP_0004,Remote - India,43.71,5,2024-10-24,2026-02-04,False,Hire
+371,EMP_0204,Priyanka,Patil,priyanka.patil@company.com,Finance,Accountant,L2,EMP_0004,Remote - India,53.52,4,2026-02-05,,True,Promotion
+372,EMP_0205,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,QA Analyst,L1,EMP_0039,Mumbai Office,78.06,3,2023-11-21,2024-11-08,False,Hire
+373,EMP_0205,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,QA Analyst,L2,EMP_0039,Mumbai Office,87.39,4,2024-11-09,2026-02-24,False,Promotion
+374,EMP_0205,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,QA Analyst,L3,EMP_0039,Mumbai Office,93.55,3,2026-02-25,,True,Promotion
+375,EMP_0206,Shweta,Rao,shweta.rao@company.com,Marketing,Marketing Manager,L1,EMP_0045,Remote - India,16.01,2,2022-09-03,2023-07-23,False,Hire
+376,EMP_0206,Shweta,Rao,shweta.rao@company.com,Marketing,Marketing Manager,L2,EMP_0045,Remote - India,21.14,1,2023-07-24,2024-07-11,False,Promotion
+377,EMP_0206,Shweta,Rao,shweta.rao@company.com,Marketing,Marketing Manager,L3,EMP_0045,Remote - India,27.99,2,2024-07-12,,True,Promotion
+378,EMP_0207,Kavitha,Patil,kavitha.patil@company.com,Marketing,Content Specialist,L1,EMP_0048,Hubballi Office,93.13,3,2024-02-17,,True,Hire
+379,EMP_0208,Vijay,Bhat,vijay.bhat@company.com,Marketing,SEO Executive,L1,EMP_0001,Hubballi Office,38.04,4,2021-09-27,2022-08-10,False,Hire
+380,EMP_0208,Vijay,Bhat,vijay.bhat@company.com,Marketing,SEO Executive,L2,EMP_0001,Hubballi Office,48.87,5,2022-08-11,,True,Promotion
+381,EMP_0209,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Finance,Accountant,L1,EMP_0024,Remote - India,66.51,4,2023-03-01,2024-03-27,False,Hire
+382,EMP_0209,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Finance,Accountant,L2,EMP_0024,Remote - India,71.65,3,2024-03-28,2025-02-01,False,Promotion
+383,EMP_0209,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Finance,Accountant,L3,EMP_0024,Remote - India,79.9,4,2025-02-02,,True,Promotion
+384,EMP_0210,Karthik,Kumbari,karthik.kumbari@company.com,Sales,Sales Manager,L1,EMP_0020,Mumbai Office,83.72,3,2024-12-14,2026-06-13,False,Hire
+385,EMP_0210,Karthik,Kumbari,karthik.kumbari@company.com,Sales,Sales Manager,L2,EMP_0020,Mumbai Office,98.72,2,2026-06-14,,True,Promotion
+386,EMP_0211,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L1,EMP_0018,Remote - India,47.53,3,2024-08-17,2025-09-03,False,Hire
+387,EMP_0211,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L2,EMP_0018,Remote - India,61.14,4,2025-09-04,2027-04-07,False,Promotion
+388,EMP_0211,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L3,EMP_0018,Remote - India,75.05,4,2027-04-08,,True,Promotion
+389,EMP_0212,Roopa,Shetty,roopa.shetty@company.com,Finance,Financial Analyst,L1,EMP_0018,Remote - India,47.28,3,2022-08-08,,True,Hire
+390,EMP_0213,Anil,Bhat,anil.bhat@company.com,Marketing,Marketing Manager,L1,EMP_0006,Mumbai Office,62.19,3,2024-10-14,2026-01-01,False,Hire
+391,EMP_0214,Shweta,Kumbari,shweta.kumbari@company.com,Sales,Business Development Rep,L1,EMP_0039,Mumbai Office,51.53,5,2023-05-29,2024-11-02,False,Hire
+392,EMP_0214,Shweta,Kumbari,shweta.kumbari@company.com,Sales,Business Development Rep,L2,EMP_0039,Mumbai Office,65.71,5,2024-11-03,2026-03-22,False,Promotion
+393,EMP_0214,Shweta,Kumbari,shweta.kumbari@company.com,Sales,Business Development Rep,L3,EMP_0039,Mumbai Office,80.62,4,2026-03-23,,True,Promotion
+394,EMP_0215,Vijay,Bhat,vijay.bhat@company.com,Customer Success,Support Engineer,L1,EMP_0047,Remote - India,80.25,5,2024-03-20,2025-09-10,False,Hire
+395,EMP_0215,Vijay,Bhat,vijay.bhat@company.com,Customer Success,Support Engineer,L2,EMP_0047,Remote - India,89.63,4,2025-09-11,,True,Promotion
+396,EMP_0216,Priyanka,Rao,priyanka.rao@company.com,Customer Success,CS Manager,L1,EMP_0004,Mumbai Office,26.56,2,2021-08-16,,True,Hire
+397,EMP_0217,Priyanka,Bhat,priyanka.bhat@company.com,Engineering,Senior Developer,L1,EMP_0007,Mumbai Office,87.39,5,2024-04-26,2025-07-24,False,Hire
+398,EMP_0218,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Business Development Rep,L1,EMP_0007,Hubballi Office,54.46,5,2023-07-24,2024-11-02,False,Hire
+399,EMP_0218,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Business Development Rep,L2,EMP_0007,Hubballi Office,60.51,4,2024-11-03,2026-01-10,False,Promotion
+400,EMP_0218,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Business Development Rep,L3,EMP_0007,Hubballi Office,66.96,3,2026-01-11,,True,Promotion
+401,EMP_0219,Vijay,Shetty,vijay.shetty@company.com,Engineering,Software Engineer,L1,EMP_0023,Hubballi Office,84.56,4,2021-08-07,2022-03-05,False,Hire
+402,EMP_0220,Manjunath,Kumbari,manjunath.kumbari@company.com,Marketing,Marketing Manager,L1,EMP_0010,Hubballi Office,63.85,5,2024-04-25,2025-07-15,False,Hire
+403,EMP_0220,Manjunath,Kumbari,manjunath.kumbari@company.com,Marketing,Marketing Manager,L2,EMP_0010,Hubballi Office,77.67,4,2025-07-16,2026-09-10,False,Promotion
+404,EMP_0220,Manjunath,Kumbari,manjunath.kumbari@company.com,Marketing,Marketing Manager,L3,EMP_0010,Hubballi Office,90.11,4,2026-09-11,,True,Promotion
+405,EMP_0221,Roopa,Kumbari,roopa.kumbari@company.com,Engineering,Software Engineer,L1,EMP_0030,Remote - India,49.0,3,2025-06-08,2026-06-04,False,Hire
+406,EMP_0221,Roopa,Kumbari,roopa.kumbari@company.com,Engineering,Software Engineer,L2,EMP_0030,Remote - India,61.18,4,2026-06-05,2027-04-18,False,Promotion
+407,EMP_0221,Roopa,Kumbari,roopa.kumbari@company.com,Engineering,Software Engineer,L3,EMP_0030,Remote - India,71.99,3,2027-04-19,,True,Promotion
+408,EMP_0222,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Senior Developer,L1,EMP_0003,Remote - India,26.67,5,2023-06-09,2024-08-23,False,Hire
+409,EMP_0222,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Senior Developer,L2,EMP_0003,Remote - India,38.15,5,2024-08-24,,True,Promotion
+410,EMP_0223,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Content Specialist,L1,EMP_0040,Hubballi Office,93.32,4,2021-06-16,2022-07-01,False,Hire
+411,EMP_0223,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Content Specialist,L2,EMP_0040,Hubballi Office,99.0,3,2022-07-02,,True,Promotion
+412,EMP_0224,Karthik,Patil,karthik.patil@company.com,Customer Success,CS Manager,L1,EMP_0037,Bengaluru Office,18.68,5,2023-04-01,2024-06-30,False,Hire
+413,EMP_0224,Karthik,Patil,karthik.patil@company.com,Customer Success,CS Manager,L2,EMP_0037,Bengaluru Office,29.72,5,2024-07-01,,True,Promotion
+414,EMP_0225,Kavitha,Rao,kavitha.rao@company.com,Customer Success,CS Specialist,L1,EMP_0013,Hubballi Office,72.03,4,2023-05-21,2024-11-09,False,Hire
+415,EMP_0226,Deepika,Nayaka,deepika.nayaka@company.com,Sales,Sales Manager,L1,EMP_0049,Remote - India,45.38,2,2025-05-31,,True,Hire
+416,EMP_0227,Vijay,Joshi,vijay.joshi@company.com,Engineering,QA Analyst,L1,EMP_0032,Remote - India,57.33,4,2022-07-08,2024-01-22,False,Hire
+417,EMP_0227,Vijay,Joshi,vijay.joshi@company.com,Engineering,QA Analyst,L2,EMP_0032,Remote - India,67.81,5,2024-01-23,,True,Promotion
+418,EMP_0228,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Specialist,L1,EMP_0002,Remote - India,49.97,3,2023-08-15,2024-07-24,False,Hire
+419,EMP_0228,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Specialist,L2,EMP_0002,Remote - India,61.44,4,2024-07-25,,True,Promotion
+420,EMP_0229,Manjunath,Bhat,manjunath.bhat@company.com,Finance,Financial Analyst,L1,EMP_0007,Hubballi Office,89.38,3,2024-03-21,2025-11-12,False,Hire
+421,EMP_0230,Kavitha,Rao,kavitha.rao@company.com,Engineering,Senior Developer,L1,EMP_0032,Mumbai Office,55.01,3,2023-04-05,,True,Hire
+422,EMP_0231,Karthik,Gowda,karthik.gowda@company.com,HR,Talent Acquisition Specialist,L1,EMP_0013,Hubballi Office,57.27,4,2023-05-09,2024-12-27,False,Hire
+423,EMP_0231,Karthik,Gowda,karthik.gowda@company.com,HR,Talent Acquisition Specialist,L2,EMP_0013,Hubballi Office,69.37,5,2024-12-28,2025-12-14,False,Promotion
+424,EMP_0231,Karthik,Gowda,karthik.gowda@company.com,HR,Talent Acquisition Specialist,L3,EMP_0013,Hubballi Office,81.21,5,2025-12-15,,True,Promotion
+425,EMP_0232,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0042,Remote - India,22.41,2,2023-04-16,2024-10-10,False,Hire
+426,EMP_0233,Kavitha,Rao,kavitha.rao@company.com,Engineering,Tech Lead,L1,EMP_0038,Remote - India,29.58,3,2023-01-06,2024-04-09,False,Hire
+427,EMP_0233,Kavitha,Rao,kavitha.rao@company.com,Engineering,Tech Lead,L2,EMP_0038,Remote - India,40.92,2,2024-04-10,2025-05-21,False,Promotion
+428,EMP_0233,Kavitha,Rao,kavitha.rao@company.com,Engineering,Tech Lead,L3,EMP_0038,Remote - India,48.12,2,2025-05-22,,True,Promotion
+429,EMP_0234,Vijay,Rao,vijay.rao@company.com,HR,HR Associate,L1,EMP_0028,Mumbai Office,45.46,4,2024-10-15,2025-10-27,False,Hire
+430,EMP_0234,Vijay,Rao,vijay.rao@company.com,HR,HR Associate,L2,EMP_0028,Mumbai Office,57.57,5,2025-10-28,2026-09-22,False,Promotion
+431,EMP_0234,Vijay,Rao,vijay.rao@company.com,HR,HR Associate,L3,EMP_0028,Mumbai Office,65.91,5,2026-09-23,,True,Promotion
+432,EMP_0235,Kavitha,Rao,kavitha.rao@company.com,Customer Success,Support Engineer,L1,EMP_0017,Hubballi Office,18.41,2,2024-05-11,2025-11-02,False,Hire
+433,EMP_0235,Kavitha,Rao,kavitha.rao@company.com,Customer Success,Support Engineer,L2,EMP_0017,Hubballi Office,30.65,2,2025-11-03,2027-01-19,False,Promotion
+434,EMP_0235,Kavitha,Rao,kavitha.rao@company.com,Customer Success,Support Engineer,L3,EMP_0017,Hubballi Office,36.13,1,2027-01-20,,True,Promotion
+435,EMP_0236,Priyanka,Rao,priyanka.rao@company.com,HR,Talent Acquisition Specialist,L1,EMP_0008,Hubballi Office,78.36,2,2023-11-19,2025-03-27,False,Hire
+436,EMP_0236,Priyanka,Rao,priyanka.rao@company.com,HR,Talent Acquisition Specialist,L2,EMP_0008,Hubballi Office,91.75,1,2025-03-28,2026-05-16,False,Promotion
+437,EMP_0236,Priyanka,Rao,priyanka.rao@company.com,HR,Talent Acquisition Specialist,L3,EMP_0008,Hubballi Office,99.0,0,2026-05-17,,True,Promotion
+438,EMP_0237,Manjunath,Rao,manjunath.rao@company.com,Sales,Business Development Rep,L1,EMP_0024,Remote - India,34.16,4,2023-11-04,2024-10-19,False,Hire
+439,EMP_0237,Manjunath,Rao,manjunath.rao@company.com,Sales,Business Development Rep,L2,EMP_0024,Remote - India,47.31,4,2024-10-20,,True,Promotion
+440,EMP_0238,Manjunath,Patil,manjunath.patil@company.com,HR,HR Associate,L1,EMP_0046,Bengaluru Office,16.55,2,2021-08-28,2022-10-27,False,Hire
+441,EMP_0238,Manjunath,Patil,manjunath.patil@company.com,HR,HR Associate,L2,EMP_0046,Bengaluru Office,23.44,3,2022-10-28,2023-09-28,False,Promotion
+442,EMP_0238,Manjunath,Patil,manjunath.patil@company.com,HR,HR Associate,L3,EMP_0046,Bengaluru Office,29.84,4,2023-09-29,,True,Promotion
+443,EMP_0239,Deepika,Bhat,deepika.bhat@company.com,Sales,Business Development Rep,L1,EMP_0015,Mumbai Office,79.6,5,2023-05-22,2025-03-31,False,Hire
+444,EMP_0240,Roopa,Patil,roopa.patil@company.com,HR,HR Business Partner,L1,EMP_0015,Remote - India,31.34,2,2021-06-04,2022-10-07,False,Hire
+445,EMP_0240,Roopa,Patil,roopa.patil@company.com,HR,HR Business Partner,L2,EMP_0015,Remote - India,39.98,2,2022-10-08,,True,Promotion
+446,EMP_0241,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Engineering,Tech Lead,L1,EMP_0013,Mumbai Office,33.01,5,2021-12-16,2023-03-09,False,Hire
+447,EMP_0241,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Engineering,Tech Lead,L2,EMP_0013,Mumbai Office,41.06,5,2023-03-10,,True,Promotion
+448,EMP_0242,Deepika,Gowda,deepika.gowda@company.com,Engineering,QA Analyst,L1,EMP_0050,Mumbai Office,31.63,4,2024-07-08,2024-10-09,False,Hire
+449,EMP_0243,Shweta,Kulkarni,shweta.kulkarni@company.com,HR,HR Associate,L1,EMP_0047,Hubballi Office,39.86,3,2022-07-17,2024-02-26,False,Hire
+450,EMP_0243,Shweta,Kulkarni,shweta.kulkarni@company.com,HR,HR Associate,L2,EMP_0047,Hubballi Office,46.02,3,2024-02-27,,True,Promotion
+451,EMP_0244,Deepika,Desai,deepika.desai@company.com,Finance,Finance Controller,L1,EMP_0032,Remote - India,58.36,3,2024-09-19,2025-11-09,False,Hire
+452,EMP_0244,Deepika,Desai,deepika.desai@company.com,Finance,Finance Controller,L2,EMP_0032,Remote - India,68.8,4,2025-11-10,,True,Promotion
+453,EMP_0245,Vijay,Nayaka,vijay.nayaka@company.com,Customer Success,CS Specialist,L1,EMP_0022,Hubballi Office,52.81,4,2022-06-09,,True,Hire
+454,EMP_0246,Karthik,Kumbari,karthik.kumbari@company.com,Sales,Account Executive,L1,EMP_0016,Remote - India,24.94,5,2023-03-25,,True,Hire
+455,EMP_0247,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,SEO Executive,L1,EMP_0001,Mumbai Office,30.36,4,2023-09-24,2025-02-19,False,Hire
+456,EMP_0248,Manjunath,Patil,manjunath.patil@company.com,Customer Success,CS Manager,L1,EMP_0034,Mumbai Office,85.75,5,2021-08-08,2023-01-02,False,Hire
+457,EMP_0248,Manjunath,Patil,manjunath.patil@company.com,Customer Success,CS Manager,L2,EMP_0034,Mumbai Office,91.15,5,2023-01-03,2024-07-19,False,Promotion
+458,EMP_0248,Manjunath,Patil,manjunath.patil@company.com,Customer Success,CS Manager,L3,EMP_0034,Mumbai Office,99.0,5,2024-07-20,,True,Promotion
+459,EMP_0249,Shweta,Bhat,shweta.bhat@company.com,Customer Success,CS Specialist,L1,EMP_0006,Bengaluru Office,72.93,3,2021-12-18,2023-04-21,False,Hire
+460,EMP_0249,Shweta,Bhat,shweta.bhat@company.com,Customer Success,CS Specialist,L2,EMP_0006,Bengaluru Office,85.32,3,2023-04-22,2024-03-20,False,Promotion
+461,EMP_0249,Shweta,Bhat,shweta.bhat@company.com,Customer Success,CS Specialist,L3,EMP_0006,Bengaluru Office,93.74,3,2024-03-21,,True,Promotion
+462,EMP_0250,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0006,Hubballi Office,78.11,4,2021-12-29,2022-11-09,False,Hire
+463,EMP_0250,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Content Specialist,L2,EMP_0006,Hubballi Office,90.63,3,2022-11-10,2023-09-10,False,Promotion
+464,EMP_0250,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Marketing,Content Specialist,L3,EMP_0006,Hubballi Office,97.17,2,2023-09-11,,True,Promotion
+465,EMP_0251,Vijay,Gowda,vijay.gowda@company.com,Finance,Accountant,L1,EMP_0017,Mumbai Office,62.57,4,2022-04-17,2023-05-04,False,Hire
+466,EMP_0251,Vijay,Gowda,vijay.gowda@company.com,Finance,Accountant,L2,EMP_0017,Mumbai Office,69.83,4,2023-05-05,,True,Promotion
+467,EMP_0252,Priyanka,Desai,priyanka.desai@company.com,Sales,Business Development Rep,L1,EMP_0014,Remote - India,72.26,5,2025-07-02,,True,Hire
+468,EMP_0253,Anil,Nayaka,anil.nayaka@company.com,Marketing,SEO Executive,L1,EMP_0022,Hubballi Office,58.73,3,2022-05-31,2023-11-17,False,Hire
+469,EMP_0253,Anil,Nayaka,anil.nayaka@company.com,Marketing,SEO Executive,L2,EMP_0022,Hubballi Office,64.7,3,2023-11-18,2024-12-27,False,Promotion
+470,EMP_0253,Anil,Nayaka,anil.nayaka@company.com,Marketing,SEO Executive,L3,EMP_0022,Hubballi Office,72.82,3,2024-12-28,,True,Promotion
+471,EMP_0254,Anil,Shetty,anil.shetty@company.com,HR,Talent Acquisition Specialist,L1,EMP_0018,Mumbai Office,63.9,3,2024-08-19,,True,Hire
+472,EMP_0255,Kavitha,Rao,kavitha.rao@company.com,Customer Success,CS Specialist,L1,EMP_0006,Remote - India,54.55,2,2021-09-14,2022-09-22,False,Hire
+473,EMP_0255,Kavitha,Rao,kavitha.rao@company.com,Customer Success,CS Specialist,L2,EMP_0006,Remote - India,68.56,3,2022-09-23,2024-02-22,False,Promotion
+474,EMP_0255,Kavitha,Rao,kavitha.rao@company.com,Customer Success,CS Specialist,L3,EMP_0006,Remote - India,77.77,3,2024-02-23,,True,Promotion
+475,EMP_0256,Karthik,Gowda,karthik.gowda@company.com,Finance,Financial Analyst,L1,EMP_0022,Bengaluru Office,92.48,2,2025-04-15,,True,Hire
+476,EMP_0257,Shweta,Nayaka,shweta.nayaka@company.com,Marketing,Marketing Manager,L1,EMP_0043,Bengaluru Office,49.27,4,2023-08-08,2025-09-30,False,Hire
+477,EMP_0258,Priyanka,Rao,priyanka.rao@company.com,Engineering,Software Engineer,L1,EMP_0008,Hubballi Office,81.29,2,2024-03-07,,True,Hire
+478,EMP_0259,Anil,Desai,anil.desai@company.com,Engineering,QA Analyst,L1,EMP_0034,Mumbai Office,44.26,2,2024-07-07,,True,Hire
+479,EMP_0260,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L1,EMP_0033,Remote - India,28.71,2,2025-01-23,2026-05-26,False,Hire
+480,EMP_0261,Anil,Bhat,anil.bhat@company.com,HR,Talent Acquisition Specialist,L1,EMP_0021,Bengaluru Office,78.79,4,2025-06-08,,True,Hire
+481,EMP_0262,Roopa,Patil,roopa.patil@company.com,Engineering,Tech Lead,L1,EMP_0001,Hubballi Office,26.76,4,2025-03-07,2026-07-15,False,Hire
+482,EMP_0262,Roopa,Patil,roopa.patil@company.com,Engineering,Tech Lead,L2,EMP_0001,Hubballi Office,36.29,4,2026-07-16,2027-06-28,False,Promotion
+483,EMP_0262,Roopa,Patil,roopa.patil@company.com,Engineering,Tech Lead,L3,EMP_0001,Hubballi Office,48.25,3,2027-06-29,,True,Promotion
+484,EMP_0263,Karthik,Desai,karthik.desai@company.com,Customer Success,Support Engineer,L1,EMP_0049,Hubballi Office,31.34,3,2024-06-06,2025-07-05,False,Hire
+485,EMP_0263,Karthik,Desai,karthik.desai@company.com,Customer Success,Support Engineer,L2,EMP_0049,Hubballi Office,39.76,4,2025-07-06,,True,Promotion
+486,EMP_0264,Manjunath,Bhat,manjunath.bhat@company.com,Customer Success,CS Manager,L1,EMP_0012,Mumbai Office,93.28,2,2022-01-30,,True,Hire
+487,EMP_0265,Roopa,Joshi,roopa.joshi@company.com,Customer Success,CS Specialist,L1,EMP_0044,Hubballi Office,63.66,2,2024-11-28,,True,Hire
+488,EMP_0266,Priyanka,Bhat,priyanka.bhat@company.com,Sales,Sales Manager,L1,EMP_0048,Mumbai Office,17.9,3,2022-10-11,2024-03-01,False,Hire
+489,EMP_0266,Priyanka,Bhat,priyanka.bhat@company.com,Sales,Sales Manager,L2,EMP_0048,Mumbai Office,27.42,4,2024-03-02,2025-04-02,False,Promotion
+490,EMP_0266,Priyanka,Bhat,priyanka.bhat@company.com,Sales,Sales Manager,L3,EMP_0048,Mumbai Office,33.45,5,2025-04-03,,True,Promotion
+491,EMP_0267,Kavitha,Gowda,kavitha.gowda@company.com,Engineering,Software Engineer,L1,EMP_0039,Mumbai Office,65.87,4,2023-01-11,2024-08-23,False,Hire
+492,EMP_0267,Kavitha,Gowda,kavitha.gowda@company.com,Engineering,Software Engineer,L2,EMP_0039,Mumbai Office,72.27,4,2024-08-24,2025-07-08,False,Promotion
+493,EMP_0267,Kavitha,Gowda,kavitha.gowda@company.com,Engineering,Software Engineer,L3,EMP_0039,Mumbai Office,83.02,4,2025-07-09,,True,Promotion
+494,EMP_0268,Sandeep,Rao,sandeep.rao@company.com,HR,Talent Acquisition Specialist,L1,EMP_0028,Remote - India,47.91,4,2024-08-15,2025-03-04,False,Hire
+495,EMP_0269,Roopa,Gowda,roopa.gowda@company.com,HR,HR Business Partner,L1,EMP_0041,Hubballi Office,56.42,5,2022-02-13,2023-01-27,False,Hire
+496,EMP_0269,Roopa,Gowda,roopa.gowda@company.com,HR,HR Business Partner,L2,EMP_0041,Hubballi Office,70.33,5,2023-01-28,2024-04-15,False,Promotion
+497,EMP_0269,Roopa,Gowda,roopa.gowda@company.com,HR,HR Business Partner,L3,EMP_0041,Hubballi Office,82.73,5,2024-04-16,,True,Promotion
+498,EMP_0270,Roopa,Bhat,roopa.bhat@company.com,HR,HR Business Partner,L1,EMP_0009,Hubballi Office,25.95,3,2025-06-18,,True,Hire
+499,EMP_0271,Sandeep,Kumbari,sandeep.kumbari@company.com,Engineering,Senior Developer,L1,EMP_0029,Hubballi Office,91.28,5,2023-04-29,2024-11-22,False,Hire
+500,EMP_0271,Sandeep,Kumbari,sandeep.kumbari@company.com,Engineering,Senior Developer,L2,EMP_0029,Hubballi Office,99.0,5,2024-11-23,,True,Promotion
+501,EMP_0272,Vijay,Gowda,vijay.gowda@company.com,Sales,Account Executive,L1,EMP_0017,Hubballi Office,51.88,5,2022-02-26,2023-09-07,False,Hire
+502,EMP_0273,Sandeep,Patil,sandeep.patil@company.com,Marketing,Marketing Manager,L1,EMP_0003,Bengaluru Office,46.53,5,2025-05-04,2026-03-20,False,Hire
+503,EMP_0273,Sandeep,Patil,sandeep.patil@company.com,Marketing,Marketing Manager,L2,EMP_0003,Bengaluru Office,56.95,5,2026-03-21,2027-09-17,False,Promotion
+504,EMP_0273,Sandeep,Patil,sandeep.patil@company.com,Marketing,Marketing Manager,L3,EMP_0003,Bengaluru Office,71.68,5,2027-09-18,,True,Promotion
+505,EMP_0274,Roopa,Nayaka,roopa.nayaka@company.com,Sales,Business Development Rep,L1,EMP_0004,Mumbai Office,61.02,2,2025-04-07,,True,Hire
+506,EMP_0275,Vijay,Patil,vijay.patil@company.com,HR,Talent Acquisition Specialist,L1,EMP_0021,Remote - India,78.74,2,2022-02-01,2022-12-02,False,Hire
+507,EMP_0275,Vijay,Patil,vijay.patil@company.com,HR,Talent Acquisition Specialist,L2,EMP_0021,Remote - India,92.32,1,2022-12-03,,True,Promotion
+508,EMP_0276,Manjunath,Joshi,manjunath.joshi@company.com,Engineering,Senior Developer,L1,EMP_0013,Hubballi Office,88.36,2,2023-03-21,2024-08-05,False,Hire
+509,EMP_0277,Vijay,Kumbari,vijay.kumbari@company.com,HR,HR Business Partner,L1,EMP_0017,Remote - India,60.96,3,2022-10-15,,True,Hire
+510,EMP_0278,Shweta,Desai,shweta.desai@company.com,Marketing,Content Specialist,L1,EMP_0037,Remote - India,27.18,2,2025-07-01,2026-08-16,False,Hire
+511,EMP_0278,Shweta,Desai,shweta.desai@company.com,Marketing,Content Specialist,L2,EMP_0037,Remote - India,35.65,2,2026-08-17,2028-02-23,False,Promotion
+512,EMP_0278,Shweta,Desai,shweta.desai@company.com,Marketing,Content Specialist,L3,EMP_0037,Remote - India,49.18,1,2028-02-24,,True,Promotion
+513,EMP_0279,Shweta,Nayaka,shweta.nayaka@company.com,HR,HR Business Partner,L1,EMP_0017,Bengaluru Office,24.35,2,2022-04-22,,True,Hire
+514,EMP_0280,Sandeep,Patil,sandeep.patil@company.com,Sales,Sales Manager,L1,EMP_0044,Remote - India,26.73,2,2022-12-30,2024-07-26,False,Hire
+515,EMP_0281,Karthik,Rao,karthik.rao@company.com,Marketing,SEO Executive,L1,EMP_0031,Hubballi Office,54.58,3,2021-09-01,2022-05-15,False,Hire
+516,EMP_0282,Deepika,Shetty,deepika.shetty@company.com,HR,HR Associate,L1,EMP_0036,Hubballi Office,82.17,2,2025-04-12,2026-03-13,False,Hire
+517,EMP_0282,Deepika,Shetty,deepika.shetty@company.com,HR,HR Associate,L2,EMP_0036,Hubballi Office,89.97,2,2026-03-14,,True,Promotion
+518,EMP_0283,Deepika,Rao,deepika.rao@company.com,Customer Success,Support Engineer,L1,EMP_0030,Mumbai Office,82.75,5,2023-05-29,2024-11-02,False,Hire
+519,EMP_0283,Deepika,Rao,deepika.rao@company.com,Customer Success,Support Engineer,L2,EMP_0030,Mumbai Office,88.28,5,2024-11-03,,True,Promotion
+520,EMP_0284,Shweta,Desai,shweta.desai@company.com,Engineering,Software Engineer,L1,EMP_0006,Bengaluru Office,59.0,2,2023-07-18,2024-08-31,False,Hire
+521,EMP_0284,Shweta,Desai,shweta.desai@company.com,Engineering,Software Engineer,L2,EMP_0006,Bengaluru Office,65.34,3,2024-09-01,2025-09-05,False,Promotion
+522,EMP_0284,Shweta,Desai,shweta.desai@company.com,Engineering,Software Engineer,L3,EMP_0006,Bengaluru Office,70.6,3,2025-09-06,,True,Promotion
+523,EMP_0285,Deepika,Shetty,deepika.shetty@company.com,Sales,Business Development Rep,L1,EMP_0032,Bengaluru Office,28.87,5,2024-06-30,,True,Hire
+524,EMP_0286,Kavitha,Rao,kavitha.rao@company.com,Marketing,SEO Executive,L1,EMP_0050,Bengaluru Office,58.48,5,2021-06-30,2022-02-06,False,Hire
+525,EMP_0287,Manjunath,Patil,manjunath.patil@company.com,Engineering,Software Engineer,L1,EMP_0036,Mumbai Office,34.72,5,2023-07-02,2024-07-29,False,Hire
+526,EMP_0287,Manjunath,Patil,manjunath.patil@company.com,Engineering,Software Engineer,L2,EMP_0036,Mumbai Office,43.76,4,2024-07-30,,True,Promotion
+527,EMP_0288,Anil,Desai,anil.desai@company.com,Finance,Financial Analyst,L1,EMP_0014,Hubballi Office,29.92,5,2023-04-10,2024-05-24,False,Hire
+528,EMP_0288,Anil,Desai,anil.desai@company.com,Finance,Financial Analyst,L2,EMP_0014,Hubballi Office,43.57,5,2024-05-25,,True,Promotion
+529,EMP_0289,Manjunath,Joshi,manjunath.joshi@company.com,Sales,Business Development Rep,L1,EMP_0030,Bengaluru Office,91.96,4,2022-02-07,2022-10-07,False,Hire
+530,EMP_0290,Sandeep,Nayaka,sandeep.nayaka@company.com,HR,Talent Acquisition Specialist,L1,EMP_0026,Mumbai Office,77.76,3,2022-06-01,2023-06-22,False,Hire
+531,EMP_0290,Sandeep,Nayaka,sandeep.nayaka@company.com,HR,Talent Acquisition Specialist,L2,EMP_0026,Mumbai Office,85.71,4,2023-06-23,2024-05-05,False,Promotion
+532,EMP_0290,Sandeep,Nayaka,sandeep.nayaka@company.com,HR,Talent Acquisition Specialist,L3,EMP_0026,Mumbai Office,94.44,5,2024-05-06,,True,Promotion
+533,EMP_0291,Manjunath,Rao,manjunath.rao@company.com,Finance,Finance Controller,L1,EMP_0026,Hubballi Office,30.34,5,2025-01-26,,True,Hire
+534,EMP_0292,Priyanka,Patil,priyanka.patil@company.com,Finance,Finance Controller,L1,EMP_0022,Hubballi Office,75.21,4,2024-03-06,2025-03-26,False,Hire
+535,EMP_0292,Priyanka,Patil,priyanka.patil@company.com,Finance,Finance Controller,L2,EMP_0022,Hubballi Office,81.14,3,2025-03-27,,True,Promotion
+536,EMP_0293,Vijay,Patil,vijay.patil@company.com,Finance,Finance Controller,L1,EMP_0031,Hubballi Office,23.05,4,2021-11-26,2023-05-24,False,Hire
+537,EMP_0294,Priyanka,Bhat,priyanka.bhat@company.com,Marketing,Content Specialist,L1,EMP_0005,Mumbai Office,34.79,3,2022-06-08,2023-06-20,False,Hire
+538,EMP_0294,Priyanka,Bhat,priyanka.bhat@company.com,Marketing,Content Specialist,L2,EMP_0005,Mumbai Office,47.34,2,2023-06-21,,True,Promotion
+539,EMP_0295,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L1,EMP_0035,Bengaluru Office,29.51,3,2023-08-30,,True,Hire
+540,EMP_0296,Karthik,Shetty,karthik.shetty@company.com,Marketing,Marketing Manager,L1,EMP_0001,Bengaluru Office,71.91,4,2023-08-08,2024-07-26,False,Hire
+541,EMP_0296,Karthik,Shetty,karthik.shetty@company.com,Marketing,Marketing Manager,L2,EMP_0001,Bengaluru Office,77.06,4,2024-07-27,,True,Promotion
+542,EMP_0297,Roopa,Kumbari,roopa.kumbari@company.com,Customer Success,CS Manager,L1,EMP_0016,Mumbai Office,15.99,2,2022-06-17,,True,Hire
+543,EMP_0298,Manjunath,Rao,manjunath.rao@company.com,HR,HR Associate,L1,EMP_0049,Hubballi Office,27.7,5,2023-11-03,2025-02-08,False,Hire
+544,EMP_0298,Manjunath,Rao,manjunath.rao@company.com,HR,HR Associate,L2,EMP_0049,Hubballi Office,33.97,4,2025-02-09,2026-05-11,False,Promotion
+545,EMP_0298,Manjunath,Rao,manjunath.rao@company.com,HR,HR Associate,L3,EMP_0049,Hubballi Office,43.92,3,2026-05-12,,True,Promotion
+546,EMP_0299,Karthik,Nayaka,karthik.nayaka@company.com,Finance,Financial Analyst,L1,EMP_0015,Bengaluru Office,89.45,2,2024-11-12,2025-09-21,False,Hire
+547,EMP_0299,Karthik,Nayaka,karthik.nayaka@company.com,Finance,Financial Analyst,L2,EMP_0015,Bengaluru Office,99.0,1,2025-09-22,,True,Promotion
+548,EMP_0300,Deepika,Shetty,deepika.shetty@company.com,Marketing,Marketing Manager,L1,EMP_0034,Bengaluru Office,89.01,2,2023-07-29,2025-05-28,False,Hire
+549,EMP_0301,Manjunath,Patil,manjunath.patil@company.com,HR,HR Business Partner,L1,EMP_0042,Hubballi Office,26.25,5,2021-09-17,2022-11-11,False,Hire
+550,EMP_0302,Shweta,Nayaka,shweta.nayaka@company.com,Sales,Sales Manager,L1,EMP_0022,Hubballi Office,41.23,3,2024-10-13,2025-08-21,False,Hire
+551,EMP_0302,Shweta,Nayaka,shweta.nayaka@company.com,Sales,Sales Manager,L2,EMP_0022,Hubballi Office,47.28,3,2025-08-22,2027-02-22,False,Promotion
+552,EMP_0302,Shweta,Nayaka,shweta.nayaka@company.com,Sales,Sales Manager,L3,EMP_0022,Hubballi Office,52.36,4,2027-02-23,,True,Promotion
+553,EMP_0303,Roopa,Shetty,roopa.shetty@company.com,HR,HR Associate,L1,EMP_0012,Remote - India,49.02,5,2024-07-26,2025-12-04,False,Hire
+554,EMP_0304,Priyanka,Bhat,priyanka.bhat@company.com,Customer Success,Support Engineer,L1,EMP_0018,Remote - India,17.28,5,2024-05-12,2025-09-03,False,Hire
+555,EMP_0304,Priyanka,Bhat,priyanka.bhat@company.com,Customer Success,Support Engineer,L2,EMP_0018,Remote - India,24.93,4,2025-09-04,,True,Promotion
+556,EMP_0305,Shweta,Kumbari,shweta.kumbari@company.com,Finance,Accountant,L1,EMP_0012,Remote - India,22.35,4,2022-09-13,2023-07-27,False,Hire
+557,EMP_0305,Shweta,Kumbari,shweta.kumbari@company.com,Finance,Accountant,L2,EMP_0012,Remote - India,30.29,5,2023-07-28,,True,Promotion
+558,EMP_0306,Priyanka,Joshi,priyanka.joshi@company.com,Finance,Accountant,L1,EMP_0032,Hubballi Office,56.47,2,2024-11-19,2025-12-28,False,Hire
+559,EMP_0306,Priyanka,Joshi,priyanka.joshi@company.com,Finance,Accountant,L2,EMP_0032,Hubballi Office,61.78,3,2025-12-29,2027-03-13,False,Promotion
+560,EMP_0306,Priyanka,Joshi,priyanka.joshi@company.com,Finance,Accountant,L3,EMP_0032,Hubballi Office,69.32,4,2027-03-14,,True,Promotion
+561,EMP_0307,Priyanka,Bhat,priyanka.bhat@company.com,Customer Success,CS Manager,L1,EMP_0048,Hubballi Office,23.28,2,2021-10-05,2023-05-15,False,Hire
+562,EMP_0307,Priyanka,Bhat,priyanka.bhat@company.com,Customer Success,CS Manager,L2,EMP_0048,Hubballi Office,32.7,2,2023-05-16,,True,Promotion
+563,EMP_0308,Deepika,Nayaka,deepika.nayaka@company.com,Finance,Finance Controller,L1,EMP_0002,Hubballi Office,94.8,4,2021-07-29,2022-06-26,False,Hire
+564,EMP_0308,Deepika,Nayaka,deepika.nayaka@company.com,Finance,Finance Controller,L2,EMP_0002,Hubballi Office,99.0,3,2022-06-27,2023-10-18,False,Promotion
+565,EMP_0308,Deepika,Nayaka,deepika.nayaka@company.com,Finance,Finance Controller,L3,EMP_0002,Hubballi Office,99.0,2,2023-10-19,,True,Promotion
+566,EMP_0309,Sandeep,Gowda,sandeep.gowda@company.com,Marketing,SEO Executive,L1,EMP_0016,Hubballi Office,72.62,3,2021-10-02,2022-12-17,False,Hire
+567,EMP_0309,Sandeep,Gowda,sandeep.gowda@company.com,Marketing,SEO Executive,L2,EMP_0016,Hubballi Office,83.65,3,2022-12-18,,True,Promotion
+568,EMP_0310,Karthik,Rao,karthik.rao@company.com,HR,HR Business Partner,L1,EMP_0015,Mumbai Office,34.21,5,2022-10-27,2024-03-21,False,Hire
+569,EMP_0310,Karthik,Rao,karthik.rao@company.com,HR,HR Business Partner,L2,EMP_0015,Mumbai Office,39.88,5,2024-03-22,2025-09-23,False,Promotion
+570,EMP_0310,Karthik,Rao,karthik.rao@company.com,HR,HR Business Partner,L3,EMP_0015,Mumbai Office,52.39,5,2025-09-24,,True,Promotion
+571,EMP_0311,Sandeep,Kulkarni,sandeep.kulkarni@company.com,HR,Talent Acquisition Specialist,L1,EMP_0009,Hubballi Office,27.09,2,2024-03-19,,True,Hire
+572,EMP_0312,Deepika,Bhat,deepika.bhat@company.com,Finance,Accountant,L1,EMP_0033,Bengaluru Office,36.39,2,2023-03-13,2024-05-28,False,Hire
+573,EMP_0312,Deepika,Bhat,deepika.bhat@company.com,Finance,Accountant,L2,EMP_0033,Bengaluru Office,44.58,3,2024-05-29,,True,Promotion
+574,EMP_0313,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,Content Specialist,L1,EMP_0045,Bengaluru Office,67.93,3,2024-03-29,2025-07-06,False,Hire
+575,EMP_0313,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,Content Specialist,L2,EMP_0045,Bengaluru Office,80.71,3,2025-07-07,2026-08-28,False,Promotion
+576,EMP_0313,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,Content Specialist,L3,EMP_0045,Bengaluru Office,91.15,4,2026-08-29,,True,Promotion
+577,EMP_0314,Shweta,Gowda,shweta.gowda@company.com,Customer Success,Support Engineer,L1,EMP_0034,Remote - India,76.79,5,2025-05-07,2026-07-15,False,Hire
+578,EMP_0314,Shweta,Gowda,shweta.gowda@company.com,Customer Success,Support Engineer,L2,EMP_0034,Remote - India,82.2,5,2026-07-16,2028-01-11,False,Promotion
+579,EMP_0314,Shweta,Gowda,shweta.gowda@company.com,Customer Success,Support Engineer,L3,EMP_0034,Remote - India,95.68,5,2028-01-12,,True,Promotion
+580,EMP_0315,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Specialist,L1,EMP_0037,Remote - India,17.17,3,2024-10-02,2025-10-14,False,Hire
+581,EMP_0315,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Specialist,L2,EMP_0037,Remote - India,30.92,2,2025-10-15,,True,Promotion
+582,EMP_0316,Priyanka,Shetty,priyanka.shetty@company.com,Customer Success,CS Manager,L1,EMP_0043,Hubballi Office,48.99,4,2023-10-31,,True,Hire
+583,EMP_0317,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Software Engineer,L1,EMP_0004,Mumbai Office,43.46,3,2024-05-21,,True,Hire
+584,EMP_0318,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,CS Specialist,L1,EMP_0017,Hubballi Office,16.58,5,2021-07-23,2022-07-19,False,Hire
+585,EMP_0318,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,CS Specialist,L2,EMP_0017,Hubballi Office,27.24,4,2022-07-20,,True,Promotion
+586,EMP_0319,Anil,Rao,anil.rao@company.com,Finance,Finance Controller,L1,EMP_0003,Hubballi Office,60.08,2,2022-04-14,2023-03-08,False,Hire
+587,EMP_0319,Anil,Rao,anil.rao@company.com,Finance,Finance Controller,L2,EMP_0003,Hubballi Office,71.86,3,2023-03-09,2024-10-05,False,Promotion
+588,EMP_0319,Anil,Rao,anil.rao@company.com,Finance,Finance Controller,L3,EMP_0003,Hubballi Office,78.12,2,2024-10-06,,True,Promotion
+589,EMP_0320,Manjunath,Nayaka,manjunath.nayaka@company.com,Sales,Sales Manager,L1,EMP_0003,Bengaluru Office,37.08,4,2023-05-27,2024-12-02,False,Hire
+590,EMP_0320,Manjunath,Nayaka,manjunath.nayaka@company.com,Sales,Sales Manager,L2,EMP_0003,Bengaluru Office,50.75,3,2024-12-03,2025-11-19,False,Promotion
+591,EMP_0320,Manjunath,Nayaka,manjunath.nayaka@company.com,Sales,Sales Manager,L3,EMP_0003,Bengaluru Office,64.95,3,2025-11-20,,True,Promotion
+592,EMP_0321,Roopa,Desai,roopa.desai@company.com,Finance,Finance Controller,L1,EMP_0021,Bengaluru Office,73.7,2,2022-08-31,,True,Hire
+593,EMP_0322,Vijay,Desai,vijay.desai@company.com,Engineering,Software Engineer,L1,EMP_0034,Remote - India,34.5,4,2024-04-19,2025-02-25,False,Hire
+594,EMP_0323,Sandeep,Shetty,sandeep.shetty@company.com,Sales,Account Executive,L1,EMP_0040,Mumbai Office,41.74,5,2023-06-23,,True,Hire
+595,EMP_0324,Sandeep,Joshi,sandeep.joshi@company.com,HR,HR Associate,L1,EMP_0030,Bengaluru Office,16.93,3,2024-05-29,2025-08-02,False,Hire
+596,EMP_0324,Sandeep,Joshi,sandeep.joshi@company.com,HR,HR Associate,L2,EMP_0030,Bengaluru Office,31.46,2,2025-08-03,2027-03-25,False,Promotion
+597,EMP_0324,Sandeep,Joshi,sandeep.joshi@company.com,HR,HR Associate,L3,EMP_0030,Bengaluru Office,45.78,2,2027-03-26,,True,Promotion
+598,EMP_0325,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,SEO Executive,L1,EMP_0039,Remote - India,88.87,4,2021-10-01,2022-11-13,False,Hire
+599,EMP_0325,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,SEO Executive,L2,EMP_0039,Remote - India,99.0,3,2022-11-14,2024-05-08,False,Promotion
+600,EMP_0325,Deepika,Nayaka,deepika.nayaka@company.com,Marketing,SEO Executive,L3,EMP_0039,Remote - India,99.0,4,2024-05-09,,True,Promotion
+601,EMP_0326,Anil,Desai,anil.desai@company.com,Customer Success,CS Specialist,L1,EMP_0007,Remote - India,81.76,2,2023-01-12,2024-08-04,False,Hire
+602,EMP_0326,Anil,Desai,anil.desai@company.com,Customer Success,CS Specialist,L2,EMP_0007,Remote - India,93.29,2,2024-08-05,,True,Promotion
+603,EMP_0327,Anil,Rao,anil.rao@company.com,Sales,Sales Manager,L1,EMP_0005,Mumbai Office,33.6,5,2024-11-13,2025-11-01,False,Hire
+604,EMP_0327,Anil,Rao,anil.rao@company.com,Sales,Sales Manager,L2,EMP_0005,Mumbai Office,45.02,5,2025-11-02,2027-06-24,False,Promotion
+605,EMP_0327,Anil,Rao,anil.rao@company.com,Sales,Sales Manager,L3,EMP_0005,Mumbai Office,51.45,5,2027-06-25,,True,Promotion
+606,EMP_0328,Kavitha,Joshi,kavitha.joshi@company.com,Marketing,Marketing Manager,L1,EMP_0048,Hubballi Office,89.26,4,2025-01-06,2026-05-18,False,Hire
+607,EMP_0328,Kavitha,Joshi,kavitha.joshi@company.com,Marketing,Marketing Manager,L2,EMP_0048,Hubballi Office,99.0,3,2026-05-19,,True,Promotion
+608,EMP_0329,Manjunath,Gowda,manjunath.gowda@company.com,Marketing,Content Specialist,L1,EMP_0008,Mumbai Office,88.69,4,2024-01-05,2025-07-25,False,Hire
+609,EMP_0329,Manjunath,Gowda,manjunath.gowda@company.com,Marketing,Content Specialist,L2,EMP_0008,Mumbai Office,93.83,4,2025-07-26,,True,Promotion
+610,EMP_0330,Manjunath,Desai,manjunath.desai@company.com,Customer Success,Support Engineer,L1,EMP_0001,Bengaluru Office,37.43,2,2023-11-20,,True,Hire
+611,EMP_0331,Manjunath,Bhat,manjunath.bhat@company.com,Engineering,Software Engineer,L1,EMP_0001,Hubballi Office,89.14,4,2022-05-17,,True,Hire
+612,EMP_0332,Vijay,Shetty,vijay.shetty@company.com,Engineering,QA Analyst,L1,EMP_0006,Hubballi Office,57.56,3,2025-04-18,2026-06-08,False,Hire
+613,EMP_0332,Vijay,Shetty,vijay.shetty@company.com,Engineering,QA Analyst,L2,EMP_0006,Hubballi Office,69.83,2,2026-06-09,,True,Promotion
+614,EMP_0333,Deepika,Patil,deepika.patil@company.com,Marketing,Content Specialist,L1,EMP_0004,Bengaluru Office,49.14,5,2022-12-26,2024-01-08,False,Hire
+615,EMP_0333,Deepika,Patil,deepika.patil@company.com,Marketing,Content Specialist,L2,EMP_0004,Bengaluru Office,57.25,5,2024-01-09,2025-07-14,False,Promotion
+616,EMP_0333,Deepika,Patil,deepika.patil@company.com,Marketing,Content Specialist,L3,EMP_0004,Bengaluru Office,69.52,5,2025-07-15,,True,Promotion
+617,EMP_0334,Deepika,Kulkarni,deepika.kulkarni@company.com,Engineering,Software Engineer,L1,EMP_0027,Mumbai Office,44.77,3,2024-08-30,,True,Hire
+618,EMP_0335,Deepika,Joshi,deepika.joshi@company.com,Finance,Financial Analyst,L1,EMP_0006,Mumbai Office,69.05,2,2022-11-02,2024-05-24,False,Hire
+619,EMP_0336,Deepika,Shetty,deepika.shetty@company.com,HR,HR Business Partner,L1,EMP_0015,Mumbai Office,36.51,4,2021-12-31,2022-11-23,False,Hire
+620,EMP_0336,Deepika,Shetty,deepika.shetty@company.com,HR,HR Business Partner,L2,EMP_0015,Mumbai Office,41.88,4,2022-11-24,,True,Promotion
+621,EMP_0337,Manjunath,Patil,manjunath.patil@company.com,Sales,Account Executive,L1,EMP_0033,Bengaluru Office,57.89,5,2024-08-27,2025-07-08,False,Hire
+622,EMP_0337,Manjunath,Patil,manjunath.patil@company.com,Sales,Account Executive,L2,EMP_0033,Bengaluru Office,66.58,5,2025-07-09,,True,Promotion
+623,EMP_0338,Vijay,Nayaka,vijay.nayaka@company.com,HR,HR Associate,L1,EMP_0047,Bengaluru Office,67.96,4,2021-09-09,2022-09-23,False,Hire
+624,EMP_0338,Vijay,Nayaka,vijay.nayaka@company.com,HR,HR Associate,L2,EMP_0047,Bengaluru Office,82.16,4,2022-09-24,2023-11-09,False,Promotion
+625,EMP_0338,Vijay,Nayaka,vijay.nayaka@company.com,HR,HR Associate,L3,EMP_0047,Bengaluru Office,90.15,5,2023-11-10,,True,Promotion
+626,EMP_0339,Vijay,Kumbari,vijay.kumbari@company.com,Customer Success,Support Engineer,L1,EMP_0023,Mumbai Office,62.71,3,2022-07-30,2023-09-19,False,Hire
+627,EMP_0339,Vijay,Kumbari,vijay.kumbari@company.com,Customer Success,Support Engineer,L2,EMP_0023,Mumbai Office,69.08,3,2023-09-20,,True,Promotion
+628,EMP_0340,Roopa,Patil,roopa.patil@company.com,Customer Success,CS Specialist,L1,EMP_0047,Mumbai Office,24.55,2,2025-05-15,2026-04-09,False,Hire
+629,EMP_0341,Priyanka,Rao,priyanka.rao@company.com,Customer Success,CS Specialist,L1,EMP_0046,Mumbai Office,33.13,5,2024-01-01,2024-08-18,False,Hire
+630,EMP_0342,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Software Engineer,L1,EMP_0046,Remote - India,53.28,3,2024-08-02,2025-12-12,False,Hire
+631,EMP_0342,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Software Engineer,L2,EMP_0046,Remote - India,65.3,2,2025-12-13,,True,Promotion
+632,EMP_0343,Priyanka,Nayaka,priyanka.nayaka@company.com,Sales,Sales Manager,L1,EMP_0032,Hubballi Office,15.36,3,2021-10-24,2023-05-18,False,Hire
+633,EMP_0343,Priyanka,Nayaka,priyanka.nayaka@company.com,Sales,Sales Manager,L2,EMP_0032,Hubballi Office,24.71,4,2023-05-19,2024-06-24,False,Promotion
+634,EMP_0343,Priyanka,Nayaka,priyanka.nayaka@company.com,Sales,Sales Manager,L3,EMP_0032,Hubballi Office,34.55,4,2024-06-25,,True,Promotion
+635,EMP_0344,Shweta,Kumbari,shweta.kumbari@company.com,Customer Success,Support Engineer,L1,EMP_0027,Remote - India,18.8,5,2024-01-21,2025-05-29,False,Hire
+636,EMP_0345,Deepika,Joshi,deepika.joshi@company.com,Sales,Business Development Rep,L1,EMP_0013,Mumbai Office,36.93,3,2023-01-31,,True,Hire
+637,EMP_0346,Vijay,Bhat,vijay.bhat@company.com,HR,HR Business Partner,L1,EMP_0015,Remote - India,63.44,3,2024-01-19,,True,Hire
+638,EMP_0347,Shweta,Rao,shweta.rao@company.com,Engineering,Software Engineer,L1,EMP_0008,Remote - India,58.58,3,2024-10-04,,True,Hire
+639,EMP_0348,Anil,Rao,anil.rao@company.com,Customer Success,Support Engineer,L1,EMP_0014,Mumbai Office,71.24,2,2024-07-21,2026-01-14,False,Hire
+640,EMP_0349,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Specialist,L1,EMP_0016,Bengaluru Office,43.09,3,2023-01-03,2024-10-03,False,Hire
+641,EMP_0350,Sandeep,Patil,sandeep.patil@company.com,Sales,Account Executive,L1,EMP_0007,Remote - India,51.84,5,2021-09-27,,True,Hire
+642,EMP_0351,Shweta,Gowda,shweta.gowda@company.com,HR,HR Business Partner,L1,EMP_0007,Hubballi Office,55.08,3,2024-10-07,,True,Hire
+643,EMP_0352,Roopa,Desai,roopa.desai@company.com,Engineering,Tech Lead,L1,EMP_0009,Hubballi Office,80.45,4,2023-09-30,2024-07-27,False,Hire
+644,EMP_0352,Roopa,Desai,roopa.desai@company.com,Engineering,Tech Lead,L2,EMP_0009,Hubballi Office,87.37,3,2024-07-28,2025-12-01,False,Promotion
+645,EMP_0352,Roopa,Desai,roopa.desai@company.com,Engineering,Tech Lead,L3,EMP_0009,Hubballi Office,93.05,3,2025-12-02,,True,Promotion
+646,EMP_0353,Kavitha,Joshi,kavitha.joshi@company.com,Engineering,Tech Lead,L1,EMP_0015,Mumbai Office,15.3,5,2022-08-05,2023-08-28,False,Hire
+647,EMP_0353,Kavitha,Joshi,kavitha.joshi@company.com,Engineering,Tech Lead,L2,EMP_0015,Mumbai Office,22.39,4,2023-08-29,2024-07-20,False,Promotion
+648,EMP_0353,Kavitha,Joshi,kavitha.joshi@company.com,Engineering,Tech Lead,L3,EMP_0015,Mumbai Office,35.69,4,2024-07-21,,True,Promotion
+649,EMP_0354,Shweta,Bhat,shweta.bhat@company.com,HR,HR Business Partner,L1,EMP_0017,Hubballi Office,45.87,3,2023-04-22,,True,Hire
+650,EMP_0355,Priyanka,Rao,priyanka.rao@company.com,Sales,Sales Manager,L1,EMP_0013,Bengaluru Office,62.05,3,2024-08-19,2024-12-15,False,Hire
+651,EMP_0356,Karthik,Kulkarni,karthik.kulkarni@company.com,Engineering,Tech Lead,L1,EMP_0028,Remote - India,44.84,3,2022-03-09,2023-09-17,False,Hire
+652,EMP_0356,Karthik,Kulkarni,karthik.kulkarni@company.com,Engineering,Tech Lead,L2,EMP_0028,Remote - India,57.96,2,2023-09-18,,True,Promotion
+653,EMP_0357,Anil,Desai,anil.desai@company.com,Finance,Finance Controller,L1,EMP_0018,Remote - India,30.7,5,2025-01-30,2025-12-08,False,Hire
+654,EMP_0357,Anil,Desai,anil.desai@company.com,Finance,Finance Controller,L2,EMP_0018,Remote - India,40.88,5,2025-12-09,2027-05-22,False,Promotion
+655,EMP_0357,Anil,Desai,anil.desai@company.com,Finance,Finance Controller,L3,EMP_0018,Remote - India,45.96,5,2027-05-23,,True,Promotion
+656,EMP_0358,Sandeep,Shetty,sandeep.shetty@company.com,Finance,Accountant,L1,EMP_0033,Hubballi Office,28.1,5,2024-09-14,2025-03-06,False,Hire
+657,EMP_0359,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L1,EMP_0042,Hubballi Office,54.34,2,2024-01-26,2025-06-06,False,Hire
+658,EMP_0359,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L2,EMP_0042,Hubballi Office,62.47,2,2025-06-07,2026-12-28,False,Promotion
+659,EMP_0359,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L3,EMP_0042,Hubballi Office,73.33,3,2026-12-29,,True,Promotion
+660,EMP_0360,Karthik,Shetty,karthik.shetty@company.com,Engineering,Software Engineer,L1,EMP_0038,Hubballi Office,45.28,4,2022-08-26,2023-06-30,False,Hire
+661,EMP_0360,Karthik,Shetty,karthik.shetty@company.com,Engineering,Software Engineer,L2,EMP_0038,Hubballi Office,60.28,4,2023-07-01,,True,Promotion
+662,EMP_0361,Sandeep,Desai,sandeep.desai@company.com,HR,HR Business Partner,L1,EMP_0030,Bengaluru Office,40.27,3,2025-03-25,2026-10-26,False,Hire
+663,EMP_0361,Sandeep,Desai,sandeep.desai@company.com,HR,HR Business Partner,L2,EMP_0030,Bengaluru Office,51.16,3,2026-10-27,,True,Promotion
+664,EMP_0362,Sandeep,Rao,sandeep.rao@company.com,Customer Success,CS Manager,L1,EMP_0004,Bengaluru Office,84.83,5,2021-12-02,2022-10-07,False,Hire
+665,EMP_0362,Sandeep,Rao,sandeep.rao@company.com,Customer Success,CS Manager,L2,EMP_0004,Bengaluru Office,94.24,5,2022-10-08,,True,Promotion
+666,EMP_0363,Karthik,Gowda,karthik.gowda@company.com,Finance,Financial Analyst,L1,EMP_0004,Mumbai Office,57.56,5,2024-03-06,2025-04-22,False,Hire
+667,EMP_0363,Karthik,Gowda,karthik.gowda@company.com,Finance,Financial Analyst,L2,EMP_0004,Mumbai Office,69.19,5,2025-04-23,,True,Promotion
+668,EMP_0364,Karthik,Desai,karthik.desai@company.com,Engineering,Senior Developer,L1,EMP_0031,Hubballi Office,16.67,2,2021-07-01,2022-01-07,False,Hire
+669,EMP_0365,Deepika,Rao,deepika.rao@company.com,Engineering,Senior Developer,L1,EMP_0033,Hubballi Office,83.85,2,2021-06-25,2022-11-13,False,Hire
+670,EMP_0366,Anil,Rao,anil.rao@company.com,Sales,Account Executive,L1,EMP_0031,Bengaluru Office,81.07,5,2023-05-01,2024-11-06,False,Hire
+671,EMP_0366,Anil,Rao,anil.rao@company.com,Sales,Account Executive,L2,EMP_0031,Bengaluru Office,87.9,4,2024-11-07,2025-10-05,False,Promotion
+672,EMP_0366,Anil,Rao,anil.rao@company.com,Sales,Account Executive,L3,EMP_0031,Bengaluru Office,99.0,4,2025-10-06,,True,Promotion
+673,EMP_0367,Vijay,Kumbari,vijay.kumbari@company.com,Finance,Finance Controller,L1,EMP_0050,Remote - India,51.45,2,2024-07-11,2025-11-19,False,Hire
+674,EMP_0368,Manjunath,Bhat,manjunath.bhat@company.com,Engineering,Software Engineer,L1,EMP_0026,Hubballi Office,91.3,2,2021-08-21,,True,Hire
+675,EMP_0369,Roopa,Desai,roopa.desai@company.com,Engineering,Tech Lead,L1,EMP_0009,Hubballi Office,85.29,4,2024-02-16,,True,Hire
+676,EMP_0370,Deepika,Kulkarni,deepika.kulkarni@company.com,Finance,Accountant,L1,EMP_0025,Mumbai Office,51.75,3,2023-01-02,,True,Hire
+677,EMP_0371,Priyanka,Gowda,priyanka.gowda@company.com,Sales,Sales Manager,L1,EMP_0032,Hubballi Office,50.84,5,2022-03-20,,True,Hire
+678,EMP_0372,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L1,EMP_0042,Bengaluru Office,80.59,3,2023-08-13,2024-10-29,False,Hire
+679,EMP_0372,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L2,EMP_0042,Bengaluru Office,95.26,3,2024-10-30,2026-02-01,False,Promotion
+680,EMP_0372,Kavitha,Kumbari,kavitha.kumbari@company.com,Marketing,Marketing Manager,L3,EMP_0042,Bengaluru Office,99.0,2,2026-02-02,,True,Promotion
+681,EMP_0373,Roopa,Bhat,roopa.bhat@company.com,HR,Talent Acquisition Specialist,L1,EMP_0002,Bengaluru Office,86.62,2,2023-08-11,,True,Hire
+682,EMP_0374,Roopa,Gowda,roopa.gowda@company.com,Sales,Sales Manager,L1,EMP_0041,Bengaluru Office,21.0,3,2024-06-04,2025-12-22,False,Hire
+683,EMP_0374,Roopa,Gowda,roopa.gowda@company.com,Sales,Sales Manager,L2,EMP_0041,Bengaluru Office,34.58,3,2025-12-23,2026-12-22,False,Promotion
+684,EMP_0374,Roopa,Gowda,roopa.gowda@company.com,Sales,Sales Manager,L3,EMP_0041,Bengaluru Office,40.47,4,2026-12-23,,True,Promotion
+685,EMP_0375,Karthik,Desai,karthik.desai@company.com,HR,Talent Acquisition Specialist,L1,EMP_0029,Mumbai Office,54.09,5,2023-12-04,2025-02-24,False,Hire
+686,EMP_0375,Karthik,Desai,karthik.desai@company.com,HR,Talent Acquisition Specialist,L2,EMP_0029,Mumbai Office,62.12,5,2025-02-25,2026-09-09,False,Promotion
+687,EMP_0375,Karthik,Desai,karthik.desai@company.com,HR,Talent Acquisition Specialist,L3,EMP_0029,Mumbai Office,69.27,5,2026-09-10,,True,Promotion
+688,EMP_0376,Shweta,Shetty,shweta.shetty@company.com,Sales,Sales Manager,L1,EMP_0035,Bengaluru Office,77.56,5,2023-12-06,2025-11-26,False,Hire
+689,EMP_0377,Sandeep,Kumbari,sandeep.kumbari@company.com,Engineering,QA Analyst,L1,EMP_0010,Mumbai Office,16.77,5,2024-12-30,2026-07-10,False,Hire
+690,EMP_0377,Sandeep,Kumbari,sandeep.kumbari@company.com,Engineering,QA Analyst,L2,EMP_0010,Mumbai Office,27.71,4,2026-07-11,2027-08-27,False,Promotion
+691,EMP_0377,Sandeep,Kumbari,sandeep.kumbari@company.com,Engineering,QA Analyst,L3,EMP_0010,Mumbai Office,42.27,4,2027-08-28,,True,Promotion
+692,EMP_0378,Roopa,Joshi,roopa.joshi@company.com,Finance,Finance Controller,L1,EMP_0036,Hubballi Office,59.52,2,2024-03-02,2025-04-05,False,Hire
+693,EMP_0378,Roopa,Joshi,roopa.joshi@company.com,Finance,Finance Controller,L2,EMP_0036,Hubballi Office,73.75,1,2025-04-06,,True,Promotion
+694,EMP_0379,Roopa,Patil,roopa.patil@company.com,Customer Success,CS Specialist,L1,EMP_0032,Remote - India,94.02,3,2024-08-19,,True,Hire
+695,EMP_0380,Deepika,Bhat,deepika.bhat@company.com,Finance,Finance Controller,L1,EMP_0018,Bengaluru Office,53.96,3,2025-04-29,2026-04-06,False,Hire
+696,EMP_0380,Deepika,Bhat,deepika.bhat@company.com,Finance,Finance Controller,L2,EMP_0018,Bengaluru Office,61.06,2,2026-04-07,2027-02-20,False,Promotion
+697,EMP_0380,Deepika,Bhat,deepika.bhat@company.com,Finance,Finance Controller,L3,EMP_0018,Bengaluru Office,69.98,2,2027-02-21,,True,Promotion
+698,EMP_0381,Sandeep,Bhat,sandeep.bhat@company.com,HR,Talent Acquisition Specialist,L1,EMP_0024,Mumbai Office,73.8,3,2024-04-04,2025-06-01,False,Hire
+699,EMP_0381,Sandeep,Bhat,sandeep.bhat@company.com,HR,Talent Acquisition Specialist,L2,EMP_0024,Mumbai Office,88.76,2,2025-06-02,,True,Promotion
+700,EMP_0382,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Specialist,L1,EMP_0041,Bengaluru Office,76.54,2,2023-09-01,2025-04-10,False,Hire
+701,EMP_0382,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Specialist,L2,EMP_0041,Bengaluru Office,84.36,1,2025-04-11,2026-07-11,False,Promotion
+702,EMP_0382,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Specialist,L3,EMP_0041,Bengaluru Office,92.49,2,2026-07-12,,True,Promotion
+703,EMP_0383,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Manager,L1,EMP_0005,Bengaluru Office,79.9,4,2022-12-20,2024-04-14,False,Hire
+704,EMP_0383,Shweta,Desai,shweta.desai@company.com,Customer Success,CS Manager,L2,EMP_0005,Bengaluru Office,87.65,4,2024-04-15,,True,Promotion
+705,EMP_0384,Priyanka,Desai,priyanka.desai@company.com,Finance,Accountant,L1,EMP_0012,Hubballi Office,94.73,3,2024-03-13,2025-06-02,False,Hire
+706,EMP_0384,Priyanka,Desai,priyanka.desai@company.com,Finance,Accountant,L2,EMP_0012,Hubballi Office,99.0,3,2025-06-03,,True,Promotion
+707,EMP_0385,Priyanka,Rao,priyanka.rao@company.com,Sales,Account Executive,L1,EMP_0021,Hubballi Office,94.42,4,2023-12-28,,True,Hire
+708,EMP_0386,Priyanka,Gowda,priyanka.gowda@company.com,HR,Talent Acquisition Specialist,L1,EMP_0023,Bengaluru Office,29.28,3,2025-05-22,,True,Hire
+709,EMP_0387,Kavitha,Gowda,kavitha.gowda@company.com,Finance,Accountant,L1,EMP_0026,Hubballi Office,93.4,5,2024-02-29,2025-06-08,False,Hire
+710,EMP_0387,Kavitha,Gowda,kavitha.gowda@company.com,Finance,Accountant,L2,EMP_0026,Hubballi Office,99.0,4,2025-06-09,2026-11-09,False,Promotion
+711,EMP_0387,Kavitha,Gowda,kavitha.gowda@company.com,Finance,Accountant,L3,EMP_0026,Hubballi Office,99.0,4,2026-11-10,,True,Promotion
+712,EMP_0388,Deepika,Gowda,deepika.gowda@company.com,HR,HR Business Partner,L1,EMP_0047,Mumbai Office,37.47,2,2024-06-24,2026-02-03,False,Hire
+713,EMP_0388,Deepika,Gowda,deepika.gowda@company.com,HR,HR Business Partner,L2,EMP_0047,Mumbai Office,46.56,3,2026-02-04,,True,Promotion
+714,EMP_0389,Sandeep,Bhat,sandeep.bhat@company.com,Engineering,QA Analyst,L1,EMP_0006,Hubballi Office,26.14,5,2022-11-14,,True,Hire
+715,EMP_0390,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,Software Engineer,L1,EMP_0011,Hubballi Office,57.53,4,2024-04-28,2025-10-09,False,Hire
+716,EMP_0390,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,Software Engineer,L2,EMP_0011,Hubballi Office,71.81,5,2025-10-10,,True,Promotion
+717,EMP_0391,Roopa,Rao,roopa.rao@company.com,Sales,Sales Manager,L1,EMP_0004,Hubballi Office,38.82,2,2023-01-21,2024-09-24,False,Hire
+718,EMP_0392,Deepika,Rao,deepika.rao@company.com,Marketing,SEO Executive,L1,EMP_0011,Hubballi Office,79.08,2,2023-01-25,,True,Hire
+719,EMP_0393,Kavitha,Kumbari,kavitha.kumbari@company.com,Sales,Sales Manager,L1,EMP_0012,Mumbai Office,43.59,5,2023-03-14,2024-08-03,False,Hire
+720,EMP_0393,Kavitha,Kumbari,kavitha.kumbari@company.com,Sales,Sales Manager,L2,EMP_0012,Mumbai Office,56.77,5,2024-08-04,2025-10-04,False,Promotion
+721,EMP_0393,Kavitha,Kumbari,kavitha.kumbari@company.com,Sales,Sales Manager,L3,EMP_0012,Mumbai Office,67.48,4,2025-10-05,,True,Promotion
+722,EMP_0394,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Sales,Account Executive,L1,EMP_0039,Hubballi Office,81.51,3,2022-07-15,,True,Hire
+723,EMP_0395,Shweta,Rao,shweta.rao@company.com,HR,HR Business Partner,L1,EMP_0006,Mumbai Office,86.45,5,2022-08-29,2023-12-06,False,Hire
+724,EMP_0395,Shweta,Rao,shweta.rao@company.com,HR,HR Business Partner,L2,EMP_0006,Mumbai Office,96.69,5,2023-12-07,2024-11-25,False,Promotion
+725,EMP_0395,Shweta,Rao,shweta.rao@company.com,HR,HR Business Partner,L3,EMP_0006,Mumbai Office,99.0,5,2024-11-26,,True,Promotion
+726,EMP_0396,Deepika,Patil,deepika.patil@company.com,HR,HR Business Partner,L1,EMP_0038,Bengaluru Office,94.51,4,2025-02-20,2026-05-23,False,Hire
+727,EMP_0396,Deepika,Patil,deepika.patil@company.com,HR,HR Business Partner,L2,EMP_0038,Bengaluru Office,99.0,5,2026-05-24,,True,Promotion
+728,EMP_0397,Karthik,Joshi,karthik.joshi@company.com,Sales,Business Development Rep,L1,EMP_0025,Hubballi Office,89.48,3,2023-11-02,,True,Hire
+729,EMP_0398,Anil,Gowda,anil.gowda@company.com,Finance,Accountant,L1,EMP_0001,Bengaluru Office,37.87,4,2024-12-22,,True,Hire
+730,EMP_0399,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Tech Lead,L1,EMP_0008,Mumbai Office,61.5,4,2023-08-27,2024-10-06,False,Hire
+731,EMP_0399,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Tech Lead,L2,EMP_0008,Mumbai Office,73.53,4,2024-10-07,2026-03-26,False,Promotion
+732,EMP_0399,Vijay,Nayaka,vijay.nayaka@company.com,Engineering,Tech Lead,L3,EMP_0008,Mumbai Office,80.21,4,2026-03-27,,True,Promotion
+733,EMP_0400,Kavitha,Gowda,kavitha.gowda@company.com,Customer Success,CS Specialist,L1,EMP_0050,Mumbai Office,22.46,5,2022-09-05,,True,Hire
+734,EMP_0401,Karthik,Shetty,karthik.shetty@company.com,Sales,Business Development Rep,L1,EMP_0024,Remote - India,79.68,5,2022-12-29,2024-04-09,False,Hire
+735,EMP_0401,Karthik,Shetty,karthik.shetty@company.com,Sales,Business Development Rep,L2,EMP_0024,Remote - India,93.33,4,2024-04-10,,True,Promotion
+736,EMP_0402,Karthik,Rao,karthik.rao@company.com,Sales,Sales Manager,L1,EMP_0035,Bengaluru Office,64.08,4,2023-12-25,2025-01-20,False,Hire
+737,EMP_0402,Karthik,Rao,karthik.rao@company.com,Sales,Sales Manager,L2,EMP_0035,Bengaluru Office,70.53,4,2025-01-21,,True,Promotion
+738,EMP_0403,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,QA Analyst,L1,EMP_0010,Mumbai Office,41.66,2,2024-06-10,2025-05-23,False,Hire
+739,EMP_0403,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,QA Analyst,L2,EMP_0010,Mumbai Office,50.53,3,2025-05-24,2026-08-05,False,Promotion
+740,EMP_0403,Shweta,Kulkarni,shweta.kulkarni@company.com,Engineering,QA Analyst,L3,EMP_0010,Mumbai Office,63.22,4,2026-08-06,,True,Promotion
+741,EMP_0404,Deepika,Kulkarni,deepika.kulkarni@company.com,Sales,Sales Manager,L1,EMP_0015,Bengaluru Office,62.41,2,2023-09-28,2024-03-15,False,Hire
+742,EMP_0405,Shweta,Kumbari,shweta.kumbari@company.com,Customer Success,CS Manager,L1,EMP_0033,Bengaluru Office,28.51,5,2023-01-11,,True,Hire
+743,EMP_0406,Deepika,Rao,deepika.rao@company.com,Engineering,Tech Lead,L1,EMP_0017,Bengaluru Office,71.91,4,2022-02-11,,True,Hire
+744,EMP_0407,Roopa,Kumbari,roopa.kumbari@company.com,Marketing,Content Specialist,L1,EMP_0035,Hubballi Office,93.3,4,2024-08-10,,True,Hire
+745,EMP_0408,Anil,Desai,anil.desai@company.com,Customer Success,CS Specialist,L1,EMP_0026,Hubballi Office,54.8,3,2025-06-15,2027-01-02,False,Hire
+746,EMP_0408,Anil,Desai,anil.desai@company.com,Customer Success,CS Specialist,L2,EMP_0026,Hubballi Office,68.27,4,2027-01-03,2027-11-09,False,Promotion
+747,EMP_0408,Anil,Desai,anil.desai@company.com,Customer Success,CS Specialist,L3,EMP_0026,Hubballi Office,82.1,3,2027-11-10,,True,Promotion
+748,EMP_0409,Deepika,Kumbari,deepika.kumbari@company.com,Engineering,Senior Developer,L1,EMP_0016,Hubballi Office,80.26,3,2022-12-28,,True,Hire
+749,EMP_0410,Shweta,Bhat,shweta.bhat@company.com,Finance,Finance Controller,L1,EMP_0001,Remote - India,57.81,2,2024-01-11,2024-11-21,False,Hire
+750,EMP_0410,Shweta,Bhat,shweta.bhat@company.com,Finance,Finance Controller,L2,EMP_0001,Remote - India,71.43,3,2024-11-22,2025-11-29,False,Promotion
+751,EMP_0410,Shweta,Bhat,shweta.bhat@company.com,Finance,Finance Controller,L3,EMP_0001,Remote - India,78.12,2,2025-11-30,,True,Promotion
+752,EMP_0411,Sandeep,Kulkarni,sandeep.kulkarni@company.com,Finance,Financial Analyst,L1,EMP_0018,Hubballi Office,35.89,3,2023-11-14,2025-02-23,False,Hire
+753,EMP_0412,Sandeep,Kulkarni,sandeep.kulkarni@company.com,HR,Talent Acquisition Specialist,L1,EMP_0019,Remote - India,45.97,2,2022-02-28,2023-02-10,False,Hire
+754,EMP_0412,Sandeep,Kulkarni,sandeep.kulkarni@company.com,HR,Talent Acquisition Specialist,L2,EMP_0019,Remote - India,52.34,1,2023-02-11,2024-08-11,False,Promotion
+755,EMP_0412,Sandeep,Kulkarni,sandeep.kulkarni@company.com,HR,Talent Acquisition Specialist,L3,EMP_0019,Remote - India,58.44,2,2024-08-12,,True,Promotion
+756,EMP_0413,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,Tech Lead,L1,EMP_0018,Bengaluru Office,88.73,3,2021-10-16,2023-01-11,False,Hire
+757,EMP_0413,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,Tech Lead,L2,EMP_0018,Bengaluru Office,97.39,2,2023-01-12,2024-04-08,False,Promotion
+758,EMP_0413,Priyanka,Gowda,priyanka.gowda@company.com,Engineering,Tech Lead,L3,EMP_0018,Bengaluru Office,99.0,1,2024-04-09,,True,Promotion
+759,EMP_0414,Manjunath,Kumbari,manjunath.kumbari@company.com,Engineering,Tech Lead,L1,EMP_0003,Hubballi Office,66.07,2,2022-11-19,2023-11-16,False,Hire
+760,EMP_0414,Manjunath,Kumbari,manjunath.kumbari@company.com,Engineering,Tech Lead,L2,EMP_0003,Hubballi Office,71.43,2,2023-11-17,,True,Promotion
+761,EMP_0415,Roopa,Patil,roopa.patil@company.com,HR,HR Associate,L1,EMP_0043,Hubballi Office,79.29,3,2023-12-22,2025-05-25,False,Hire
+762,EMP_0415,Roopa,Patil,roopa.patil@company.com,HR,HR Associate,L2,EMP_0043,Hubballi Office,87.83,4,2025-05-26,,True,Promotion
+763,EMP_0416,Roopa,Rao,roopa.rao@company.com,Customer Success,CS Manager,L1,EMP_0040,Hubballi Office,92.9,2,2024-05-05,2025-04-23,False,Hire
+764,EMP_0416,Roopa,Rao,roopa.rao@company.com,Customer Success,CS Manager,L2,EMP_0040,Hubballi Office,99.0,3,2025-04-24,2026-05-27,False,Promotion
+765,EMP_0416,Roopa,Rao,roopa.rao@company.com,Customer Success,CS Manager,L3,EMP_0040,Hubballi Office,99.0,3,2026-05-28,,True,Promotion
+766,EMP_0417,Anil,Desai,anil.desai@company.com,HR,Talent Acquisition Specialist,L1,EMP_0045,Bengaluru Office,36.62,5,2023-06-27,2024-11-28,False,Hire
+767,EMP_0417,Anil,Desai,anil.desai@company.com,HR,Talent Acquisition Specialist,L2,EMP_0045,Bengaluru Office,48.43,5,2024-11-29,,True,Promotion
+768,EMP_0418,Shweta,Gowda,shweta.gowda@company.com,HR,HR Associate,L1,EMP_0040,Remote - India,89.37,2,2024-10-19,2025-10-06,False,Hire
+769,EMP_0418,Shweta,Gowda,shweta.gowda@company.com,HR,HR Associate,L2,EMP_0040,Remote - India,99.0,1,2025-10-07,2026-12-18,False,Promotion
+770,EMP_0418,Shweta,Gowda,shweta.gowda@company.com,HR,HR Associate,L3,EMP_0040,Remote - India,99.0,1,2026-12-19,,True,Promotion
+771,EMP_0419,Anil,Patil,anil.patil@company.com,Sales,Sales Manager,L1,EMP_0040,Bengaluru Office,31.25,3,2023-06-25,,True,Hire
+772,EMP_0420,Kavitha,Gowda,kavitha.gowda@company.com,Sales,Business Development Rep,L1,EMP_0037,Remote - India,79.86,4,2023-01-06,,True,Hire
+773,EMP_0421,Sandeep,Joshi,sandeep.joshi@company.com,Engineering,Software Engineer,L1,EMP_0005,Mumbai Office,81.84,2,2024-12-08,2025-10-08,False,Hire
+774,EMP_0421,Sandeep,Joshi,sandeep.joshi@company.com,Engineering,Software Engineer,L2,EMP_0005,Mumbai Office,95.3,1,2025-10-09,2026-12-08,False,Promotion
+775,EMP_0421,Sandeep,Joshi,sandeep.joshi@company.com,Engineering,Software Engineer,L3,EMP_0005,Mumbai Office,99.0,2,2026-12-09,,True,Promotion
+776,EMP_0422,Anil,Bhat,anil.bhat@company.com,Customer Success,Support Engineer,L1,EMP_0015,Remote - India,50.07,5,2024-11-09,2026-03-29,False,Hire
+777,EMP_0422,Anil,Bhat,anil.bhat@company.com,Customer Success,Support Engineer,L2,EMP_0015,Remote - India,56.84,5,2026-03-30,,True,Promotion
+778,EMP_0423,Roopa,Shetty,roopa.shetty@company.com,HR,HR Associate,L1,EMP_0012,Bengaluru Office,70.94,4,2025-05-20,2026-11-17,False,Hire
+779,EMP_0423,Roopa,Shetty,roopa.shetty@company.com,HR,HR Associate,L2,EMP_0012,Bengaluru Office,82.67,5,2026-11-18,,True,Promotion
+780,EMP_0424,Deepika,Bhat,deepika.bhat@company.com,Engineering,QA Analyst,L1,EMP_0032,Remote - India,16.1,3,2024-11-17,2026-03-08,False,Hire
+781,EMP_0424,Deepika,Bhat,deepika.bhat@company.com,Engineering,QA Analyst,L2,EMP_0032,Remote - India,26.18,2,2026-03-09,2027-03-20,False,Promotion
+782,EMP_0424,Deepika,Bhat,deepika.bhat@company.com,Engineering,QA Analyst,L3,EMP_0032,Remote - India,40.12,3,2027-03-21,,True,Promotion
+783,EMP_0425,Sandeep,Rao,sandeep.rao@company.com,Finance,Accountant,L1,EMP_0041,Mumbai Office,78.82,3,2023-02-26,2024-05-10,False,Hire
+784,EMP_0425,Sandeep,Rao,sandeep.rao@company.com,Finance,Accountant,L2,EMP_0041,Mumbai Office,91.01,4,2024-05-11,,True,Promotion
+785,EMP_0426,Deepika,Shetty,deepika.shetty@company.com,Marketing,SEO Executive,L1,EMP_0001,Bengaluru Office,62.04,3,2025-03-09,2026-06-09,False,Hire
+786,EMP_0426,Deepika,Shetty,deepika.shetty@company.com,Marketing,SEO Executive,L2,EMP_0001,Bengaluru Office,71.81,2,2026-06-10,2027-06-20,False,Promotion
+787,EMP_0426,Deepika,Shetty,deepika.shetty@company.com,Marketing,SEO Executive,L3,EMP_0001,Bengaluru Office,82.59,1,2027-06-21,,True,Promotion
+788,EMP_0427,Vijay,Patil,vijay.patil@company.com,Finance,Accountant,L1,EMP_0002,Remote - India,79.0,3,2021-12-06,2023-06-03,False,Hire
+789,EMP_0427,Vijay,Patil,vijay.patil@company.com,Finance,Accountant,L2,EMP_0002,Remote - India,90.54,2,2023-06-04,,True,Promotion
+790,EMP_0428,Roopa,Nayaka,roopa.nayaka@company.com,Customer Success,CS Specialist,L1,EMP_0012,Mumbai Office,69.99,5,2023-04-09,2024-07-06,False,Hire
+791,EMP_0429,Priyanka,Nayaka,priyanka.nayaka@company.com,Marketing,SEO Executive,L1,EMP_0039,Mumbai Office,62.6,3,2023-06-06,2024-08-09,False,Hire
+792,EMP_0429,Priyanka,Nayaka,priyanka.nayaka@company.com,Marketing,SEO Executive,L2,EMP_0039,Mumbai Office,68.34,4,2024-08-10,,True,Promotion
+793,EMP_0430,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L1,EMP_0045,Remote - India,17.89,2,2022-10-31,2023-03-30,False,Hire
+794,EMP_0431,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L1,EMP_0006,Hubballi Office,49.4,3,2023-09-01,2025-02-22,False,Hire
+795,EMP_0431,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L2,EMP_0006,Hubballi Office,54.48,3,2025-02-23,2026-01-13,False,Promotion
+796,EMP_0431,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L3,EMP_0006,Hubballi Office,60.56,4,2026-01-14,,True,Promotion
+797,EMP_0432,Priyanka,Nayaka,priyanka.nayaka@company.com,Finance,Financial Analyst,L1,EMP_0003,Hubballi Office,52.79,3,2024-01-10,2025-05-25,False,Hire
+798,EMP_0432,Priyanka,Nayaka,priyanka.nayaka@company.com,Finance,Financial Analyst,L2,EMP_0003,Hubballi Office,59.1,3,2025-05-26,2026-11-06,False,Promotion
+799,EMP_0432,Priyanka,Nayaka,priyanka.nayaka@company.com,Finance,Financial Analyst,L3,EMP_0003,Hubballi Office,69.3,3,2026-11-07,,True,Promotion
+800,EMP_0433,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Customer Success,CS Specialist,L1,EMP_0007,Bengaluru Office,28.7,4,2025-01-20,2026-07-28,False,Hire
+801,EMP_0433,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Customer Success,CS Specialist,L2,EMP_0007,Bengaluru Office,39.68,3,2026-07-29,2027-07-12,False,Promotion
+802,EMP_0433,Manjunath,Kulkarni,manjunath.kulkarni@company.com,Customer Success,CS Specialist,L3,EMP_0007,Bengaluru Office,45.06,3,2027-07-13,,True,Promotion
+803,EMP_0434,Anil,Rao,anil.rao@company.com,Finance,Accountant,L1,EMP_0031,Bengaluru Office,92.35,2,2021-11-30,2022-11-03,False,Hire
+804,EMP_0434,Anil,Rao,anil.rao@company.com,Finance,Accountant,L2,EMP_0031,Bengaluru Office,99.0,3,2022-11-04,2024-03-27,False,Promotion
+805,EMP_0434,Anil,Rao,anil.rao@company.com,Finance,Accountant,L3,EMP_0031,Bengaluru Office,99.0,4,2024-03-28,,True,Promotion
+806,EMP_0435,Roopa,Rao,roopa.rao@company.com,Customer Success,Support Engineer,L1,EMP_0043,Mumbai Office,42.78,2,2021-10-07,2022-08-16,False,Hire
+807,EMP_0435,Roopa,Rao,roopa.rao@company.com,Customer Success,Support Engineer,L2,EMP_0043,Mumbai Office,57.29,2,2022-08-17,2023-11-13,False,Promotion
+808,EMP_0435,Roopa,Rao,roopa.rao@company.com,Customer Success,Support Engineer,L3,EMP_0043,Mumbai Office,63.78,2,2023-11-14,,True,Promotion
+809,EMP_0436,Priyanka,Bhat,priyanka.bhat@company.com,HR,HR Associate,L1,EMP_0018,Mumbai Office,16.05,2,2022-11-07,2024-04-07,False,Hire
+810,EMP_0436,Priyanka,Bhat,priyanka.bhat@company.com,HR,HR Associate,L2,EMP_0018,Mumbai Office,26.69,1,2024-04-08,,True,Promotion
+811,EMP_0437,Deepika,Joshi,deepika.joshi@company.com,Customer Success,CS Manager,L1,EMP_0001,Hubballi Office,32.3,4,2025-03-31,,True,Hire
+812,EMP_0438,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L1,EMP_0015,Remote - India,63.61,2,2024-01-16,2024-12-17,False,Hire
+813,EMP_0438,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L2,EMP_0015,Remote - India,78.26,2,2024-12-18,2026-07-14,False,Promotion
+814,EMP_0438,Deepika,Kulkarni,deepika.kulkarni@company.com,Marketing,Marketing Manager,L3,EMP_0015,Remote - India,90.41,1,2026-07-15,,True,Promotion
+815,EMP_0439,Deepika,Gowda,deepika.gowda@company.com,Sales,Sales Manager,L1,EMP_0029,Remote - India,45.76,2,2023-03-17,2024-06-25,False,Hire
+816,EMP_0439,Deepika,Gowda,deepika.gowda@company.com,Sales,Sales Manager,L2,EMP_0029,Remote - India,57.91,1,2024-06-26,,True,Promotion
+817,EMP_0440,Manjunath,Desai,manjunath.desai@company.com,Finance,Accountant,L1,EMP_0047,Bengaluru Office,41.62,3,2023-01-11,,True,Hire
+818,EMP_0441,Manjunath,Rao,manjunath.rao@company.com,Finance,Finance Controller,L1,EMP_0037,Bengaluru Office,27.63,4,2025-02-28,2025-08-14,False,Hire
+819,EMP_0442,Kavitha,Joshi,kavitha.joshi@company.com,Sales,Sales Manager,L1,EMP_0004,Bengaluru Office,51.9,2,2023-05-09,2023-09-20,False,Hire
+820,EMP_0443,Roopa,Desai,roopa.desai@company.com,Customer Success,Support Engineer,L1,EMP_0008,Remote - India,53.95,4,2021-09-19,2022-12-14,False,Hire
+821,EMP_0443,Roopa,Desai,roopa.desai@company.com,Customer Success,Support Engineer,L2,EMP_0008,Remote - India,66.43,3,2022-12-15,2024-04-27,False,Promotion
+822,EMP_0443,Roopa,Desai,roopa.desai@company.com,Customer Success,Support Engineer,L3,EMP_0008,Remote - India,76.7,4,2024-04-28,,True,Promotion
+823,EMP_0444,Priyanka,Kumbari,priyanka.kumbari@company.com,Engineering,Tech Lead,L1,EMP_0009,Hubballi Office,22.91,3,2024-09-28,,True,Hire
+824,EMP_0445,Shweta,Joshi,shweta.joshi@company.com,Marketing,SEO Executive,L1,EMP_0025,Hubballi Office,35.17,4,2024-12-24,2026-02-03,False,Hire
+825,EMP_0445,Shweta,Joshi,shweta.joshi@company.com,Marketing,SEO Executive,L2,EMP_0025,Hubballi Office,43.98,4,2026-02-04,2027-05-27,False,Promotion
+826,EMP_0445,Shweta,Joshi,shweta.joshi@company.com,Marketing,SEO Executive,L3,EMP_0025,Hubballi Office,57.98,3,2027-05-28,,True,Promotion
+827,EMP_0446,Vijay,Gowda,vijay.gowda@company.com,Sales,Sales Manager,L1,EMP_0035,Hubballi Office,73.19,3,2024-06-21,2025-02-03,False,Hire
+828,EMP_0447,Priyanka,Bhat,priyanka.bhat@company.com,Sales,Business Development Rep,L1,EMP_0008,Hubballi Office,80.57,5,2022-09-02,2023-09-13,False,Hire
+829,EMP_0448,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L1,EMP_0001,Hubballi Office,44.79,2,2022-12-19,2023-10-28,False,Hire
+830,EMP_0448,Priyanka,Gowda,priyanka.gowda@company.com,HR,HR Business Partner,L2,EMP_0001,Hubballi Office,49.84,2,2023-10-29,,True,Promotion
+831,EMP_0449,Sandeep,Bhat,sandeep.bhat@company.com,Marketing,Marketing Manager,L1,EMP_0030,Bengaluru Office,41.97,4,2024-08-29,,True,Hire
+832,EMP_0450,Manjunath,Kumbari,manjunath.kumbari@company.com,Customer Success,Support Engineer,L1,EMP_0012,Mumbai Office,46.43,4,2024-11-25,2026-05-19,False,Hire
+833,EMP_0450,Manjunath,Kumbari,manjunath.kumbari@company.com,Customer Success,Support Engineer,L2,EMP_0012,Mumbai Office,57.28,4,2026-05-20,,True,Promotion
+834,EMP_0451,Deepika,Joshi,deepika.joshi@company.com,Sales,Business Development Rep,L1,EMP_0042,Mumbai Office,73.27,5,2023-12-18,2024-11-03,False,Hire
+835,EMP_0451,Deepika,Joshi,deepika.joshi@company.com,Sales,Business Development Rep,L2,EMP_0042,Mumbai Office,79.37,4,2024-11-04,,True,Promotion
+836,EMP_0452,Vijay,Desai,vijay.desai@company.com,Engineering,QA Analyst,L1,EMP_0045,Bengaluru Office,89.55,4,2023-12-11,2025-04-28,False,Hire
+837,EMP_0452,Vijay,Desai,vijay.desai@company.com,Engineering,QA Analyst,L2,EMP_0045,Bengaluru Office,99.0,3,2025-04-29,,True,Promotion
+838,EMP_0453,Priyanka,Kulkarni,priyanka.kulkarni@company.com,Customer Success,CS Specialist,L1,EMP_0001,Remote - India,62.08,3,2023-12-09,,True,Hire
+839,EMP_0454,Kavitha,Desai,kavitha.desai@company.com,HR,HR Associate,L1,EMP_0005,Hubballi Office,76.85,5,2024-08-10,2025-12-18,False,Hire
+840,EMP_0455,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L1,EMP_0010,Hubballi Office,86.75,5,2023-05-25,2024-07-14,False,Hire
+841,EMP_0455,Shweta,Shetty,shweta.shetty@company.com,Sales,Account Executive,L2,EMP_0010,Hubballi Office,94.79,5,2024-07-15,,True,Promotion
+842,EMP_0456,Shweta,Rao,shweta.rao@company.com,Customer Success,Support Engineer,L1,EMP_0035,Mumbai Office,22.79,3,2022-08-13,,True,Hire
+843,EMP_0457,Karthik,Desai,karthik.desai@company.com,Customer Success,Support Engineer,L1,EMP_0035,Mumbai Office,60.54,5,2022-02-24,2023-07-03,False,Hire
+844,EMP_0457,Karthik,Desai,karthik.desai@company.com,Customer Success,Support Engineer,L2,EMP_0035,Mumbai Office,66.46,5,2023-07-04,2024-10-08,False,Promotion
+845,EMP_0457,Karthik,Desai,karthik.desai@company.com,Customer Success,Support Engineer,L3,EMP_0035,Mumbai Office,72.1,5,2024-10-09,,True,Promotion
+846,EMP_0458,Sandeep,Patil,sandeep.patil@company.com,Sales,Business Development Rep,L1,EMP_0002,Mumbai Office,85.95,4,2021-08-31,2023-02-22,False,Hire
+847,EMP_0458,Sandeep,Patil,sandeep.patil@company.com,Sales,Business Development Rep,L2,EMP_0002,Mumbai Office,99.0,3,2023-02-23,,True,Promotion
+848,EMP_0459,Priyanka,Patil,priyanka.patil@company.com,Engineering,Tech Lead,L1,EMP_0039,Hubballi Office,35.89,4,2023-07-30,2024-08-13,False,Hire
+849,EMP_0459,Priyanka,Patil,priyanka.patil@company.com,Engineering,Tech Lead,L2,EMP_0039,Hubballi Office,49.29,4,2024-08-14,2025-07-20,False,Promotion
+850,EMP_0459,Priyanka,Patil,priyanka.patil@company.com,Engineering,Tech Lead,L3,EMP_0039,Hubballi Office,62.13,4,2025-07-21,,True,Promotion
+851,EMP_0460,Sandeep,Patil,sandeep.patil@company.com,Customer Success,CS Manager,L1,EMP_0010,Hubballi Office,25.15,5,2024-05-30,,True,Hire
+852,EMP_0461,Anil,Kumbari,anil.kumbari@company.com,Finance,Financial Analyst,L1,EMP_0006,Hubballi Office,59.65,4,2024-04-02,,True,Hire
+853,EMP_0462,Priyanka,Shetty,priyanka.shetty@company.com,Finance,Accountant,L1,EMP_0037,Remote - India,76.38,5,2023-06-26,,True,Hire
+854,EMP_0463,Sandeep,Patil,sandeep.patil@company.com,Marketing,Marketing Manager,L1,EMP_0006,Hubballi Office,68.62,4,2024-07-19,2025-06-10,False,Hire
+855,EMP_0463,Sandeep,Patil,sandeep.patil@company.com,Marketing,Marketing Manager,L2,EMP_0006,Hubballi Office,83.34,4,2025-06-11,,True,Promotion
+856,EMP_0464,Deepika,Kumbari,deepika.kumbari@company.com,Marketing,Content Specialist,L1,EMP_0005,Hubballi Office,25.72,4,2024-06-02,2024-11-11,False,Hire
+857,EMP_0465,Manjunath,Rao,manjunath.rao@company.com,Engineering,QA Analyst,L1,EMP_0006,Remote - India,71.87,2,2023-05-16,,True,Hire
+858,EMP_0466,Roopa,Kulkarni,roopa.kulkarni@company.com,HR,HR Business Partner,L1,EMP_0009,Hubballi Office,33.65,2,2023-09-28,2025-09-06,False,Hire
+859,EMP_0467,Roopa,Gowda,roopa.gowda@company.com,Sales,Account Executive,L1,EMP_0001,Hubballi Office,78.69,5,2024-08-19,,True,Hire
+860,EMP_0468,Karthik,Kulkarni,karthik.kulkarni@company.com,Marketing,Content Specialist,L1,EMP_0048,Bengaluru Office,72.77,4,2023-11-02,2026-01-06,False,Hire
+861,EMP_0469,Sandeep,Nayaka,sandeep.nayaka@company.com,Customer Success,Support Engineer,L1,EMP_0046,Remote - India,17.16,3,2024-12-13,,True,Hire
+862,EMP_0470,Karthik,Shetty,karthik.shetty@company.com,Engineering,Tech Lead,L1,EMP_0016,Remote - India,94.46,2,2022-11-02,2024-01-12,False,Hire
+863,EMP_0470,Karthik,Shetty,karthik.shetty@company.com,Engineering,Tech Lead,L2,EMP_0016,Remote - India,99.0,1,2024-01-13,2025-01-21,False,Promotion
+864,EMP_0470,Karthik,Shetty,karthik.shetty@company.com,Engineering,Tech Lead,L3,EMP_0016,Remote - India,99.0,0,2025-01-22,,True,Promotion
+865,EMP_0471,Karthik,Gowda,karthik.gowda@company.com,Finance,Financial Analyst,L1,EMP_0010,Mumbai Office,33.91,2,2024-05-06,2024-08-31,False,Hire
+866,EMP_0472,Deepika,Desai,deepika.desai@company.com,HR,HR Business Partner,L1,EMP_0026,Remote - India,47.48,3,2023-12-31,2025-12-05,False,Hire
+867,EMP_0473,Vijay,Shetty,vijay.shetty@company.com,Engineering,Senior Developer,L1,EMP_0027,Mumbai Office,67.78,2,2022-09-13,2023-12-27,False,Hire
+868,EMP_0473,Vijay,Shetty,vijay.shetty@company.com,Engineering,Senior Developer,L2,EMP_0027,Mumbai Office,74.57,3,2023-12-28,,True,Promotion
+869,EMP_0474,Kavitha,Shetty,kavitha.shetty@company.com,Customer Success,CS Manager,L1,EMP_0043,Mumbai Office,61.02,2,2023-04-01,,True,Hire
+870,EMP_0475,Kavitha,Desai,kavitha.desai@company.com,Engineering,Tech Lead,L1,EMP_0024,Bengaluru Office,36.37,2,2023-09-29,2025-04-24,False,Hire
+871,EMP_0475,Kavitha,Desai,kavitha.desai@company.com,Engineering,Tech Lead,L2,EMP_0024,Bengaluru Office,44.06,2,2025-04-25,,True,Promotion
+872,EMP_0476,Deepika,Kumbari,deepika.kumbari@company.com,Engineering,QA Analyst,L1,EMP_0019,Remote - India,29.18,2,2024-07-20,2025-10-03,False,Hire
+873,EMP_0476,Deepika,Kumbari,deepika.kumbari@company.com,Engineering,QA Analyst,L2,EMP_0019,Remote - India,42.72,1,2025-10-04,2027-01-26,False,Promotion
+874,EMP_0476,Deepika,Kumbari,deepika.kumbari@company.com,Engineering,QA Analyst,L3,EMP_0019,Remote - India,52.79,1,2027-01-27,,True,Promotion
+875,EMP_0477,Karthik,Joshi,karthik.joshi@company.com,Marketing,Marketing Manager,L1,EMP_0003,Bengaluru Office,60.96,4,2023-06-24,,True,Hire
+876,EMP_0478,Shweta,Rao,shweta.rao@company.com,Finance,Financial Analyst,L1,EMP_0049,Hubballi Office,31.3,3,2025-03-26,2026-10-02,False,Hire
+877,EMP_0478,Shweta,Rao,shweta.rao@company.com,Finance,Financial Analyst,L2,EMP_0049,Hubballi Office,44.92,2,2026-10-03,,True,Promotion
+878,EMP_0479,Deepika,Gowda,deepika.gowda@company.com,Marketing,SEO Executive,L1,EMP_0044,Mumbai Office,40.39,2,2021-05-28,,True,Hire
+879,EMP_0480,Manjunath,Shetty,manjunath.shetty@company.com,Sales,Account Executive,L1,EMP_0030,Mumbai Office,60.41,4,2022-10-06,2023-12-09,False,Hire
+880,EMP_0480,Manjunath,Shetty,manjunath.shetty@company.com,Sales,Account Executive,L2,EMP_0030,Mumbai Office,73.36,4,2023-12-10,,True,Promotion
+881,EMP_0481,Kavitha,Gowda,kavitha.gowda@company.com,Customer Success,Support Engineer,L1,EMP_0028,Remote - India,31.22,4,2022-01-19,2023-01-31,False,Hire
+882,EMP_0481,Kavitha,Gowda,kavitha.gowda@company.com,Customer Success,Support Engineer,L2,EMP_0028,Remote - India,44.06,5,2023-02-01,,True,Promotion
+883,EMP_0482,Priyanka,Patil,priyanka.patil@company.com,Sales,Business Development Rep,L1,EMP_0040,Bengaluru Office,82.9,5,2024-05-13,2025-07-13,False,Hire
+884,EMP_0482,Priyanka,Patil,priyanka.patil@company.com,Sales,Business Development Rep,L2,EMP_0040,Bengaluru Office,89.49,4,2025-07-14,2026-09-24,False,Promotion
+885,EMP_0482,Priyanka,Patil,priyanka.patil@company.com,Sales,Business Development Rep,L3,EMP_0040,Bengaluru Office,99.0,5,2026-09-25,,True,Promotion
+886,EMP_0483,Roopa,Patil,roopa.patil@company.com,Marketing,SEO Executive,L1,EMP_0047,Remote - India,57.57,5,2024-06-26,2025-06-29,False,Hire
+887,EMP_0483,Roopa,Patil,roopa.patil@company.com,Marketing,SEO Executive,L2,EMP_0047,Remote - India,72.1,4,2025-06-30,,True,Promotion
+888,EMP_0484,Anil,Rao,anil.rao@company.com,Customer Success,CS Specialist,L1,EMP_0033,Hubballi Office,31.42,5,2021-06-01,2023-05-11,False,Hire
+889,EMP_0485,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Account Executive,L1,EMP_0038,Bengaluru Office,29.35,3,2023-07-11,2024-08-31,False,Hire
+890,EMP_0485,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Account Executive,L2,EMP_0038,Bengaluru Office,34.63,4,2024-09-01,2025-09-22,False,Promotion
+891,EMP_0485,Roopa,Kumbari,roopa.kumbari@company.com,Sales,Account Executive,L3,EMP_0038,Bengaluru Office,49.55,3,2025-09-23,,True,Promotion
+892,EMP_0486,Kavitha,Nayaka,kavitha.nayaka@company.com,Engineering,Software Engineer,L1,EMP_0049,Remote - India,29.57,5,2023-09-23,2025-03-23,False,Hire
+893,EMP_0486,Kavitha,Nayaka,kavitha.nayaka@company.com,Engineering,Software Engineer,L2,EMP_0049,Remote - India,38.14,5,2025-03-24,2026-04-11,False,Promotion
+894,EMP_0486,Kavitha,Nayaka,kavitha.nayaka@company.com,Engineering,Software Engineer,L3,EMP_0049,Remote - India,50.65,5,2026-04-12,,True,Promotion
+895,EMP_0487,Manjunath,Gowda,manjunath.gowda@company.com,HR,HR Associate,L1,EMP_0025,Remote - India,33.54,4,2022-07-06,,True,Hire
+896,EMP_0488,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L1,EMP_0023,Remote - India,31.72,2,2024-03-03,2025-03-05,False,Hire
+897,EMP_0488,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L2,EMP_0023,Remote - India,42.29,3,2025-03-06,2026-03-27,False,Promotion
+898,EMP_0488,Karthik,Nayaka,karthik.nayaka@company.com,HR,HR Business Partner,L3,EMP_0023,Remote - India,47.39,3,2026-03-28,,True,Promotion
+899,EMP_0489,Deepika,Kulkarni,deepika.kulkarni@company.com,Sales,Account Executive,L1,EMP_0010,Remote - India,28.75,5,2023-12-27,2025-04-09,False,Hire
+900,EMP_0489,Deepika,Kulkarni,deepika.kulkarni@company.com,Sales,Account Executive,L2,EMP_0010,Remote - India,34.5,5,2025-04-10,,True,Promotion
+901,EMP_0490,Kavitha,Nayaka,kavitha.nayaka@company.com,Customer Success,CS Specialist,L1,EMP_0021,Hubballi Office,66.88,2,2023-06-13,,True,Hire
+902,EMP_0491,Kavitha,Kumbari,kavitha.kumbari@company.com,Customer Success,CS Specialist,L1,EMP_0047,Mumbai Office,79.65,3,2024-02-03,2025-03-13,False,Hire
+903,EMP_0491,Kavitha,Kumbari,kavitha.kumbari@company.com,Customer Success,CS Specialist,L2,EMP_0047,Mumbai Office,85.81,3,2025-03-14,,True,Promotion
+904,EMP_0492,Deepika,Bhat,deepika.bhat@company.com,Engineering,Tech Lead,L1,EMP_0017,Bengaluru Office,48.17,3,2022-09-30,2024-03-13,False,Hire
+905,EMP_0492,Deepika,Bhat,deepika.bhat@company.com,Engineering,Tech Lead,L2,EMP_0017,Bengaluru Office,54.99,4,2024-03-14,2025-06-04,False,Promotion
+906,EMP_0492,Deepika,Bhat,deepika.bhat@company.com,Engineering,Tech Lead,L3,EMP_0017,Bengaluru Office,66.26,4,2025-06-05,,True,Promotion
+907,EMP_0493,Deepika,Rao,deepika.rao@company.com,Finance,Financial Analyst,L1,EMP_0026,Bengaluru Office,65.34,4,2023-12-23,2025-01-20,False,Hire
+908,EMP_0493,Deepika,Rao,deepika.rao@company.com,Finance,Financial Analyst,L2,EMP_0026,Bengaluru Office,75.93,5,2025-01-21,,True,Promotion
+909,EMP_0494,Anil,Shetty,anil.shetty@company.com,Sales,Business Development Rep,L1,EMP_0017,Bengaluru Office,70.8,5,2025-04-01,,True,Hire
+910,EMP_0495,Anil,Bhat,anil.bhat@company.com,Customer Success,CS Manager,L1,EMP_0039,Hubballi Office,16.79,4,2024-01-02,2025-03-18,False,Hire
+911,EMP_0495,Anil,Bhat,anil.bhat@company.com,Customer Success,CS Manager,L2,EMP_0039,Hubballi Office,23.14,4,2025-03-19,2026-06-27,False,Promotion
+912,EMP_0495,Anil,Bhat,anil.bhat@company.com,Customer Success,CS Manager,L3,EMP_0039,Hubballi Office,37.25,5,2026-06-28,,True,Promotion
+913,EMP_0496,Sandeep,Shetty,sandeep.shetty@company.com,Marketing,Content Specialist,L1,EMP_0012,Bengaluru Office,68.77,2,2021-07-07,,True,Hire
+914,EMP_0497,Karthik,Nayaka,karthik.nayaka@company.com,HR,Talent Acquisition Specialist,L1,EMP_0040,Hubballi Office,30.48,2,2025-01-07,2026-05-10,False,Hire
+915,EMP_0497,Karthik,Nayaka,karthik.nayaka@company.com,HR,Talent Acquisition Specialist,L2,EMP_0040,Hubballi Office,41.4,2,2026-05-11,2027-04-11,False,Promotion
+916,EMP_0497,Karthik,Nayaka,karthik.nayaka@company.com,HR,Talent Acquisition Specialist,L3,EMP_0040,Hubballi Office,54.68,3,2027-04-12,,True,Promotion
+917,EMP_0498,Vijay,Desai,vijay.desai@company.com,Sales,Business Development Rep,L1,EMP_0028,Remote - India,85.2,5,2023-02-05,,True,Hire
+918,EMP_0499,Deepika,Patil,deepika.patil@company.com,Finance,Accountant,L1,EMP_0010,Remote - India,57.37,2,2022-03-27,2023-08-20,False,Hire
+919,EMP_0499,Deepika,Patil,deepika.patil@company.com,Finance,Accountant,L2,EMP_0010,Remote - India,67.4,1,2023-08-21,2025-04-04,False,Promotion
+920,EMP_0499,Deepika,Patil,deepika.patil@company.com,Finance,Accountant,L3,EMP_0010,Remote - India,79.88,1,2025-04-05,,True,Promotion
+921,EMP_0500,Shweta,Joshi,shweta.joshi@company.com,Finance,Finance Controller,L1,EMP_0010,Remote - India,65.81,4,2023-05-03,2024-04-13,False,Hire
+922,EMP_0500,Shweta,Joshi,shweta.joshi@company.com,Finance,Finance Controller,L2,EMP_0010,Remote - India,71.92,3,2024-04-14,2025-06-27,False,Promotion
+923,EMP_0500,Shweta,Joshi,shweta.joshi@company.com,Finance,Finance Controller,L3,EMP_0010,Remote - India,85.91,3,2025-06-28,,True,Promotion

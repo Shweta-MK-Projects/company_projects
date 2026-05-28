@@ -1,0 +1,16 @@
+store_key,store_id,store_name,city,state,region,store_type,floor_size_sqft
+1,STORE_001,KSSC Store Mangaluru #1,Mangaluru,Karnataka,North,Supermarket,5000
+2,STORE_002,KSSC Store Mysuru #2,Mysuru,Karnataka,West,Express,5000
+3,STORE_003,KSSC Store Hubballi #3,Hubballi,Karnataka,West,Supermarket,10000
+4,STORE_004,KSSC Store Belagavi #4,Belagavi,Karnataka,East,Hypermarket,2500
+5,STORE_005,KSSC Store Bengaluru #5,Bengaluru,Karnataka,South,Supermarket,5000
+6,STORE_006,KSSC Store Mangaluru #6,Mangaluru,Karnataka,North,Hypermarket,10000
+7,STORE_007,KSSC Store Mysuru #7,Mysuru,Karnataka,North,Hypermarket,10000
+8,STORE_008,KSSC Store Hubballi #8,Hubballi,Karnataka,South,Express,2500
+9,STORE_009,KSSC Store Belagavi #9,Belagavi,Karnataka,East,Express,5000
+10,STORE_010,KSSC Store Bengaluru #10,Bengaluru,Karnataka,East,Supermarket,2500
+11,STORE_011,KSSC Store Mangaluru #11,Mangaluru,Karnataka,South,Hypermarket,15000
+12,STORE_012,KSSC Store Mysuru #12,Mysuru,Karnataka,South,Express,2500
+13,STORE_013,KSSC Store Hubballi #13,Hubballi,Karnataka,East,Hypermarket,2500
+14,STORE_014,KSSC Store Belagavi #14,Belagavi,Karnataka,West,Hypermarket,15000
+15,STORE_015,KSSC Store Bengaluru #15,Bengaluru,Karnataka,South,Hypermarket,2500

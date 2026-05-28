@@ -1,0 +1,151 @@
+sku_key,sku_id,product_name,category,sub_category,brand,unit_cost,unit_price,reorder_point,safety_stock_level
+1,SKU_00001,T-Shirts 697,Apparel,T-Shirts,SuperFoods,334.08,427.52,61,18
+2,SKU_00002,Mineral Water 526,Beverages,Mineral Water,SuperFoods,269.79,449.68,34,21
+3,SKU_00003,Caps 278,Apparel,Caps,PureDrop,116.34,154.25,60,13
+4,SKU_00004,Earphones 819,Electronics,Earphones,SuperFoods,318.4,416.76,55,19
+5,SKU_00005,Cushions 643,Home Decor,Cushions,HomeCraft,70.96,90.27,77,24
+6,SKU_00006,Spices 792,Grocery,Spices,FitWear,303.43,518.23,44,18
+7,SKU_00007,Cooking Oil 321,Grocery,Cooking Oil,ElectroMax,359.92,557.67,71,19
+8,SKU_00008,Wall Clocks 605,Home Decor,Wall Clocks,SuperFoods,94.65,148.91,79,18
+9,SKU_00009,LED bulbs 618,Home Decor,LED bulbs,ElectroMax,80.07,108.7,38,12
+10,SKU_00010,Mineral Water 349,Beverages,Mineral Water,FitWear,52.26,68.48,37,22
+11,SKU_00011,Soft Drinks 553,Beverages,Soft Drinks,HomeCraft,427.37,697.43,39,20
+12,SKU_00012,Vases 272,Home Decor,Vases,SuperFoods,414.44,741.38,74,18
+13,SKU_00013,Vases 870,Home Decor,Vases,FitWear,168.66,282.5,33,25
+14,SKU_00014,Earphones 482,Electronics,Earphones,SuperFoods,392.91,530.82,61,21
+15,SKU_00015,Soft Drinks 425,Beverages,Soft Drinks,FitWear,191.42,275.78,51,16
+16,SKU_00016,Green Tea 593,Beverages,Green Tea,FitWear,352.04,512.21,72,22
+17,SKU_00017,Socks 400,Apparel,Socks,PureDrop,268.85,345.67,57,13
+18,SKU_00018,Socks 789,Apparel,Socks,SuperFoods,416.63,606.6,69,12
+19,SKU_00019,Power Banks 759,Electronics,Power Banks,ElectroMax,23.94,42.25,65,22
+20,SKU_00020,Fruit Juices 137,Beverages,Fruit Juices,HomeCraft,477.37,697.92,47,10
+21,SKU_00021,LED bulbs 394,Home Decor,LED bulbs,HomeCraft,289.8,508.06,47,12
+22,SKU_00022,Wheat Flour 645,Grocery,Wheat Flour,HomeCraft,322.86,471.29,30,10
+23,SKU_00023,Spices 278,Grocery,Spices,ElectroMax,428.49,696.04,34,20
+24,SKU_00024,Cooking Oil 696,Grocery,Cooking Oil,PureDrop,439.08,545.85,50,25
+25,SKU_00025,Caps 107,Apparel,Caps,FitWear,91.28,153.52,31,12
+26,SKU_00026,Organic Rice 679,Grocery,Organic Rice,PureDrop,26.89,37.29,59,22
+27,SKU_00027,Cushions 970,Home Decor,Cushions,SuperFoods,456.67,592.88,54,22
+28,SKU_00028,Denims 907,Apparel,Denims,PureDrop,394.82,623.27,47,11
+29,SKU_00029,LED bulbs 660,Home Decor,LED bulbs,FitWear,150.4,245.81,48,16
+30,SKU_00030,Green Tea 536,Beverages,Green Tea,HomeCraft,492.36,733.32,61,15
+31,SKU_00031,Denims 281,Apparel,Denims,SuperFoods,34.44,60.98,30,18
+32,SKU_00032,Green Tea 707,Beverages,Green Tea,PureDrop,488.97,608.03,58,19
+33,SKU_00033,Earphones 366,Electronics,Earphones,SuperFoods,247.38,340.22,73,11
+34,SKU_00034,Organic Rice 909,Grocery,Organic Rice,FitWear,349.49,436.02,50,23
+35,SKU_00035,Socks 612,Apparel,Socks,HomeCraft,83.82,101.36,38,23
+36,SKU_00036,Cushions 307,Home Decor,Cushions,ElectroMax,287.09,496.39,44,10
+37,SKU_00037,Vases 866,Home Decor,Vases,SuperFoods,208.32,287.49,76,18
+38,SKU_00038,Denims 465,Apparel,Denims,FitWear,309.28,375.47,66,16
+39,SKU_00039,Caps 673,Apparel,Caps,SuperFoods,196.73,328.67,47,23
+40,SKU_00040,Caps 904,Apparel,Caps,SuperFoods,23.71,32.82,75,14
+41,SKU_00041,Wheat Flour 369,Grocery,Wheat Flour,FitWear,387.84,663.34,56,24
+42,SKU_00042,Socks 786,Apparel,Socks,ElectroMax,362.06,603.01,59,16
+43,SKU_00043,Mineral Water 567,Beverages,Mineral Water,FitWear,224.4,350.68,36,25
+44,SKU_00044,Vases 802,Home Decor,Vases,PureDrop,402.97,650.5,52,25
+45,SKU_00045,Soft Drinks 714,Beverages,Soft Drinks,PureDrop,256.9,336.44,39,20
+46,SKU_00046,Wall Clocks 345,Home Decor,Wall Clocks,PureDrop,72.48,93.46,65,22
+47,SKU_00047,Cushions 940,Home Decor,Cushions,PureDrop,394.98,708.87,34,10
+48,SKU_00048,Vases 174,Home Decor,Vases,FitWear,130.39,223.93,41,23
+49,SKU_00049,Denims 916,Apparel,Denims,HomeCraft,66.6,97.63,54,13
+50,SKU_00050,Organic Rice 964,Grocery,Organic Rice,HomeCraft,218.17,332.1,34,12
+51,SKU_00051,Cooking Oil 503,Grocery,Cooking Oil,ElectroMax,196.52,283.97,64,17
+52,SKU_00052,Organic Rice 720,Grocery,Organic Rice,PureDrop,24.29,39.82,51,16
+53,SKU_00053,T-Shirts 585,Apparel,T-Shirts,ElectroMax,372.9,501.67,37,10
+54,SKU_00054,Wheat Flour 257,Grocery,Wheat Flour,PureDrop,260.66,329.46,50,21
+55,SKU_00055,Soft Drinks 731,Beverages,Soft Drinks,HomeCraft,200.54,249.41,72,20
+56,SKU_00056,Denims 782,Apparel,Denims,PureDrop,108.03,182.3,57,19
+57,SKU_00057,Vases 983,Home Decor,Vases,HomeCraft,72.54,99.94,46,10
+58,SKU_00058,Power Banks 451,Electronics,Power Banks,FitWear,411.97,686.72,41,19
+59,SKU_00059,LED bulbs 352,Home Decor,LED bulbs,PureDrop,196.09,300.08,72,23
+60,SKU_00060,Socks 973,Apparel,Socks,SuperFoods,67.99,115.47,38,10
+61,SKU_00061,Cooking Oil 738,Grocery,Cooking Oil,SuperFoods,133.15,161.28,31,23
+62,SKU_00062,Mineral Water 901,Beverages,Mineral Water,ElectroMax,396.16,512.05,76,14
+63,SKU_00063,T-Shirts 520,Apparel,T-Shirts,HomeCraft,178.1,297.88,37,23
+64,SKU_00064,Fruit Juices 548,Beverages,Fruit Juices,HomeCraft,109.98,176.89,71,20
+65,SKU_00065,Power Banks 597,Electronics,Power Banks,ElectroMax,482.15,798.52,40,19
+66,SKU_00066,Denims 698,Apparel,Denims,ElectroMax,37.99,63.66,59,23
+67,SKU_00067,Power Banks 102,Electronics,Power Banks,SuperFoods,284.12,468.26,73,16
+68,SKU_00068,Caps 745,Apparel,Caps,SuperFoods,329.66,417.57,51,16
+69,SKU_00069,USB Cables 559,Electronics,USB Cables,ElectroMax,465.65,763.32,37,12
+70,SKU_00070,Smart plugs 482,Electronics,Smart plugs,ElectroMax,138.77,236.35,32,20
+71,SKU_00071,LED bulbs 565,Home Decor,LED bulbs,HomeCraft,485.99,795.69,35,20
+72,SKU_00072,Mineral Water 808,Beverages,Mineral Water,FitWear,106.62,174.33,47,12
+73,SKU_00073,Socks 579,Apparel,Socks,FitWear,429.72,537.63,59,23
+74,SKU_00074,Cushions 166,Home Decor,Cushions,PureDrop,111.2,184.46,78,11
+75,SKU_00075,Fruit Juices 148,Beverages,Fruit Juices,SuperFoods,214.68,339.64,40,19
+76,SKU_00076,Green Tea 336,Beverages,Green Tea,SuperFoods,153.73,202.69,40,14
+77,SKU_00077,Vases 799,Home Decor,Vases,FitWear,420.97,583.84,45,15
+78,SKU_00078,Earphones 403,Electronics,Earphones,FitWear,134.57,173.01,35,21
+79,SKU_00079,Wall Clocks 375,Home Decor,Wall Clocks,PureDrop,338.32,539.44,39,10
+80,SKU_00080,Wheat Flour 602,Grocery,Wheat Flour,SuperFoods,304.61,502.44,38,24
+81,SKU_00081,Wall Clocks 459,Home Decor,Wall Clocks,FitWear,79.8,124.73,69,11
+82,SKU_00082,Soft Drinks 266,Beverages,Soft Drinks,FitWear,346.25,493.24,76,24
+83,SKU_00083,Cooking Oil 431,Grocery,Cooking Oil,ElectroMax,213.36,361.54,38,20
+84,SKU_00084,Wheat Flour 206,Grocery,Wheat Flour,HomeCraft,279.07,390.41,45,21
+85,SKU_00085,Cooking Oil 394,Grocery,Cooking Oil,SuperFoods,94.93,163.15,34,22
+86,SKU_00086,Earphones 551,Electronics,Earphones,SuperFoods,108.91,149.46,60,16
+87,SKU_00087,Caps 324,Apparel,Caps,PureDrop,141.13,182.16,76,16
+88,SKU_00088,Smart plugs 537,Electronics,Smart plugs,PureDrop,317.85,454.13,54,12
+89,SKU_00089,Cooking Oil 830,Grocery,Cooking Oil,ElectroMax,31.04,41.28,61,25
+90,SKU_00090,Organic Rice 483,Grocery,Organic Rice,ElectroMax,215.67,360.1,61,18
+91,SKU_00091,Socks 809,Apparel,Socks,FitWear,188.18,300.54,35,22
+92,SKU_00092,Fruit Juices 647,Beverages,Fruit Juices,FitWear,27.64,38.43,44,18
+93,SKU_00093,Cushions 215,Home Decor,Cushions,FitWear,32.3,38.79,38,24
+94,SKU_00094,T-Shirts 651,Apparel,T-Shirts,PureDrop,380.75,554.62,56,12
+95,SKU_00095,Organic Rice 883,Grocery,Organic Rice,HomeCraft,117.33,154.99,72,18
+96,SKU_00096,Wall Clocks 699,Home Decor,Wall Clocks,HomeCraft,406.02,723.03,46,19
+97,SKU_00097,Mineral Water 521,Beverages,Mineral Water,ElectroMax,305.08,456.24,64,20
+98,SKU_00098,Smart plugs 430,Electronics,Smart plugs,SuperFoods,404.79,618.22,68,13
+99,SKU_00099,Socks 683,Apparel,Socks,FitWear,311.48,436.57,44,10
+100,SKU_00100,Organic Rice 146,Grocery,Organic Rice,FitWear,30.25,53.92,74,13
+101,SKU_00101,Smart plugs 768,Electronics,Smart plugs,FitWear,439.63,529.42,43,13
+102,SKU_00102,Mineral Water 126,Beverages,Mineral Water,ElectroMax,297.48,452.34,54,17
+103,SKU_00103,Soft Drinks 165,Beverages,Soft Drinks,ElectroMax,130.18,183.2,64,15
+104,SKU_00104,Green Tea 488,Beverages,Green Tea,PureDrop,483.45,846.93,77,22
+105,SKU_00105,Fruit Juices 264,Beverages,Fruit Juices,PureDrop,451.07,804.99,66,17
+106,SKU_00106,Vases 163,Home Decor,Vases,PureDrop,313.91,520.47,56,13
+107,SKU_00107,Caps 931,Apparel,Caps,PureDrop,162.69,278.42,37,18
+108,SKU_00108,Soft Drinks 787,Beverages,Soft Drinks,HomeCraft,223.9,321.35,30,25
+109,SKU_00109,Mineral Water 705,Beverages,Mineral Water,SuperFoods,446.63,757.46,51,13
+110,SKU_00110,Soft Drinks 445,Beverages,Soft Drinks,ElectroMax,128.85,206.67,36,16
+111,SKU_00111,Green Tea 821,Beverages,Green Tea,PureDrop,330.14,557.6,65,15
+112,SKU_00112,Denims 127,Apparel,Denims,PureDrop,326.74,579.8,30,17
+113,SKU_00113,LED bulbs 251,Home Decor,LED bulbs,SuperFoods,328.79,447.09,50,25
+114,SKU_00114,USB Cables 721,Electronics,USB Cables,PureDrop,136.84,217.44,55,24
+115,SKU_00115,Soft Drinks 904,Beverages,Soft Drinks,PureDrop,92.02,127.28,45,16
+116,SKU_00116,Cushions 182,Home Decor,Cushions,ElectroMax,319.77,506.55,59,14
+117,SKU_00117,Spices 936,Grocery,Spices,HomeCraft,393.85,614.33,43,21
+118,SKU_00118,Wall Clocks 806,Home Decor,Wall Clocks,PureDrop,207.46,288.84,38,17
+119,SKU_00119,Green Tea 981,Beverages,Green Tea,SuperFoods,228.28,297.48,35,10
+120,SKU_00120,Mineral Water 690,Beverages,Mineral Water,FitWear,376.47,643.79,60,22
+121,SKU_00121,Power Banks 409,Electronics,Power Banks,FitWear,491.89,636.43,73,11
+122,SKU_00122,Spices 720,Grocery,Spices,ElectroMax,236.57,402.17,80,11
+123,SKU_00123,Soft Drinks 907,Beverages,Soft Drinks,FitWear,299.02,406.78,30,16
+124,SKU_00124,Vases 845,Home Decor,Vases,PureDrop,113.46,146.99,58,13
+125,SKU_00125,Cushions 922,Home Decor,Cushions,HomeCraft,65.01,105.26,53,19
+126,SKU_00126,Organic Rice 246,Grocery,Organic Rice,ElectroMax,460.53,632.86,54,14
+127,SKU_00127,LED bulbs 954,Home Decor,LED bulbs,HomeCraft,485.31,794.94,75,14
+128,SKU_00128,Soft Drinks 984,Beverages,Soft Drinks,FitWear,369.52,466.4,70,19
+129,SKU_00129,Cooking Oil 184,Grocery,Cooking Oil,SuperFoods,436.62,645.79,59,17
+130,SKU_00130,Soft Drinks 350,Beverages,Soft Drinks,FitWear,153.76,243.53,57,21
+131,SKU_00131,Organic Rice 325,Grocery,Organic Rice,ElectroMax,462.93,722.1,50,18
+132,SKU_00132,USB Cables 769,Electronics,USB Cables,FitWear,392.59,557.78,46,14
+133,SKU_00133,Green Tea 820,Beverages,Green Tea,HomeCraft,52.98,82.08,79,24
+134,SKU_00134,Denims 940,Apparel,Denims,FitWear,148.54,204.83,60,14
+135,SKU_00135,Mineral Water 909,Beverages,Mineral Water,PureDrop,469.14,707.96,67,17
+136,SKU_00136,Wheat Flour 111,Grocery,Wheat Flour,FitWear,306.55,498.42,72,23
+137,SKU_00137,USB Cables 862,Electronics,USB Cables,HomeCraft,76.52,135.85,63,23
+138,SKU_00138,Smart plugs 280,Electronics,Smart plugs,FitWear,20.41,27.67,33,21
+139,SKU_00139,Vases 781,Home Decor,Vases,ElectroMax,419.54,595.48,67,21
+140,SKU_00140,Socks 264,Apparel,Socks,FitWear,131.03,224.01,65,17
+141,SKU_00141,T-Shirts 350,Apparel,T-Shirts,SuperFoods,236.67,339.01,65,18
+142,SKU_00142,USB Cables 999,Electronics,USB Cables,SuperFoods,60.74,101.55,30,20
+143,SKU_00143,Cooking Oil 475,Grocery,Cooking Oil,PureDrop,364.1,640.58,51,20
+144,SKU_00144,Mineral Water 629,Beverages,Mineral Water,FitWear,41.56,71.77,54,16
+145,SKU_00145,Smart plugs 211,Electronics,Smart plugs,HomeCraft,196.89,250.74,33,20
+146,SKU_00146,Denims 219,Apparel,Denims,SuperFoods,30.73,40.78,54,19
+147,SKU_00147,Socks 581,Apparel,Socks,ElectroMax,112.61,163.8,57,13
+148,SKU_00148,Caps 225,Apparel,Caps,PureDrop,233.11,304.97,59,22
+149,SKU_00149,T-Shirts 935,Apparel,T-Shirts,ElectroMax,113.79,153.75,78,13
+150,SKU_00150,Socks 508,Apparel,Socks,FitWear,416.5,501.62,33,24

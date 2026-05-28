@@ -1,0 +1,123 @@
+/*
+    ====================================================================================
+    POWER BI DAX MEASURES & DATA MODELING CONFIGURATIONS
+    Domain: Banking Fraud & Customer Risk Analytics
+    ====================================================================================
+*/
+
+// --- 1. CORE TRANSACTION MEASURES ---
+
+Total_Transaction_Amount = SUM(Transactions[amount])
+
+Total_Transactions = COUNTROWS(Transactions)
+
+Average_Transaction_Amount = AVERAGE(Transactions[amount])
+
+Max_Transaction_Amount = MAX(Transactions[amount])
+
+Success_Transactions = CALCULATE(
+    [Total_Transactions],
+    Transactions[response_code] = "00"
+)
+
+Declined_Transactions = CALCULATE(
+    [Total_Transactions],
+    Transactions[response_code] <> "00"
+)
+
+Decline_Rate = DIVIDE([Declined_Transactions], [Total_Transactions], 0)
+
+
+// --- 2. FRAUD AND LOSS METRICS ---
+
+Confirmed_Fraud_Cases = CALCULATE(
+    [Total_Transactions],
+    Transactions[is_fraud] = TRUE()
+)
+
+Confirmed_Fraud_Loss = CALCULATE(
+    [Total_Transaction_Amount],
+    Transactions[is_fraud] = TRUE()
+)
+
+Fraud_Incident_Rate = DIVIDE([Confirmed_Fraud_Cases], [Total_Transactions], 0)
+
+// Fraud Loss Ratio: Confirmed Fraud Loss / Total Transaction Volume
+Fraud_Loss_Ratio = DIVIDE([Confirmed_Fraud_Loss], [Total_Transaction_Amount], 0)
+
+// Approvals-to-Chargeback Ratio: Successful transactions / Fraudulent chargebacks
+Approval_to_Chargeback_Ratio = DIVIDE([Success_Transactions], [Confirmed_Fraud_Cases], 0)
+
+Total_Loss_Prevented = CALCULATE(
+    SUM(Fraud_Alerts[risk_score]) * 1000, // scaled projection of prevention value
+    Fraud_Alerts[status] IN {"Confirmed Fraud", "Under Investigation"}
+)
+
+
+// --- 3. CUSTOMER RISK INDEX ---
+
+// Calculates a weighted composite risk index for customers based on deviations, alerts, and declines
+Customer_Risk_Index = 
+VAR AvgAlertScore = AVERAGE(Fraud_Alerts[risk_score])
+VAR TxnDeclineWeight = [Decline_Rate] * 40
+VAR AnomalyMCCRatio = 
+    DIVIDE(
+        CALCULATE([Total_Transactions], Terminals[is_high_risk_flag] = TRUE()),
+        [Total_Transactions],
+        0
+    ) * 30
+RETURN
+    IF(
+        ISBLANK(AvgAlertScore),
+        TxnDeclineWeight + AnomalyMCCRatio,
+        (AvgAlertScore * 0.3) + TxnDeclineWeight + AnomalyMCCRatio
+    )
+
+
+// --- 4. TIME INTELLIGENCE FUNCTIONS ---
+
+Transactions_YoY_Growth = 
+VAR CurrentPeriod = [Total_Transaction_Amount]
+VAR PriorPeriod = CALCULATE([Total_Transaction_Amount], DATEADD(Dim_Date[Date], -1, YEAR))
+RETURN
+    DIVIDE(CurrentPeriod - PriorPeriod, PriorPeriod, 0)
+
+Transactions_QoQ_Growth = 
+VAR CurrentPeriod = [Total_Transaction_Amount]
+VAR PriorPeriod = CALCULATE([Total_Transaction_Amount], DATEADD(Dim_Date[Date], -1, QUARTER))
+RETURN
+    DIVIDE(CurrentPeriod - PriorPeriod, PriorPeriod, 0)
+
+Rolling_30_Day_Fraud_Loss = 
+CALCULATE(
+    [Confirmed_Fraud_Loss],
+    DATESINPERIOD(Dim_Date[Date], MAX(Dim_Date[Date]), -30, DAY)
+)
+
+
+// --- 5. ROW-LEVEL SECURITY (RLS) POLICIES ---
+
+/*
+    Role Name: Regional_Fraud_Ops_Manager
+    Target Table: Customers
+    Filter Expression:
+    
+    [state] = 
+    VAR UserPrincipal = USERPRINCIPALNAME() -- e.g., "shweta.south@bank.com"
+    VAR UserRegion = 
+        LOOKUPVALUE(
+            User_Access[Region_State],
+            User_Access[User_Email],
+            UserPrincipal
+        )
+    RETURN
+        UserRegion
+*/
+
+/*
+    Role Name: Tier_1_Risk_Analyst
+    Target Table: Customers
+    Filter Expression:
+    
+    [risk_score_segment] IN { "High", "Medium" }
+*/

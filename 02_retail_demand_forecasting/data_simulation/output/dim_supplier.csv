@@ -1,0 +1,11 @@
+supplier_key,supplier_id,supplier_name,contact_email,lead_time_days,reliability_score
+1,SUPPLIER_001,Enterprise Distributors 1,supply_1@ent-dist.com,12,0.84
+2,SUPPLIER_002,Enterprise Distributors 2,supply_2@ent-dist.com,5,0.95
+3,SUPPLIER_003,Enterprise Distributors 3,supply_3@ent-dist.com,8,0.84
+4,SUPPLIER_004,Enterprise Distributors 4,supply_4@ent-dist.com,4,0.88
+5,SUPPLIER_005,Enterprise Distributors 5,supply_5@ent-dist.com,4,0.97
+6,SUPPLIER_006,Enterprise Distributors 6,supply_6@ent-dist.com,8,0.85
+7,SUPPLIER_007,Enterprise Distributors 7,supply_7@ent-dist.com,6,0.98
+8,SUPPLIER_008,Enterprise Distributors 8,supply_8@ent-dist.com,14,0.82
+9,SUPPLIER_009,Enterprise Distributors 9,supply_9@ent-dist.com,3,0.89
+10,SUPPLIER_010,Enterprise Distributors 10,supply_10@ent-dist.com,8,0.93

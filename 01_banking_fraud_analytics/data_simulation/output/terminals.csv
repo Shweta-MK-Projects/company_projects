@@ -1,0 +1,301 @@
+terminal_id,merchant_name,merchant_category_code,city,country,latitude,longitude,is_high_risk_flag
+TERM_0001,PVR Cinemas #17,7996,Chennai,India,12.96479,77.785082,False
+TERM_0002,Barbeque Nation #82,5812,Pune,India,12.800341,77.70184,False
+TERM_0003,Axis ATM #61,6011,Kolkata,India,12.838725,77.516022,True
+TERM_0004,Cafe Coffee Day #95,5814,Pune,India,12.911902,77.773166,False
+TERM_0005,Starbucks #89,5814,Ahmedabad,India,12.918258,77.512444,False
+TERM_0006,Axis ATM #70,6011,Pune,India,12.900274,77.728395,True
+TERM_0007,KFC #41,5814,Chennai,India,13.02788,77.533495,False
+TERM_0008,Toscano #63,5812,Chennai,India,12.970555,77.601471,False
+TERM_0009,Razorpay Transfer #43,4829,Hyderabad,India,12.865427,77.754327,False
+TERM_0010,Windmills Craftworks #36,5812,Hyderabad,India,12.923426,77.753976,False
+TERM_0011,Innovative Film City #18,7996,Delhi,India,12.923932,77.797896,False
+TERM_0012,Innovative Film City #96,7996,Pune,India,12.98866,77.512572,False
+TERM_0013,KFC #28,5814,Mumbai,India,13.098528,77.680629,False
+TERM_0014,ICICI ATM #19,6011,Ahmedabad,India,12.903336,77.753482,False
+TERM_0015,Paytm Money #58,4829,Delhi,India,12.861252,77.705221,False
+TERM_0016,Sapna Book House #97,5942,Bengaluru,India,12.807805,77.644983,False
+TERM_0017,Crossword #59,5942,Pune,India,12.890315,77.561405,False
+TERM_0018,Big Bazaar #32,5411,Ahmedabad,India,12.93374,77.784999,False
+TERM_0019,Toscano #31,5812,Mumbai,India,12.922419,77.754069,False
+TERM_0020,PVR Cinemas #40,7996,Hyderabad,India,13.000122,77.58781,False
+TERM_0021,Barbeque Nation #11,5812,Hyderabad,India,12.895099,77.778964,False
+TERM_0022,Toscano #84,5812,Pune,India,12.927739,77.659492,False
+TERM_0023,Shoppers Stop #18,5311,Delhi,India,12.979465,77.63788,False
+TERM_0024,Big Bazaar #76,5411,Hyderabad,India,12.964953,77.577974,False
+TERM_0025,Instamojo #98,4829,Ahmedabad,India,13.049433,77.600402,False
+TERM_0026,McDonalds #68,5814,Ahmedabad,India,13.010049,77.718102,False
+TERM_0027,ICICI ATM #95,6011,Chennai,India,13.032957,77.646211,False
+TERM_0028,Shoppers Stop #22,5311,Hyderabad,India,12.86514,77.673681,False
+TERM_0029,Shoppers Stop #86,5311,Mumbai,India,12.844845,77.613107,False
+TERM_0030,SBI ATM #25,6011,Ahmedabad,India,12.962291,77.766456,False
+TERM_0031,D-Mart #11,5411,Ahmedabad,India,12.887675,77.634058,False
+TERM_0032,Innovative Film City #98,7996,Delhi,India,12.925244,77.7704,False
+TERM_0033,Big Bazaar #31,5411,Delhi,India,12.895289,77.633497,False
+TERM_0034,PVR Cinemas #49,7996,Kolkata,India,12.850097,77.706893,False
+TERM_0035,Paytm Money #88,4829,Hyderabad,India,12.805867,77.725864,True
+TERM_0036,Crossword #29,5942,Ahmedabad,India,12.884989,77.534855,False
+TERM_0037,Sapna Book House #87,5942,Delhi,India,13.076548,77.74698,False
+TERM_0038,Decathlon #59,5311,Hyderabad,India,13.004339,77.626279,False
+TERM_0039,Innovative Film City #11,7996,Delhi,India,12.818347,77.611872,False
+TERM_0040,Axis ATM #44,6011,Hyderabad,India,13.012855,77.790764,False
+TERM_0041,ICICI ATM #57,6011,Chennai,India,12.825636,77.508923,False
+TERM_0042,Toscano #12,5812,Ahmedabad,India,12.896292,77.567521,False
+TERM_0043,Windmills Craftworks #37,5812,Kolkata,India,12.903294,77.628817,False
+TERM_0044,ICICI ATM #52,6011,Pune,India,12.907805,77.55526,False
+TERM_0045,Innovative Film City #19,7996,Bengaluru,India,12.817489,77.555409,False
+TERM_0046,Innovative Film City #92,7996,Hyderabad,India,12.909832,77.504042,False
+TERM_0047,D-Mart #34,5411,Bengaluru,India,13.026516,77.586698,False
+TERM_0048,Lifestyle #25,5311,Pune,India,12.844609,77.594904,False
+TERM_0049,Sapna Book House #74,5942,Chennai,India,12.854539,77.549608,False
+TERM_0050,HDFC ATM #83,6011,Pune,India,13.033087,77.553686,True
+TERM_0051,Crossword #94,5942,Delhi,India,12.887469,77.525801,False
+TERM_0052,Shoppers Stop #79,5311,Hyderabad,India,13.094127,77.707691,False
+TERM_0053,Lifestyle #70,5311,Hyderabad,India,13.085713,77.656402,False
+TERM_0054,KFC #99,5814,Delhi,India,12.988493,77.650555,False
+TERM_0055,Wonderla #62,7996,Ahmedabad,India,12.977899,77.777615,False
+TERM_0056,ICICI ATM #77,6011,Delhi,India,12.979217,77.785816,False
+TERM_0057,Wonderla #61,7996,Ahmedabad,India,12.91218,77.70392,False
+TERM_0058,PVR Cinemas #82,7996,Chennai,India,12.97098,77.762281,False
+TERM_0059,Barbeque Nation #26,5812,Hyderabad,India,12.935661,77.544133,False
+TERM_0060,Western Union #80,4829,Ahmedabad,India,12.846641,77.685982,False
+TERM_0061,Windmills Craftworks #43,5812,Delhi,India,12.870792,77.718326,False
+TERM_0062,Punjab Grill #18,5812,Delhi,India,13.097118,77.701947,False
+TERM_0063,Reliance Fresh #11,5411,Pune,India,12.803379,77.570523,False
+TERM_0064,Wonderla #73,7996,Kolkata,India,12.83549,77.73271,False
+TERM_0065,SBI ATM #87,6011,Delhi,India,13.025824,77.508298,True
+TERM_0066,Decathlon #40,5311,Kolkata,India,12.888925,77.600484,False
+TERM_0067,D-Mart #50,5411,Hyderabad,India,12.950236,77.59273,False
+TERM_0068,Wonderla #87,7996,Pune,India,12.980305,77.529843,False
+TERM_0069,Axis ATM #80,6011,Mumbai,India,12.927948,77.639794,True
+TERM_0070,Barbeque Nation #71,5812,Delhi,India,12.922073,77.508766,False
+TERM_0071,McDonalds #16,5814,Ahmedabad,India,12.811968,77.789126,False
+TERM_0072,SBI ATM #43,6011,Mumbai,India,12.93844,77.649773,False
+TERM_0073,Blossom Book House #66,5942,Delhi,India,12.853338,77.794513,False
+TERM_0074,Westside #92,5311,Pune,India,12.898115,77.575636,False
+TERM_0075,Shoppers Stop #38,5311,Pune,India,12.805954,77.764396,False
+TERM_0076,KFC #29,5814,Bengaluru,India,13.093936,77.78984,False
+TERM_0077,Crossword #33,5942,Kolkata,India,12.848207,77.508017,False
+TERM_0078,HDFC ATM #77,6011,Hyderabad,India,13.054774,77.536625,False
+TERM_0079,Reliance Fresh #36,5411,Pune,India,13.087599,77.505901,False
+TERM_0080,Shoppers Stop #50,5311,Mumbai,India,12.816318,77.791395,False
+TERM_0081,HDFC ATM #60,6011,Mumbai,India,12.858706,77.753267,True
+TERM_0082,Sapna Book House #27,5942,Bengaluru,India,12.817215,77.557214,False
+TERM_0083,Starbucks #67,5814,Pune,India,13.023872,77.76117,False
+TERM_0084,Lifestyle #73,5311,Mumbai,India,12.939609,77.729275,False
+TERM_0085,Instamojo #24,4829,Hyderabad,India,12.976266,77.79745,False
+TERM_0086,Axis ATM #50,6011,Bengaluru,India,12.920966,77.750789,False
+TERM_0087,Axis ATM #94,6011,Pune,India,13.053484,77.786663,False
+TERM_0088,Axis ATM #75,6011,Mumbai,India,13.042476,77.582346,False
+TERM_0089,Axis ATM #52,6011,Bengaluru,India,12.83012,77.572752,False
+TERM_0090,McDonalds #42,5814,Pune,India,12.977078,77.538641,False
+TERM_0091,Lifestyle #11,5311,Ahmedabad,India,13.039611,77.785057,False
+TERM_0092,Sapna Book House #43,5942,Pune,India,12.930551,77.684546,False
+TERM_0093,McDonalds #58,5814,Mumbai,India,12.883753,77.51111,False
+TERM_0094,Lifestyle #80,5311,Pune,India,13.036766,77.595492,False
+TERM_0095,McDonalds #85,5814,Mumbai,India,12.800687,77.556552,False
+TERM_0096,Wonderla #39,7996,Hyderabad,India,13.091764,77.754759,False
+TERM_0097,Reliance Fresh #21,5411,Hyderabad,India,12.972337,77.705379,False
+TERM_0098,Paytm Money #65,4829,Chennai,India,12.807589,77.520679,True
+TERM_0099,Westside #46,5311,Ahmedabad,India,12.989477,77.57221,False
+TERM_0100,ICICI ATM #34,6011,Ahmedabad,India,12.831642,77.509903,True
+TERM_0101,Windmills Craftworks #11,5812,Mumbai,India,12.948479,77.705497,False
+TERM_0102,KFC #86,5814,Hyderabad,India,12.838568,77.622556,False
+TERM_0103,Western Union #24,4829,Kolkata,India,12.822883,77.565775,True
+TERM_0104,Windmills Craftworks #14,5812,Hyderabad,India,13.064677,77.690509,False
+TERM_0105,Paytm Money #17,4829,Delhi,India,12.866982,77.689144,False
+TERM_0106,Toscano #32,5812,Hyderabad,India,12.947281,77.641057,False
+TERM_0107,Axis ATM #50,6011,Chennai,India,13.062567,77.585084,False
+TERM_0108,Blossom Book House #35,5942,Bengaluru,India,13.08092,77.673947,False
+TERM_0109,Sapna Book House #50,5942,Bengaluru,India,13.055565,77.681157,False
+TERM_0110,Decathlon #12,5311,Pune,India,12.907868,77.509107,False
+TERM_0111,Big Bazaar #93,5411,Bengaluru,India,12.860808,77.794348,False
+TERM_0112,Westside #39,5311,Hyderabad,India,12.868567,77.633972,False
+TERM_0113,Blossom Book House #79,5942,Hyderabad,India,12.958053,77.513747,False
+TERM_0114,Reliance Fresh #63,5411,Pune,India,13.06513,77.700276,False
+TERM_0115,Axis ATM #77,6011,Bengaluru,India,12.822115,77.513485,True
+TERM_0116,Razorpay Transfer #15,4829,Bengaluru,India,12.827252,77.780649,False
+TERM_0117,Big Bazaar #90,5411,Delhi,India,12.940066,77.720651,False
+TERM_0118,Decathlon #61,5311,Kolkata,India,12.829762,77.750707,False
+TERM_0119,Lifestyle #52,5311,Kolkata,India,12.874144,77.683253,False
+TERM_0120,Western Union #10,4829,Ahmedabad,India,12.932249,77.706097,False
+TERM_0121,McDonalds #93,5814,Pune,India,13.078207,77.786087,False
+TERM_0122,Wonderla #50,7996,Mumbai,India,12.993425,77.718337,False
+TERM_0123,Barbeque Nation #77,5812,Bengaluru,India,12.907845,77.512064,False
+TERM_0124,PVR Cinemas #46,7996,Kolkata,India,13.002027,77.654576,False
+TERM_0125,Blossom Book House #89,5942,Kolkata,India,12.839078,77.630627,False
+TERM_0126,Toscano #50,5812,Delhi,India,12.822675,77.558065,False
+TERM_0127,SBI ATM #33,6011,Pune,India,13.030399,77.515887,False
+TERM_0128,Decathlon #53,5311,Hyderabad,India,12.853191,77.595571,False
+TERM_0129,More Retail #53,5411,Bengaluru,India,13.009172,77.753462,False
+TERM_0130,Toscano #13,5812,Mumbai,India,12.962052,77.644488,False
+TERM_0131,More Retail #78,5411,Pune,India,13.090984,77.527851,False
+TERM_0132,HDFC ATM #36,6011,Pune,India,12.814893,77.708727,True
+TERM_0133,Western Union #40,4829,Hyderabad,India,13.023494,77.772446,True
+TERM_0134,Big Bazaar #25,5411,Delhi,India,13.05321,77.660145,False
+TERM_0135,D-Mart #88,5411,Delhi,India,13.009878,77.532068,False
+TERM_0136,Cafe Coffee Day #25,5814,Pune,India,12.853617,77.651588,False
+TERM_0137,Shoppers Stop #72,5311,Pune,India,13.079653,77.505047,False
+TERM_0138,Blossom Book House #37,5942,Bengaluru,India,12.952974,77.587999,False
+TERM_0139,Blossom Book House #56,5942,Hyderabad,India,12.97402,77.590051,False
+TERM_0140,Crossword #49,5942,Ahmedabad,India,13.001704,77.510813,False
+TERM_0141,Toscano #46,5812,Ahmedabad,India,12.93036,77.589773,False
+TERM_0142,More Retail #70,5411,Chennai,India,13.059074,77.599892,False
+TERM_0143,Punjab Grill #61,5812,Mumbai,India,13.01718,77.620451,False
+TERM_0144,Lifestyle #80,5311,Bengaluru,India,13.003719,77.756821,False
+TERM_0145,SBI ATM #95,6011,Delhi,India,12.95892,77.76762,False
+TERM_0146,Sapna Book House #51,5942,Pune,India,13.056942,77.660054,False
+TERM_0147,PVR Cinemas #73,7996,Mumbai,India,12.889727,77.585904,False
+TERM_0148,Westside #78,5311,Chennai,India,13.090055,77.736482,False
+TERM_0149,Western Union #78,4829,Pune,India,12.964833,77.623941,False
+TERM_0150,ICICI ATM #38,6011,Chennai,India,12.847071,77.73798,False
+TERM_0151,Western Union #20,4829,Ahmedabad,India,12.873496,77.681671,False
+TERM_0152,Blossom Book House #60,5942,Ahmedabad,India,12.934112,77.720249,False
+TERM_0153,Lifestyle #86,5311,Kolkata,India,13.027593,77.752345,False
+TERM_0154,ICICI ATM #42,6011,Delhi,India,12.856564,77.649227,False
+TERM_0155,Blossom Book House #65,5942,Chennai,India,12.944062,77.576905,False
+TERM_0156,Big Bazaar #23,5411,Chennai,India,12.812825,77.613007,False
+TERM_0157,Westside #59,5311,Chennai,India,12.941686,77.631374,False
+TERM_0158,Wonderla #39,7996,Pune,India,13.085476,77.736911,False
+TERM_0159,Axis ATM #76,6011,Pune,India,12.842648,77.515265,True
+TERM_0160,Windmills Craftworks #65,5812,Hyderabad,India,12.946724,77.754906,False
+TERM_0161,Instamojo #62,4829,Mumbai,India,13.00334,77.517166,False
+TERM_0162,Paytm Money #76,4829,Kolkata,India,13.027804,77.59938,False
+TERM_0163,Punjab Grill #78,5812,Bengaluru,India,12.812216,77.523258,False
+TERM_0164,Lifestyle #98,5311,Hyderabad,India,12.943416,77.600389,False
+TERM_0165,Blossom Book House #93,5942,Delhi,India,13.09653,77.634029,False
+TERM_0166,Innovative Film City #95,7996,Hyderabad,India,12.957263,77.539606,False
+TERM_0167,Paytm Money #26,4829,Chennai,India,12.924738,77.747902,False
+TERM_0168,Decathlon #84,5311,Kolkata,India,13.034299,77.665268,False
+TERM_0169,Blossom Book House #24,5942,Mumbai,India,12.980187,77.736789,False
+TERM_0170,Razorpay Transfer #48,4829,Delhi,India,13.053387,77.692275,True
+TERM_0171,Innovative Film City #84,7996,Hyderabad,India,12.93588,77.554045,False
+TERM_0172,Westside #11,5311,Chennai,India,12.991765,77.724831,False
+TERM_0173,Reliance Fresh #81,5411,Bengaluru,India,13.04226,77.798694,False
+TERM_0174,D-Mart #47,5411,Bengaluru,India,13.015391,77.566258,False
+TERM_0175,Reliance Fresh #44,5411,Mumbai,India,13.048046,77.640512,False
+TERM_0176,PVR Cinemas #28,7996,Kolkata,India,13.011395,77.729419,False
+TERM_0177,Windmills Craftworks #63,5812,Bengaluru,India,13.020414,77.564206,False
+TERM_0178,Blossom Book House #62,5942,Pune,India,12.904609,77.656384,False
+TERM_0179,Barbeque Nation #82,5812,Hyderabad,India,12.830661,77.738149,False
+TERM_0180,Razorpay Transfer #47,4829,Chennai,India,12.926755,77.604635,True
+TERM_0181,Crossword #67,5942,Hyderabad,India,12.917292,77.75778,False
+TERM_0182,Big Bazaar #62,5411,Bengaluru,India,12.882698,77.761807,False
+TERM_0183,ICICI ATM #72,6011,Pune,India,12.95218,77.745502,True
+TERM_0184,ICICI ATM #22,6011,Delhi,India,12.881744,77.662305,False
+TERM_0185,Starbucks #40,5814,Chennai,India,12.929697,77.68039,False
+TERM_0186,Paytm Money #74,4829,Bengaluru,India,13.041338,77.7124,False
+TERM_0187,Western Union #67,4829,Hyderabad,India,12.912482,77.622293,True
+TERM_0188,Lifestyle #15,5311,Ahmedabad,India,13.013299,77.645223,False
+TERM_0189,Starbucks #65,5814,Bengaluru,India,12.98178,77.712413,False
+TERM_0190,Crossword #79,5942,Pune,India,12.882858,77.791082,False
+TERM_0191,D-Mart #71,5411,Mumbai,India,12.863257,77.731649,False
+TERM_0192,Innovative Film City #66,7996,Ahmedabad,India,12.931063,77.535531,False
+TERM_0193,Instamojo #58,4829,Delhi,India,12.912286,77.592702,False
+TERM_0194,Razorpay Transfer #98,4829,Bengaluru,India,12.99236,77.798489,True
+TERM_0195,PVR Cinemas #82,7996,Pune,India,12.828959,77.63934,False
+TERM_0196,Wonderla #79,7996,Delhi,India,13.023403,77.746235,False
+TERM_0197,Punjab Grill #59,5812,Mumbai,India,12.902049,77.634073,False
+TERM_0198,Wonderla #47,7996,Mumbai,India,12.99521,77.794976,False
+TERM_0199,Blossom Book House #23,5942,Delhi,India,13.021096,77.619232,False
+TERM_0200,KFC #75,5814,Pune,India,12.967356,77.657185,False
+TERM_0201,Western Union #42,4829,Hyderabad,India,13.034034,77.52987,False
+TERM_0202,Toscano #16,5812,Pune,India,13.018089,77.538872,False
+TERM_0203,Blossom Book House #89,5942,Mumbai,India,13.060399,77.719699,False
+TERM_0204,More Retail #63,5411,Bengaluru,India,12.863249,77.67948,False
+TERM_0205,D-Mart #28,5411,Hyderabad,India,12.803573,77.712094,False
+TERM_0206,Big Bazaar #62,5411,Bengaluru,India,13.076821,77.752623,False
+TERM_0207,More Retail #78,5411,Kolkata,India,13.080713,77.717582,False
+TERM_0208,Blossom Book House #49,5942,Bengaluru,India,12.890885,77.740936,False
+TERM_0209,Crossword #21,5942,Pune,India,13.095298,77.656289,False
+TERM_0210,Westside #55,5311,Ahmedabad,India,12.904515,77.752277,False
+TERM_0211,Shoppers Stop #76,5311,Bengaluru,India,12.835928,77.72452,False
+TERM_0212,Barbeque Nation #65,5812,Pune,India,12.849326,77.608085,False
+TERM_0213,Toscano #30,5812,Bengaluru,India,12.978712,77.645841,False
+TERM_0214,Instamojo #86,4829,Kolkata,India,12.835665,77.519687,True
+TERM_0215,Instamojo #96,4829,Bengaluru,India,12.913511,77.569484,False
+TERM_0216,Razorpay Transfer #72,4829,Ahmedabad,India,12.975875,77.718157,False
+TERM_0217,Paytm Money #82,4829,Bengaluru,India,12.85335,77.617496,True
+TERM_0218,Instamojo #58,4829,Delhi,India,12.825476,77.537652,True
+TERM_0219,Windmills Craftworks #74,5812,Hyderabad,India,12.848082,77.511315,False
+TERM_0220,Wonderla #36,7996,Ahmedabad,India,12.979487,77.733241,False
+TERM_0221,Razorpay Transfer #60,4829,Chennai,India,12.890853,77.70818,False
+TERM_0222,PVR Cinemas #59,7996,Kolkata,India,13.075396,77.737678,False
+TERM_0223,ICICI ATM #35,6011,Pune,India,13.072185,77.582078,True
+TERM_0224,ICICI ATM #75,6011,Delhi,India,12.936478,77.736325,False
+TERM_0225,More Retail #47,5411,Kolkata,India,13.014754,77.695264,False
+TERM_0226,Westside #12,5311,Delhi,India,13.054681,77.669394,False
+TERM_0227,Reliance Fresh #48,5411,Bengaluru,India,12.900708,77.668044,False
+TERM_0228,Westside #49,5311,Delhi,India,13.005701,77.781371,False
+TERM_0229,Innovative Film City #34,7996,Hyderabad,India,12.832959,77.571392,False
+TERM_0230,Toscano #36,5812,Pune,India,12.830638,77.672447,False
+TERM_0231,KFC #24,5814,Kolkata,India,12.973886,77.75229,False
+TERM_0232,Decathlon #98,5311,Delhi,India,12.909359,77.655713,False
+TERM_0233,Decathlon #14,5311,Ahmedabad,India,12.87289,77.601154,False
+TERM_0234,HDFC ATM #15,6011,Chennai,India,12.8556,77.595193,False
+TERM_0235,More Retail #11,5411,Ahmedabad,India,13.050083,77.608807,False
+TERM_0236,Western Union #77,4829,Pune,India,12.993888,77.500931,False
+TERM_0237,Wonderla #15,7996,Kolkata,India,12.923301,77.623629,False
+TERM_0238,Lifestyle #71,5311,Delhi,India,13.069726,77.781071,False
+TERM_0239,HDFC ATM #18,6011,Chennai,India,13.080194,77.661793,False
+TERM_0240,Reliance Fresh #87,5411,Chennai,India,12.954608,77.727322,False
+TERM_0241,Razorpay Transfer #37,4829,Bengaluru,India,12.906278,77.551093,False
+TERM_0242,Reliance Fresh #12,5411,Ahmedabad,India,13.056129,77.511942,False
+TERM_0243,D-Mart #84,5411,Ahmedabad,India,12.90309,77.729702,False
+TERM_0244,Reliance Fresh #73,5411,Mumbai,India,13.029792,77.719166,False
+TERM_0245,KFC #18,5814,Ahmedabad,India,13.030797,77.541831,False
+TERM_0246,Razorpay Transfer #78,4829,Kolkata,India,12.985215,77.795957,False
+TERM_0247,KFC #95,5814,Mumbai,India,12.905231,77.76543,False
+TERM_0248,Lifestyle #64,5311,Hyderabad,India,12.890411,77.79594,False
+TERM_0249,Wonderla #39,7996,Bengaluru,India,13.024843,77.554614,False
+TERM_0250,SBI ATM #94,6011,Delhi,India,12.879593,77.532788,True
+TERM_0251,Windmills Craftworks #51,5812,Pune,India,12.848559,77.629013,False
+TERM_0252,Innovative Film City #58,7996,Hyderabad,India,13.071899,77.733799,False
+TERM_0253,HDFC ATM #66,6011,Delhi,India,12.918447,77.617236,False
+TERM_0254,Big Bazaar #57,5411,Mumbai,India,12.994379,77.597689,False
+TERM_0255,Crossword #66,5942,Bengaluru,India,12.951718,77.515635,False
+TERM_0256,Crossword #50,5942,Ahmedabad,India,12.938219,77.59994,False
+TERM_0257,More Retail #85,5411,Kolkata,India,13.06242,77.737669,False
+TERM_0258,Barbeque Nation #45,5812,Chennai,India,12.841915,77.661115,False
+TERM_0259,Instamojo #35,4829,Pune,India,12.870385,77.623537,False
+TERM_0260,Shoppers Stop #44,5311,Mumbai,India,12.930252,77.581123,False
+TERM_0261,Axis ATM #21,6011,Delhi,India,12.98279,77.755961,False
+TERM_0262,Innovative Film City #57,7996,Delhi,India,12.873013,77.638286,False
+TERM_0263,Sapna Book House #11,5942,Bengaluru,India,12.874307,77.670373,False
+TERM_0264,ICICI ATM #13,6011,Mumbai,India,13.009188,77.68659,False
+TERM_0265,Innovative Film City #35,7996,Bengaluru,India,12.897914,77.749814,False
+TERM_0266,McDonalds #72,5814,Mumbai,India,12.871142,77.700972,False
+TERM_0267,HDFC ATM #64,6011,Ahmedabad,India,13.035737,77.700474,False
+TERM_0268,Westside #59,5311,Ahmedabad,India,13.085926,77.650303,False
+TERM_0269,More Retail #76,5411,Mumbai,India,12.826214,77.732063,False
+TERM_0270,HDFC ATM #21,6011,Delhi,India,12.958073,77.513583,False
+TERM_0271,Sapna Book House #71,5942,Delhi,India,12.935651,77.685536,False
+TERM_0272,Innovative Film City #58,7996,Bengaluru,India,12.920894,77.793803,False
+TERM_0273,SBI ATM #79,6011,Chennai,India,12.946143,77.678572,True
+TERM_0274,Decathlon #49,5311,Ahmedabad,India,12.964269,77.650779,False
+TERM_0275,Barbeque Nation #32,5812,Mumbai,India,12.826177,77.630366,False
+TERM_0276,KFC #78,5814,Hyderabad,India,12.939499,77.623342,False
+TERM_0277,Windmills Craftworks #17,5812,Ahmedabad,India,12.998885,77.789645,False
+TERM_0278,Reliance Fresh #50,5411,Mumbai,India,13.0398,77.628654,False
+TERM_0279,Decathlon #62,5311,Chennai,India,13.055221,77.751722,False
+TERM_0280,Reliance Fresh #11,5411,Delhi,India,12.990054,77.78329,False
+TERM_0281,Paytm Money #48,4829,Pune,India,12.950011,77.669081,False
+TERM_0282,Sapna Book House #49,5942,Kolkata,India,12.831199,77.507489,False
+TERM_0283,Axis ATM #25,6011,Hyderabad,India,12.875413,77.782714,False
+TERM_0284,Windmills Craftworks #76,5812,Hyderabad,India,12.916077,77.776576,False
+TERM_0285,Starbucks #41,5814,Chennai,India,13.007938,77.591801,False
+TERM_0286,Razorpay Transfer #36,4829,Bengaluru,India,12.984226,77.692932,False
+TERM_0287,Crossword #55,5942,Pune,India,12.921501,77.752036,False
+TERM_0288,McDonalds #38,5814,Bengaluru,India,12.874739,77.750734,False
+TERM_0289,Windmills Craftworks #35,5812,Pune,India,13.046495,77.688908,False
+TERM_0290,Reliance Fresh #54,5411,Hyderabad,India,12.913808,77.540457,False
+TERM_0291,KFC #75,5814,Mumbai,India,13.011643,77.67944,False
+TERM_0292,HDFC ATM #60,6011,Chennai,India,12.936099,77.735819,False
+TERM_0293,Toscano #42,5812,Ahmedabad,India,13.022423,77.519131,False
+TERM_0294,D-Mart #30,5411,Chennai,India,12.851795,77.557467,False
+TERM_0295,Paytm Money #47,4829,Delhi,India,13.072303,77.689348,False
+TERM_0296,Big Bazaar #57,5411,Chennai,India,13.043278,77.503517,False
+TERM_0297,More Retail #62,5411,Ahmedabad,India,12.928912,77.729618,False
+TERM_0298,D-Mart #32,5411,Hyderabad,India,12.85676,77.773635,False
+TERM_0299,KFC #42,5814,Delhi,India,13.086164,77.660508,False
+TERM_0300,Axis ATM #51,6011,Pune,India,13.010915,77.685785,False

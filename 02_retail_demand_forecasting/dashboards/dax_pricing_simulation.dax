@@ -1,0 +1,72 @@
+/*
+    ====================================================================================
+    POWER BI DAX MEASURES - RETAIL DEMAND FORECASTING
+    Domain: Retail & Inventory Analytics
+    ====================================================================================
+*/
+
+// --- 1. HISTORICAL DEMAND METRICS ---
+
+Total_Quantity_Sold = SUM(Fact_Sales[quantity_sold])
+
+Total_Net_Revenue = SUM(Fact_Sales[net_revenue])
+
+Average_Daily_Sales_Qty = AVERAGE(Fact_Sales[quantity_sold])
+
+// Rolling 13-Week Average Quantity Sold
+Rolling_13_Week_Avg_Qty = 
+CALCULATE(
+    AVERAGEX(
+        VALUES(Dim_Date[Date]), 
+        [Total_Quantity_Sold]
+    ),
+    DATESINPERIOD(Dim_Date[Date], MAX(Dim_Date[Date]), -91, DAY)
+)
+
+
+// --- 2. FORECAST ACCURACY & METRICS ---
+
+// Projected Demand Sum (Ensemble Output Ingestion)
+Projected_12M_Demand = SUM(Forecast_Output[forecast_12m_sum])
+
+// Safety Stock Reorder Point Flags
+Reorder_Alert_Flag = 
+IF(
+    SUM(Fact_Inventory[stock_on_hand]) <= SUM(Dim_SKU[reorder_point]),
+    1,
+    0
+)
+
+
+// --- 3. PRICE ELASTICITY & WHAT-IF PRICING SCENARIOS ---
+
+// Dynamic Parameter (Value range: -3.0 to 0.0, Default: -1.5)
+// Represents coefficient of demand reduction per unit price increase
+Selected_Elasticity_Coefficient = SELECTEDVALUE('Pricing_Elasticity_Parameter'[Elasticity], -1.5)
+
+// Dynamic Price Change Parameter (Value range: -0.20 to +0.20 representing percent change)
+Selected_Price_Adjustment_Pct = SELECTEDVALUE('Price_Adjustment_Percentage'[Adjustment], 0.00)
+
+// Simulated Sales Quantity based on elasticity: Q_new = Q_base * (1 + (elasticity * Price_Change_Pct))
+Simulated_Sales_Quantity = 
+VAR BaseQuantity = [Total_Quantity_Sold]
+VAR Elasticity = [Selected_Elasticity_Coefficient]
+VAR PctChange = [Selected_Price_Adjustment_Pct]
+RETURN
+    BaseQuantity * (1 + (Elasticity * PctChange))
+
+// Simulated Net Revenue: Rev_new = Q_new * Price_base * (1 + Price_Change_Pct)
+Simulated_Net_Revenue = 
+VAR SimulatedQty = [Simulated_Sales_Quantity]
+VAR AvgPrice = DIVIDE([Total_Net_Revenue], [Total_Quantity_Sold], 0)
+VAR PctChange = [Selected_Price_Adjustment_Pct]
+RETURN
+    SimulatedQty * (AvgPrice * (1 + PctChange))
+
+// Revenue Delta: (Simulated Revenue - Actual Revenue) / Actual Revenue
+Revenue_Delta_Pct = 
+DIVIDE(
+    [Simulated_Net_Revenue] - [Total_Net_Revenue],
+    [Total_Net_Revenue],
+    0
+)

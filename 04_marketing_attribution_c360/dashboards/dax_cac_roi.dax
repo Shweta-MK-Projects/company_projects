@@ -1,0 +1,63 @@
+/*
+    ====================================================================================
+    POWER BI DAX MEASURES - MULTI-TOUCH ATTRIBUTION & CUSTOMER 360
+    Domain: Marketing & Customer Analytics
+    ====================================================================================
+*/
+
+// --- 1. CORE TRANSACTION & VALUE METRICS ---
+
+Total_Attributed_Revenue = SUM(Fact_Order_Attribution[attributed_revenue])
+
+Total_Orders_Count = COUNTROWS(Ecommerce_Orders)
+
+Average_Order_Value = DIVIDE([Total_Attributed_Revenue], [Total_Orders_Count], 0)
+
+
+// --- 2. ACQUISITION AND ROI METRICS ---
+
+// Total Cost spent on the channel: Sum of session click clicks * click cost
+Total_Marketing_Spend = 
+SUMX(
+    Marketing_Channels,
+    [Total_Clicks] * Marketing_Channels[cost_per_click]
+)
+
+Total_Clicks = COUNT(Customer_Touchpoints[touchpoint_id])
+
+// Customer Acquisition Cost (CAC): Spend / New Customers Acquired
+Customer_Acquisition_Cost = 
+DIVIDE(
+    [Total_Marketing_Spend],
+    DISTINCTCOUNT(C360_Customers[customer_id]),
+    0
+)
+
+// Marketing Return on Investment (ROI): (Attributed Revenue - Marketing Spend) / Marketing Spend
+Marketing_ROI = 
+DIVIDE(
+    [Total_Attributed_Revenue] - [Total_Marketing_Spend],
+    [Total_Marketing_Spend],
+    0
+)
+
+
+// --- 3. LIFETIME VALUE (LTV) COHORTS ---
+
+// Calculates average cumulative revenue per customer based on signup periods
+Customer_LTV = 
+VAR ActiveCustCount = DISTINCTCOUNT(C360_Customers[customer_id])
+VAR CumulativeRev = CALCULATE([Total_Attributed_Revenue], ALL(Dim_Date[Date]))
+RETURN
+    DIVIDE(CumulativeRev, ActiveCustCount, 0)
+
+LTV_to_CAC_Ratio = DIVIDE([Customer_LTV], [Customer_Acquisition_Cost], 0)
+
+
+// --- 4. COHORT RETENTION AND RETENTION METRICS ---
+
+Month_Retention_Rate = 
+VAR CurrentActive = [Total_Orders_Count]
+VAR CohortSize = CALCULATE([Total_Orders_Count], ALL(Dim_Date[Month]))
+RETURN
+    DIVIDE(CurrentActive, CohortSize, 0)

@@ -1,0 +1,93 @@
+attrition_id,employee_id,termination_date,attrition_type,primary_reason,exit_interview_satisfaction_score
+1,EMP_0013,2025-08-18,Voluntary,Career growth,5
+2,EMP_0016,2023-07-03,Voluntary,Compensation,5
+3,EMP_0019,2024-07-05,Voluntary,Compensation,3
+4,EMP_0027,2024-10-20,Voluntary,Career growth,4
+5,EMP_0034,2022-08-18,Voluntary,Manager relations,4
+6,EMP_0040,2025-02-26,Voluntary,Relocation,3
+7,EMP_0046,2024-10-11,Voluntary,Manager relations,5
+8,EMP_0048,2022-06-18,Voluntary,Personal circumstances,3
+9,EMP_0050,2022-05-21,Voluntary,Compensation,2
+10,EMP_0053,2026-02-28,Voluntary,Personal circumstances,4
+11,EMP_0063,2022-08-18,Voluntary,Career growth,5
+12,EMP_0064,2023-06-07,Involuntary,Manager relations,4
+13,EMP_0068,2024-11-15,Voluntary,Relocation,4
+14,EMP_0069,2024-03-15,Voluntary,Relocation,4
+15,EMP_0071,2022-11-20,Voluntary,Career growth,4
+16,EMP_0074,2026-04-17,Voluntary,Compensation,2
+17,EMP_0075,2024-05-11,Voluntary,Personal circumstances,2
+18,EMP_0076,2022-06-12,Voluntary,Personal circumstances,3
+19,EMP_0079,2023-08-17,Voluntary,Compensation,1
+20,EMP_0081,2023-10-31,Voluntary,Personal circumstances,2
+21,EMP_0082,2024-06-17,Involuntary,Manager relations,1
+22,EMP_0087,2025-12-20,Voluntary,Manager relations,5
+23,EMP_0088,2026-03-05,Voluntary,Personal circumstances,1
+24,EMP_0092,2024-05-23,Involuntary,Personal circumstances,2
+25,EMP_0096,2024-01-30,Voluntary,Relocation,1
+26,EMP_0107,2025-05-10,Voluntary,Manager relations,3
+27,EMP_0113,2023-09-13,Voluntary,Compensation,5
+28,EMP_0129,2025-01-06,Voluntary,Compensation,2
+29,EMP_0131,2024-10-30,Voluntary,Personal circumstances,5
+30,EMP_0136,2023-07-27,Voluntary,Relocation,4
+31,EMP_0139,2024-01-18,Voluntary,Compensation,5
+32,EMP_0163,2025-06-08,Voluntary,Relocation,4
+33,EMP_0173,2024-11-24,Voluntary,Personal circumstances,2
+34,EMP_0176,2024-09-04,Voluntary,Career growth,4
+35,EMP_0180,2025-04-15,Voluntary,Manager relations,4
+36,EMP_0183,2025-01-14,Voluntary,Relocation,1
+37,EMP_0186,2023-04-28,Voluntary,Career growth,5
+38,EMP_0192,2025-02-10,Voluntary,Compensation,3
+39,EMP_0200,2026-03-07,Involuntary,Personal circumstances,1
+40,EMP_0201,2024-06-24,Voluntary,Manager relations,5
+41,EMP_0203,2022-09-25,Voluntary,Compensation,5
+42,EMP_0213,2026-01-01,Voluntary,Compensation,5
+43,EMP_0217,2025-07-24,Involuntary,Manager relations,1
+44,EMP_0219,2022-03-05,Voluntary,Career growth,4
+45,EMP_0225,2024-11-09,Voluntary,Compensation,4
+46,EMP_0229,2025-11-12,Voluntary,Career growth,4
+47,EMP_0232,2024-10-10,Voluntary,Relocation,2
+48,EMP_0239,2025-03-31,Voluntary,Manager relations,5
+49,EMP_0242,2024-10-09,Voluntary,Relocation,4
+50,EMP_0247,2025-02-19,Involuntary,Career growth,4
+51,EMP_0257,2025-09-30,Involuntary,Compensation,5
+52,EMP_0260,2026-05-26,Voluntary,Personal circumstances,4
+53,EMP_0268,2025-03-04,Voluntary,Personal circumstances,4
+54,EMP_0272,2023-09-07,Voluntary,Manager relations,4
+55,EMP_0276,2024-08-05,Voluntary,Relocation,1
+56,EMP_0280,2024-07-26,Voluntary,Career growth,3
+57,EMP_0281,2022-05-15,Involuntary,Personal circumstances,1
+58,EMP_0286,2022-02-06,Voluntary,Compensation,5
+59,EMP_0289,2022-10-07,Voluntary,Compensation,4
+60,EMP_0293,2023-05-24,Voluntary,Compensation,5
+61,EMP_0300,2025-05-28,Voluntary,Personal circumstances,2
+62,EMP_0301,2022-11-11,Voluntary,Career growth,5
+63,EMP_0303,2025-12-04,Voluntary,Relocation,2
+64,EMP_0322,2025-02-25,Voluntary,Relocation,4
+65,EMP_0335,2024-05-24,Voluntary,Personal circumstances,5
+66,EMP_0340,2026-04-09,Involuntary,Compensation,3
+67,EMP_0341,2024-08-18,Involuntary,Career growth,3
+68,EMP_0344,2025-05-29,Voluntary,Manager relations,3
+69,EMP_0348,2026-01-14,Voluntary,Manager relations,1
+70,EMP_0349,2024-10-03,Voluntary,Compensation,4
+71,EMP_0355,2024-12-15,Voluntary,Personal circumstances,2
+72,EMP_0358,2025-03-06,Voluntary,Manager relations,2
+73,EMP_0364,2022-01-07,Voluntary,Manager relations,3
+74,EMP_0365,2022-11-13,Voluntary,Career growth,2
+75,EMP_0367,2025-11-19,Voluntary,Career growth,2
+76,EMP_0376,2025-11-26,Voluntary,Compensation,1
+77,EMP_0391,2024-09-24,Involuntary,Personal circumstances,2
+78,EMP_0404,2024-03-15,Involuntary,Compensation,3
+79,EMP_0411,2025-02-23,Voluntary,Manager relations,4
+80,EMP_0428,2024-07-06,Voluntary,Relocation,4
+81,EMP_0430,2023-03-30,Voluntary,Career growth,5
+82,EMP_0441,2025-08-14,Voluntary,Compensation,2
+83,EMP_0442,2023-09-20,Voluntary,Manager relations,4
+84,EMP_0446,2025-02-03,Voluntary,Relocation,3
+85,EMP_0447,2023-09-13,Voluntary,Manager relations,4
+86,EMP_0454,2025-12-18,Voluntary,Compensation,1
+87,EMP_0464,2024-11-11,Voluntary,Compensation,1
+88,EMP_0466,2025-09-06,Involuntary,Manager relations,3
+89,EMP_0468,2026-01-06,Voluntary,Relocation,2
+90,EMP_0471,2024-08-31,Voluntary,Manager relations,4
+91,EMP_0472,2025-12-05,Voluntary,Relocation,2
+92,EMP_0484,2023-05-11,Voluntary,Relocation,5
